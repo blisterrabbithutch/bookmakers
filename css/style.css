@@ -54,7 +54,36 @@ body {
 
 .navigationItemLink {
   color: #D8D8D8;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-bottom: 16px;
+  display: block; }
+
+.navigationItemIcon {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+  background: center center; }
+
+.navigationItemIcon-facebook {
+  background: url("../img/facebook.png") no-repeat; }
+
+.navigationItemIcon-vk {
+  background: url("../img/vk.png") no-repeat -1px 4px; }
+
+.navigationItemIcon-youtube {
+  background: url("../img/youtube.png") no-repeat 0 3px; }
+
+.navigationItemIcon-twitter {
+  background: url("../img/twitter.png") no-repeat 0 3px; }
+
+.navigationItemIcon-apple {
+  margin-left: 45px;
+  background: url("../img/apple.png") no-repeat; }
+
+.navigationItemIcon-google {
+  background: url("../img/google.png") no-repeat 0 2px; }
 
 .header {
   background: #000000; }
@@ -77,6 +106,7 @@ body {
 
 .header-link {
   font-family: HelveticaNeue-Bold;
+  opacity: .8;
   font-size: 13px;
   color: white;
   letter-spacing: 0;
@@ -110,6 +140,19 @@ body {
   background: black;
   color: white; }
 
+.footer-logo {
+  position: relative; }
+
+.footer-logo:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -35px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background: url(../img/company-logo.png) no-repeat; }
+
 .footer-wrapper {
   box-sizing: border-box;
   width: 1360px;
@@ -118,10 +161,44 @@ body {
   margin: 0 auto; }
 
 .footer-disclaimer {
-  color: #D8D8D8; }
+  color: #D8D8D8;
+  opacity: 0.4;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-bottom: 22px;
+  width: 1100px; }
 
 .footer-copyright {
-  color: #D8D8D8; }
+  opacity: 0.2;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 18px;
+  color: #D8D8D8;
+  padding-bottom: 44px;
+  display: block; }
+
+.footer-navigation {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 36px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.06); }
+
+.footer-navigationItem {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px; }
+
+.footer-navigationItemTitle {
+  font-family: HelveticaNeue-Bold;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-bottom: 27px;
+  text-transform: uppercase; }
 
 .betTv {
   background: url("../img/betTv-background.jpg") center 580px;
