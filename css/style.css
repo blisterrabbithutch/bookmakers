@@ -1,3 +1,57 @@
+body {
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  color: #000000;
+  line-height: 21px; }
+
+.buttonAuth {
+  float: right;
+  font-family: HelveticaNeue-Bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-decoration: none;
+  padding: 23px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top; }
+
+.ajaxLoad {
+  font-family: HelveticaNeue-Bold;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: 14px;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 37px;
+  padding: 13px;
+  border: 1px solid #F0F0F0;
+  background: none; }
+
+.title {
+  font-family: HelveticaNeue-CondensedBold;
+  margin: 33px 0 6px 0;
+  font-size: 32px;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  line-height: 44px;
+  display: inline-block; }
+
+.subtitle {
+  font-family: HelveticaNeue-CondensedBold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 49px;
+  padding-bottom: 10px;
+  margin-bottom: 0; }
+
 .header {
   background: #000000; }
 
@@ -8,6 +62,10 @@
   padding-right: 16px;
   margin: 0 auto; }
 
+.header-navigation {
+  display: inline-block;
+  vertical-align: top; }
+
 .header-navigation ul {
   margin: 0;
   padding: 0;
@@ -16,6 +74,166 @@
 .header-link {
   font-family: HelveticaNeue-Bold;
   font-size: 13px;
+  color: white;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-decoration: none;
+  padding: 23px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top; }
+
+.header-logo {
+  padding: 18px;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Bold;
+  font-size: 15px;
   color: #FFFFFF;
   letter-spacing: 0;
-  line-height: 18px; }
+  line-height: 18px;
+  position: relative; }
+
+.header-logo span {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 5px;
+  padding-left: 10px; }
+
+.newsSection {
+  width: 832px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-right: 32px; }
+
+.newsSection-tabs {
+  display: inline-block;
+  margin-top: 55px; }
+
+.newsSection-tabLink {
+  opacity: 0.6;
+  text-decoration: none;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 30px; }
+
+.newsSection-grid {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 24px;
+  border-top: 2px solid rgba(0, 0, 0, 0.06); }
+
+.newsItem {
+  width: 187px;
+  margin-right: 28px;
+  margin-bottom: 44px; }
+
+.newsItem:nth-child(4n) {
+  margin-right: 0; }
+
+.newsItem-link {
+  text-decoration: none; }
+
+.newsItem-title {
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  margin: 8px 0 0 0;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase; }
+
+.newsItem-date {
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  margin: 8px 0 0 0;
+  color: black;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase; }
+
+.newsItem-description {
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  color: #000000;
+  margin-top: 18px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.newsPage-wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+.newsPage-header {
+  display: flex;
+  justify-content: space-between; }
+
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  width: 256px; }
+
+.prognosisSection-titleWrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.prognosisSection-sortingFilter {
+  align-self: flex-start;
+  margin-top: 51px; }
+
+.prognosisSection-matchesGrid {
+  border-top: 2px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisItem {
+  display: flex;
+  justify-content: flex-start; }
+
+.prognosisItem-picture {
+  width: 26px;
+  height: 26px;
+  margin-right: 7px; }
+
+.prognosisItem-title {
+  display: inline-block;
+  width: 160px;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.prognosisItem-date {
+  display: inline-block;
+  width: 50px;
+  font-size: 10px;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.prognosisItem-time {
+  font-size: 13px; }
+
+.prognosisItem-link {
+  text-decoration: none; }
+
+.stockSection-title {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
+.stockSection-image {
+  margin-top: 24px;
+  display: block;
+  width: 100%;
+  height: 280px;
+  background: rgba(0, 0, 0, 0.06); }
