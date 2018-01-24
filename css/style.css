@@ -52,6 +52,10 @@ body {
   padding-bottom: 10px;
   margin-bottom: 0; }
 
+.navigationItemLink {
+  color: #D8D8D8;
+  text-decoration: none; }
+
 .header {
   background: #000000; }
 
@@ -101,6 +105,23 @@ body {
   vertical-align: top;
   padding-top: 5px;
   padding-left: 10px; }
+
+.footer {
+  background: black;
+  color: white; }
+
+.footer-wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+.footer-disclaimer {
+  color: #D8D8D8; }
+
+.footer-copyright {
+  color: #D8D8D8; }
 
 .betTv {
   background: url("../img/betTv-background.jpg") center 580px;
@@ -164,6 +185,83 @@ body {
   color: #FFFFFF;
   letter-spacing: 0;
   line-height: 33px; }
+
+.bonuses {
+  width: 832px;
+  display: inline-block;
+  margin-right: 32px;
+  vertical-align: top; }
+
+.bonuses-grid {
+  padding-top: 24px;
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px; }
+
+.bonusesItem {
+  width: 187px;
+  margin-right: 28px;
+  margin-bottom: 44px; }
+
+.bonusesItem:nth-child(4n) {
+  margin-right: 0; }
+
+.bonusesItem-link {
+  text-decoration: none; }
+
+.bonusesItem-title {
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  margin: 8px 0 0 0;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase; }
+
+.bonusesItem-date {
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  margin: 8px 0 0 0;
+  color: black;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase; }
+
+.betSchool-grid {
+  border-top: 2px solid rgba(0, 0, 0, 0.06); }
+
+.betSchoolItem {
+  margin-bottom: 16px;
+  margin-top: 24px; }
+
+.betSchoolItem-image {
+  margin-right: 12px; }
+
+.betSchoolItem-link {
+  text-decoration: none; }
+
+.betSchoolItem-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 176px; }
+
+.betSchoolItem-title {
+  margin: 0;
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-bottom: 7px; }
+
+.betSchoolItem-description {
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px; }
 
 .newsSection {
   width: 832px;
