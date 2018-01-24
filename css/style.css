@@ -102,6 +102,69 @@ body {
   padding-top: 5px;
   padding-left: 10px; }
 
+.betTv {
+  background: url("../img/betTv-background.jpg") center 580px;
+  background-size: cover; }
+
+.betTv-header {
+  display: flex;
+  justify-content: space-between; }
+
+.betTv-tabs {
+  display: inline-block;
+  vertical-align: middle; }
+
+.betTv-tabItem {
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-decoration: none;
+  margin-top: 55px;
+  display: inline-block; }
+
+.betTv-grid {
+  padding-top: 32px;
+  text-align: center; }
+
+.betTv-title {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.06); }
+
+.betTv-wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+.betTv-logo {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 32px;
+  margin-left: 20px;
+  margin-bottom: 16px; }
+
+.betTvItem {
+  width: 544px;
+  display: inline-block;
+  vertical-align: top; }
+
+.betTvItem:first-child {
+  margin-right: 33px; }
+
+.betTvItem-title {
+  text-align: left;
+  font-family: HelveticaNeue-Bold;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 33px; }
+
 .newsSection {
   width: 832px;
   margin-left: 100px;
@@ -237,3 +300,60 @@ body {
   width: 100%;
   height: 280px;
   background: rgba(0, 0, 0, 0.06); }
+
+.matchesSection-titleWrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.matchesSection-sortingFilter {
+  align-self: flex-start;
+  margin-top: 51px; }
+
+.matchesSection-matchesGrid {
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  padding-top: 24px; }
+
+.matchItem {
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  margin-bottom: 4px; }
+
+.matchItem-date {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  font-size: 10px;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.matchItem-time {
+  font-size: 13px; }
+
+.matchItem-link {
+  text-decoration: none; }
+
+.matchItem-teams {
+  display: inline-block;
+  vertical-align: middle;
+  width: 170px;
+  padding: 16px 0px 16px 16px; }
+
+.matchItem-firstTeam, .matchItem-secondTeam {
+  display: inline-block;
+  width: 150px; }
+
+.matchItem-firstTeamTitle, .matchItem-secondTeamTitle {
+  margin: 0;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px; }
+
+.matchItem-firstTeamPicture, .matchItem-secondTeamPicture {
+  margin-right: 12px; }
