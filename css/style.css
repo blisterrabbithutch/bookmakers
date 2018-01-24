@@ -112,6 +112,27 @@ body {
   padding-right: 16px;
   margin: 0 auto; }
 
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .header-wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .header-wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .header-wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
 .header-navigation {
   margin-left: 80px;
   display: inline-block;
@@ -178,6 +199,27 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .footer-wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .footer-wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .footer-wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
 
 .footer-disclaimer {
   color: #D8D8D8;
@@ -265,6 +307,27 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .betTv-wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .betTv-wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .betTv-wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
 
 .betTv-logo {
   display: inline-block;
@@ -461,6 +524,27 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .newsPage-wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .newsPage-wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .newsPage-wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
 
 .newsPage-header {
   display: flex;
