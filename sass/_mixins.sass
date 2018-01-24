@@ -1,0 +1,65 @@
+$desktop-widths: 960px
+$small-desktop-widths: 960px
+$mobile-widths-only: 799px
+$tablet-widths-only-max: 1169px
+$tablet-widths-only-min: 800px
+$black: black
+$blue: #0698ed
+$white: white
+
+$small: 320px
+$large: 1024px
+
+=respond-to($media)
+  @if $media == mobile  
+    @media only screen and (max-width: $mobile-widths-only)
+      box-sizing: border-box
+      padding-left: 10px
+      padding-right: 10px
+      width: 300px
+   
+  @else if $media == tablet-widths-only  
+    @media only screen and (max-width: $tablet-widths-only-max) and (min-width: $tablet-widths-only-min)
+      box-sizing: border-box
+      padding-left: 20px
+      padding-right: 20px
+      width: 600px
+
+  @else if $media == small-desktop
+    @media only screen and (min-width: $small-desktop-widths)
+      box-sizing: border-box
+      padding-left: 11px
+      padding-right: 11px
+      width: 970px    
+
+
+=co
+  box-sizing: border-box
+  width: 1170px
+  padding-left: 15px
+  padding-right: 15px
+  margin: 0 auto
+  @media only screen and (min-width: $small-desktop-widths)
+      box-sizing: border-box
+      padding-left: 11px
+      padding-right: 11px
+      width: 970px
+
+  @media only screen and (max-width: $tablet-widths-only-max) and (min-width: $tablet-widths-only-min)
+      box-sizing: border-box
+      padding-left: 20px
+      padding-right: 20px
+      width: 600px
+
+  @media only screen and (max-width: $mobile-widths-only)
+      box-sizing: border-box
+      padding-left: 10px
+      padding-right: 10px
+      width: 300px
+
+
+=ca 
+  display: inline-block
+
+=transition($target, $delay, $effect)
+  transition: $target, $delay, $effect
