@@ -1,0 +1,7 @@
+body {
+  background: yellow;
+  text-align: center; }
+
+.container {
+  include: co;
+  text-align: center; }

@@ -1,0 +1,37 @@
+clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  background: yellow;
+  text-align: center; }
+
+.container {
+  box-sizing: border-box;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  text-align: center; }
+
+@media only screen and (min-width: 960px) {
+  .container {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 970px; } }
+
+@media only screen and (max-width: 1169px) and (min-width: 800px) {
+  .container {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 600px; } }
+
+@media only screen and (max-width: 799px) {
+  .container {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
