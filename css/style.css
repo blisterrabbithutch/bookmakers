@@ -1280,7 +1280,8 @@ table {
   line-height: 16px; }
 
 .matchesPage .mainSection-table {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  display: none; }
 
 .matchesPage .mainSection-table-cell_prognosis {
   padding-right: 0px;
