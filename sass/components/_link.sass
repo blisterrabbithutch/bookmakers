@@ -14,7 +14,7 @@
   width: 20px
   background: center center
   &-facebook
-    background: url("../img/facebook.png") no-repeat
+    background: url("../img/facebook.png") 6px 0px no-repeat
     margin-right: 10px
   &-vk
     background: url("../img/vk.png") no-repeat -1px 4px
@@ -27,3 +27,16 @@
     background: url("../img/apple.png") no-repeat
   &-google
     background: url("../img/google.png") no-repeat 0 2px
+    
+
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .navigationItemLink
+    font-size: 13px
+    
+  .navigationItemIcon,
+  .navigationItemIcon--apple
+    margin-left: 0
+    margin-right: 5px
+    
+  .navigationItemIcon-facebook
+    margin-left: -7px

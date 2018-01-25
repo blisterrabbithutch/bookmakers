@@ -12,6 +12,9 @@
   vertical-align: top
   background: none
   border: none
+  cursor: pointer
+  &:active, &:focus
+    outline: none
   
 .ajaxLoad
   font-family: HelveticaNeue-Bold
@@ -36,3 +39,18 @@
     display: block
     margin-bottom: 0
     margin-bottom: 60px
+    
+
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .buttonAuth
+    font-size: 11px
+    
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .ajaxLoad
+    &-matchesSection
+      margin-bottom: 30px
+      
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .buttonAuth
+    margin-right: 50px

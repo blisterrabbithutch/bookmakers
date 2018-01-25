@@ -17,7 +17,11 @@ body {
   display: inline-block;
   vertical-align: top;
   background: none;
-  border: none; }
+  border: none;
+  cursor: pointer; }
+
+.buttonAuth:active, .buttonAuth:focus {
+  outline: none; }
 
 .ajaxLoad {
   font-family: HelveticaNeue-Bold;
@@ -45,6 +49,18 @@ body {
   display: block;
   margin-bottom: 0;
   margin-bottom: 60px; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .buttonAuth {
+    font-size: 11px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .ajaxLoad-matchesSection {
+    margin-bottom: 30px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .buttonAuth {
+    margin-right: 50px; } }
 
 .title {
   font-family: HelveticaNeue-CondensedBold;
@@ -83,7 +99,7 @@ body {
   background: center center; }
 
 .navigationItemIcon-facebook {
-  background: url("../img/facebook.png") no-repeat;
+  background: url("../img/facebook.png") 6px 0px no-repeat;
   margin-right: 10px; }
 
 .navigationItemIcon-vk {
@@ -102,6 +118,63 @@ body {
 .navigationItemIcon-google {
   background: url("../img/google.png") no-repeat 0 2px; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .navigationItemLink {
+    font-size: 13px; }
+  .navigationItemIcon,
+  .navigationItemIcon--apple {
+    margin-left: 0;
+    margin-right: 5px; }
+  .navigationItemIcon-facebook {
+    margin-left: -7px; } }
+
+.hamburger-wrapper {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  overflow: hidden;
+  width: 45px;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.hamburger {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+  top: 2px;
+  left: 10px;
+  transition: all 233ms cubic-bezier(0.5, 0, 0, 1); }
+
+.hamburger li {
+  width: 24px;
+  height: 4px;
+  background: #fff;
+  margin: 2px 0 0;
+  padding: 0;
+  transform: translate3d(0, 0, 0);
+  transition: all 333ms cubic-bezier(0.5, 0, 0, 1); }
+
+.checked .hamburger li.first {
+  transform: rotate(-135deg) translateY(-8.5px); }
+
+.checked .hamburger li.second {
+  opacity: 0; }
+
+.checked .hamburger li.third {
+  transform: rotate(135deg) translateY(8.5px); }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .hamburger-wrapper {
+    display: block; } }
+
 .header {
   background: #000000; }
 
@@ -110,7 +183,8 @@ body {
   width: 1360px;
   padding-left: 16px;
   padding-right: 16px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
 @media only screen and (min-width: 992px) and (max-width: 1359px) {
   .header-wrapper {
@@ -175,6 +249,26 @@ body {
   vertical-align: top;
   padding-top: 5px;
   padding-left: 10px; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .header-logo {
+    padding: 18px 18px 13px 0px; }
+  .header-logo span {
+    font-size: 13px; }
+  .header-link {
+    font-size: 11px;
+    padding: 22px 0px 22px 10px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .header-navigation {
+    margin-left: 0;
+    display: none;
+    padding-bottom: 20px; }
+  .header-navigation_opened {
+    display: block; }
+  .header-link {
+    display: block;
+    padding-left: 50px; } }
 
 .footer {
   background: black;
@@ -265,6 +359,30 @@ body {
   margin-bottom: 27px;
   text-transform: uppercase; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .footer-logo:after {
+    display: none; }
+  .footer-disclaimer {
+    width: 880px;
+    margin-left: 0; }
+  .footer-copyright {
+    margin-left: 0; }
+  .footer-navigation {
+    padding-left: 0; }
+  .footer-navigationItem {
+    width: 144px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .footer-disclaimer {
+    width: auto;
+    margin-left: 0; }
+  .footer-copyright {
+    margin-left: 0; }
+  .footer-navigation {
+    padding-left: 35px; }
+  .footer-navigationItem {
+    width: 170px; } }
+
 .betTv {
   background: url("../img/betTv-background.jpg") center 593px;
   background-size: cover; }
@@ -353,6 +471,23 @@ body {
   letter-spacing: 0;
   line-height: 33px; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .betTv-tabs {
+    margin-right: 80px; }
+  .betTvItem {
+    width: 460px; }
+  .betTvItem-image {
+    width: 100%; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .betTv-logo {
+    margin-left: 0; }
+  .betTv-tabs {
+    margin-right: 0; }
+  .betTvItem:first-child {
+    margin-right: 0;
+    margin-left: 0; } }
+
 .bonuses {
   width: 832px;
   display: inline-block;
@@ -404,6 +539,29 @@ body {
   line-height: 16px;
   text-transform: uppercase; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .bonuses {
+    width: 615px;
+    margin-left: 0; }
+  .bonuses-grid {
+    width: 615px; }
+  .bonusesItem {
+    width: 150px; }
+  .bonusesItem-image {
+    width: 100%; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .bonuses {
+    width: 600px;
+    margin-left: 0;
+    margin-right: 0; }
+  .bonuses-grid {
+    width: 600px; }
+  .bonusesItem {
+    width: 140px; }
+  .bonusesItem-image {
+    width: 100%; } }
+
 .betSchool-grid {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
   padding-top: 24px; }
@@ -442,6 +600,12 @@ body {
   color: #F24242;
   letter-spacing: 0;
   line-height: 16px; }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .betSchoolItem {
+    display: inline-block;
+    width: 298px;
+    text-align: left; } }
 
 .newsSection {
   width: 832px;
@@ -690,3 +854,39 @@ body {
 
 .matchItem-firstTeamPicture, .matchItem-secondTeamPicture {
   margin-right: 12px; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .newsSection {
+    margin-left: 0;
+    margin-right: 35px;
+    width: 614px; }
+  .newsItem {
+    width: 140px;
+    margin-right: 18px;
+    margin-bottom: 44px; }
+  .sidebar {
+    width: 260px;
+    margin-right: -90px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .newsSection {
+    margin-left: 0;
+    margin-right: 0;
+    width: 600px; }
+  .newsItem {
+    width: 140px;
+    margin-right: 13px;
+    margin-bottom: 44px; }
+  .sidebar {
+    width: 600px;
+    margin-right: 0; }
+  .prognosisSection-matchesGrid {
+    text-align: center; }
+  .prognosisItem {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .matchItem {
+    display: inline-block; }
+  .matchesSection-matchesGrid {
+    padding-left: 50px; } }

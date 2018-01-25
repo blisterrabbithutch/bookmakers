@@ -2,6 +2,7 @@
   background: #000000
   &-wrapper
     +mixinContainer
+    position: relative
   &-navigation
     margin-left: 80px;
     display: inline-block
@@ -41,3 +42,26 @@
       vertical-align: top;
       padding-top: 5px;
       padding-left: 10px;
+
+
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .header
+    &-logo
+      padding: 18px 18px 13px 0px
+      span
+        font-size: 13px
+    &-link
+      font-size: 11px
+      padding: 22px 0px 22px 10px
+      
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .header
+    &-navigation
+      margin-left: 0
+      display: none
+      padding-bottom: 20px
+      &_opened
+        display: block
+    &-link
+      display: block
+      padding-left: 50px

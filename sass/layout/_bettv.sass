@@ -51,3 +51,25 @@
       letter-spacing: 0
       line-height: 33px
   
+
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .betTv
+    &-tabs
+      margin-right: 80px
+  
+  .betTvItem
+    width: 460px
+    &-image
+      width: 100%
+      
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .betTv
+    &-logo
+      margin-left: 0
+    &-tabs
+      margin-right: 0
+
+  .betTvItem
+    &:first-child
+      margin-right: 0
+      margin-left: 0

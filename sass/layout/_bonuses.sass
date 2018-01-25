@@ -42,3 +42,29 @@
     letter-spacing: 0
     line-height: 16px
     text-transform: uppercase
+    
+
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .bonuses
+    width: 615px
+    margin-left: 0
+    &-grid
+      width: 615px
+    
+  .bonusesItem
+    width: 150px
+    &-image
+      width: 100%
+      
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .bonuses
+    width: 600px
+    margin-left: 0
+    margin-right: 0
+    &-grid
+      width: 600px
+
+  .bonusesItem
+    width: 140px
+    &-image
+      width: 100%

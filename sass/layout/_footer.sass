@@ -54,5 +54,31 @@
         margin-bottom: 27px
         text-transform: uppercase
         
-  
-    
+
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .footer
+    &-logo
+      &:after
+        display: none
+    &-disclaimer
+      width: 880px
+      margin-left: 0
+    &-copyright
+      margin-left: 0
+    &-navigation
+      padding-left: 0
+    &-navigationItem
+      width: 144px
+      
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .footer
+    &-disclaimer
+      width: auto
+      margin-left: 0
+    &-copyright
+      margin-left: 0
+    &-navigation
+      padding-left: 35px
+    &-navigationItem
+      width: 170px
