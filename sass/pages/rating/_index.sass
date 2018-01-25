@@ -1,0 +1,83 @@
+.ratingPage
+  & .wrapper
+    +mixinContainer
+  
+  .mainSection
+    &-header
+      &-headline
+        &:last-child
+          margin-left: 0
+        &_number
+          margin-left: 10px
+        &_organization
+          margin-left: 53px
+        &_safety
+          margin-left: 56px
+        &_rating
+          margin-left: 70px
+        &_bonuses
+    &-table
+      &-cell
+        &_organization
+          width: 150px
+          padding-right: 75px
+        &_safety
+          width: 120px
+          padding-right: 55px
+        &_rating
+          width: 45px
+          padding-right: 25px
+        &_bonuses
+          width: 45px
+          padding-right: 25px
+        &_site
+          width: 45px
+          padding-right: 25px
+        &_review
+          width: 70px
+          padding-right: 25px
+          
+  .secondarySection
+    &-grid
+      background: rgba(0,0,0,0.01)
+
+  .mainItem
+    &-number
+      padding-left: 24px
+  
+  .filterSection
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+    &Item
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06)
+      padding: 18px 79px 18px 18px
+      font-family: HelveticaNeue-Medium;
+      font-size: 13px;
+      color: #000000;
+      position: relative
+      letter-spacing: 0;
+      line-height: 16px;
+      input
+        position: absolute
+        right: 16px
+      &_safety,
+      &_currency
+        cursor: pointer
+      &-hiddenContent
+        display: none
+        background: rgba(0,0,0,0.02)
+        font-family: HelveticaNeue-Medium;
+        font-size: 13px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 16px;
+        input
+          position: absolute
+          right: 16px
+          top: 14px
+        &-row
+          padding: 14px 79px 14px 32px
+          position: relative
+        
