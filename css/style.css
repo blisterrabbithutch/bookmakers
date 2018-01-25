@@ -1116,6 +1116,7 @@ body {
 
 .prognosisPage .mainSection-table {
   width: 100%;
+  border-collapse: collapse;
   margin-bottom: 64px; }
 
 .prognosisPage .mainSection-table-cell {
@@ -1123,6 +1124,10 @@ body {
 
 .prognosisPage .mainSection-table-cell_prognosis {
   width: 70px; }
+
+.prognosisPage .mainSection-table-cell_time {
+  padding-left: 20px;
+  width: 60px; }
 
 .prognosisPage .mainSection-table-row {
   border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
@@ -1133,47 +1138,46 @@ body {
 .prognosisPage table {
   border: 1px solid rgba(0, 0, 0, 0.06); }
 
-.prognosisPage .mainItem {
-  width: auto;
-  margin-bottom: 44px;
-  display: flex;
-  justify-content: space-between; }
+.popularNewsItem {
+  margin-bottom: 24px; }
 
-.prognosisPage .mainItem-time {
-  padding-left: 10px; }
+.popularNewsItem-content {
+  display: inline-block;
+  width: 170px; }
 
-.prognosisPage .mainItem-prognosis {
-  padding: 4px 8px 4px 8px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 3px; }
+.popularNewsItem-picture {
+  margin-right: 16px;
+  display: inline-block;
+  vertical-align: top; }
 
-.prognosisPage .mainItem-link {
+.popularNewsItem-link {
   text-decoration: none; }
 
-.prognosisPage .mainItem-titleWrapper {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
-  padding-left: 5px;
-  padding-bottom: 5px; }
-
-.prognosisPage .mainItem-title {
-  margin: 0;
-  height: 100%;
-  font-family: HelveticaNeue-Medium;
-  font-size: 13px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 16px;
-  text-transform: uppercase; }
-
-.prognosisPage .mainItem-image {
-  width: 100%; }
-
-.prognosisPage .mainItem-description {
+.popularNewsItem-description {
   font-family: PTSerif-Regular;
   font-size: 15px;
-  padding-left: 5px;
   color: #000000;
-  margin-top: 5px;
-  margin-bottom: 0;
   letter-spacing: 0;
   line-height: 21px; }
+
+.popularNewsItem-discipline {
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.popularNewsItem-date {
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.secondarySection-title {
+  margin-top: 46px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
+.secondarySection-grid {
+  margin-top: 25px; }

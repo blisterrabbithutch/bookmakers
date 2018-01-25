@@ -47,7 +47,7 @@
     &-tabLink
       opacity: 0.6;
       text-decoration: none
-      font-family: HelveticaNeue-Medium;
+      font-family: HelveticaNeue-Medium
       font-size: 13px;
       color: #000000;
       letter-spacing: 0;
@@ -57,11 +57,15 @@
       border-top: 2px solid rgba(0, 0, 0, 0.06)
     &-table
       width: 100%
+      border-collapse: collapse
       margin-bottom: 64px
       &-cell
         padding: 16px 0 16px 0
         &_prognosis
           width: 70px
+        &_time
+          padding-left: 20px
+          width: 60px
       &-row
         border-bottom: 1px solid rgba(0, 0, 0, 0.06)
         &:last-child
@@ -69,42 +73,45 @@
   
   table
     border: 1px solid rgba(0, 0, 0, 0.06)
-      
+    
   .mainItem
-    width: auto
-    margin-bottom: 44px
-    display: flex
-    justify-content: space-between
     &-time
-      padding-left: 10px
-    &-prognosis
-      padding: 4px 8px 4px 8px
-      border: 1px solid rgba(0,0,0,0.1)
-      border-radius: 3px;
-    &-link
-      text-decoration: none
-    &-titleWrapper
-      border-bottom: 2px solid rgba(0, 0, 0, 0.06)
-      padding-left: 5px
-      padding-bottom: 5px
-    &-title
-      margin: 0
-      height: 100%
-      font-family: HelveticaNeue-Medium
-      font-size: 13px
-      color: #000000
-      letter-spacing: 0
-      line-height: 16px
-      text-transform: uppercase
-    &-image
-      width: 100%
-    &-description
-      font-family: PTSerif-Regular
-      font-size: 15px
-      padding-left: 5px
-      color: #000000
-      margin-top: 5px
-      margin-bottom: 0
-      letter-spacing: 0
-      line-height: 21px
       
+      
+.popularNewsItem
+  margin-bottom: 24px
+  &-content
+    display: inline-block
+    width: 170px
+  &-picture
+    margin-right: 16px
+    display: inline-block
+    vertical-align: top
+  &-link
+    text-decoration: none
+  &-description
+    font-family: PTSerif-Regular;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 21px;
+  &-discipline
+    font-family: HelveticaNeue-Medium;
+    font-size: 10px;
+    color: #F24242;
+    letter-spacing: 0;
+    line-height: 16px
+  &-date
+    opacity: 0.6;
+    font-family: HelveticaNeue-Medium;
+    font-size: 10px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 16px;
+    
+.secondarySection
+  &-title
+    margin-top: 46px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+  &-grid
+    margin-top: 25px
