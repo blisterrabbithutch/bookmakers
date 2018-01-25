@@ -1023,7 +1023,13 @@ body {
   .matchesSection-matchesGrid {
     padding-left: 15px; } }
 
-.prognosisPage .wrapper {
+.mainSection {
+  width: 832px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-right: 32px; }
+
+.mainSection .wrapper {
   box-sizing: border-box;
   width: 1360px;
   padding-left: 16px;
@@ -1031,53 +1037,47 @@ body {
   margin: 0 auto; }
 
 @media only screen and (min-width: 992px) and (max-width: 1359px) {
-  .prognosisPage .wrapper {
+  .mainSection .wrapper {
     box-sizing: border-box;
     padding-left: 11px;
     padding-right: 11px;
     width: 992px; } }
 
 @media only screen and (max-width: 991px) and (min-width: 640px) {
-  .prognosisPage .wrapper {
+  .mainSection .wrapper {
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
     width: 640px; } }
 
 @media only screen and (max-width: 639px) {
-  .prognosisPage .wrapper {
+  .mainSection .wrapper {
     box-sizing: border-box;
     padding-left: 10px;
     padding-right: 10px;
     width: 300px; } }
 
-.prognosisPage .sectionHeader {
+.mainSection .sectionHeader {
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
 
-.prognosisPage .mainSection {
-  width: 832px;
-  margin-left: 100px;
-  display: inline-block;
-  margin-right: 32px; }
-
-.prognosisPage .mainSection-tabs {
+.mainSection-tabs {
   display: inline-block;
   margin-top: 48px; }
 
-.prognosisPage .mainSection-tabs-secondary {
+.mainSection-tabs-secondary {
   padding: 8px 0 8px 0;
   border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
 
-.prognosisPage .mainSection-header {
+.mainSection-header {
   height: 64px;
   background: rgba(0, 0, 0, 0.01);
   display: flex;
   justify-content: flex-start;
   align-items: center; }
 
-.prognosisPage .mainSection-header-headline {
+.mainSection-header-headline {
   opacity: 0.2;
   font-family: HelveticaNeue-CondensedBold;
   font-size: 13px;
@@ -1088,10 +1088,10 @@ body {
   padding-left: 15px;
   padding-right: 15px; }
 
-.prognosisPage .mainSection-header-headline:last-child {
+.mainSection-header-headline:last-child {
   margin-left: 74%; }
 
-.prognosisPage .mainSection-secondaryTabLink {
+.mainSection-secondaryTabLink {
   text-decoration: none;
   opacity: 0.6;
   font-family: HelveticaNeue-CondensedBold;
@@ -1101,7 +1101,7 @@ body {
   letter-spacing: 0;
   line-height: 24px; }
 
-.prognosisPage .mainSection-tabLink {
+.mainSection-tabLink {
   opacity: 0.6;
   text-decoration: none;
   font-family: HelveticaNeue-Medium;
@@ -1111,31 +1111,31 @@ body {
   line-height: 16px;
   margin-left: 20px; }
 
-.prognosisPage .mainSection-grid {
+.mainSection-grid {
   border-top: 2px solid rgba(0, 0, 0, 0.06); }
 
-.prognosisPage .mainSection-table {
+.mainSection-table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 64px; }
 
-.prognosisPage .mainSection-table-cell {
+.mainSection-table-cell {
   padding: 16px 0 16px 0; }
 
-.prognosisPage .mainSection-table-cell_prognosis {
+.mainSection-table-cell_prognosis {
   width: 70px; }
 
-.prognosisPage .mainSection-table-cell_time {
+.mainSection-table-cell_time {
   padding-left: 20px;
   width: 60px; }
 
-.prognosisPage .mainSection-table-row {
+.mainSection-table-row {
   border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
 
-.prognosisPage .mainSection-table-row:last-child {
+.mainSection-table-row:last-child {
   border: none; }
 
-.prognosisPage table {
+table {
   border: 1px solid rgba(0, 0, 0, 0.06); }
 
 .popularNewsItem {
@@ -1181,3 +1181,110 @@ body {
 
 .secondarySection-grid {
   margin-top: 25px; }
+
+.matchesPage-grid {
+  border-top: 2px solid rgba(0, 0, 0, 0.06); }
+
+.matchesPage-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 64px; }
+
+.matchesPage-table-cell {
+  padding: 16px 0 16px 0; }
+
+.matchesPage-table-cell_prognosis {
+  width: 70px; }
+
+.matchesPage-table-cell_time {
+  padding-left: 20px;
+  width: 60px; }
+
+.matchesPage-table-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+
+.matchesPage-table-row:last-child {
+  border: none; }
+
+.matchesPage .mainItem-data {
+  padding-left: 20px;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.matchesPage .mainItem-time {
+  padding-left: 20px;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.matchesPage .mainItem-prognosis {
+  padding-left: 38px; }
+
+.matchesPage .mainItem-teams-logo {
+  display: inline-block;
+  vertical-align: middle; }
+
+.matchesPage .mainItem-firstTeam {
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.matchesPage .mainItem-secondTeam {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.matchesPage .mainItem-score {
+  margin: 0 32px;
+  text-align: center; }
+
+.matchesPage .mainItem-firstModify, .matchesPage .mainItem-secondModify, .matchesPage .mainItem-thirdModify {
+  padding: 4px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 3px; }
+
+.matchesPage .mainSection-header-title {
+  margin-left: auto;
+  margin-right: auto; }
+
+.matchesPage .mainSection-header-title img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px; }
+
+.matchesPage .mainSection-header-title span {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.matchesPage .mainSection-table-cell_prognosis {
+  padding-right: 40px;
+  text-transform: uppercase; }
+
+.matchesPage .mainSection-table-cell_firstTeam {
+  text-align: right; }
+
+.matchesPage .mainSection-table-cell_date {
+  width: 60px; }

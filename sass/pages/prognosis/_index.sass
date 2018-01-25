@@ -1,81 +1,87 @@
-.prognosisPage
+//.prognosisPage
+//  & .wrapper
+//    +mixinContainer
+//  & .sectionHeader
+//    display: flex
+//    justify-content: space-between
+//    border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+    
+.mainSection
+  width: 832px
+  margin-left: 100px
+  display: inline-block
+  margin-right: 32px
   & .wrapper
     +mixinContainer
   & .sectionHeader
     display: flex
     justify-content: space-between
     border-bottom: 2px solid rgba(0, 0, 0, 0.06)
-    
-  .mainSection
-    width: 832px
-    margin-left: 100px
+  &-tabs
     display: inline-block
-    margin-right: 32px
-    &-tabs
-      display: inline-block
-      margin-top: 48px
-      &-secondary
-        padding: 8px 0 8px 0
-        border-bottom: 2px solid rgba(0, 0, 0, 0.06)
-    &-header
-      height: 64px
-      background: rgba(0, 0, 0, 0.01)
-      display: flex
-      justify-content: flex-start
-      align-items: center
-      &-headline
-        opacity: 0.2;
-        font-family: HelveticaNeue-CondensedBold;
-        font-size: 13px;
-        color: #000000;
-        letter-spacing: 0;
-        line-height: 16px;
-        text-transform: uppercase
-        padding-left: 15px
-        padding-right: 15px
-        &:last-child
-          margin-left: 74%
-    &-secondaryTabLink
-      text-decoration: none
-      opacity: 0.6;
+    margin-top: 48px
+    &-secondary
+      padding: 8px 0 8px 0
+      border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+  &-header
+    height: 64px
+    background: rgba(0, 0, 0, 0.01)
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    &-headline
+      opacity: 0.2;
       font-family: HelveticaNeue-CondensedBold;
-      font-size: 15px;
-      color: #000000;
-      text-transform: uppercase
-      letter-spacing: 0;
-      line-height: 24px;
-    &-tabLink
-      opacity: 0.6;
-      text-decoration: none
-      font-family: HelveticaNeue-Medium
       font-size: 13px;
       color: #000000;
       letter-spacing: 0;
       line-height: 16px;
-      margin-left: 20px
-    &-grid
-      border-top: 2px solid rgba(0, 0, 0, 0.06)
-    &-table
-      width: 100%
-      border-collapse: collapse
-      margin-bottom: 64px
-      &-cell
-        padding: 16px 0 16px 0
-        &_prognosis
-          width: 70px
-        &_time
-          padding-left: 20px
-          width: 60px
-      &-row
-        border-bottom: 1px solid rgba(0, 0, 0, 0.06)
-        &:last-child
-          border: none
+      text-transform: uppercase
+      padding-left: 15px
+      padding-right: 15px
+      &:last-child
+        margin-left: 74%
+  &-secondaryTabLink
+    text-decoration: none
+    opacity: 0.6
+    font-family: HelveticaNeue-CondensedBold;
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase
+    letter-spacing: 0;
+    line-height: 24px;
+  &-tabLink
+    opacity: 0.6;
+    text-decoration: none
+    font-family: HelveticaNeue-Medium
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-left: 20px
+  &-grid
+    border-top: 2px solid rgba(0, 0, 0, 0.06)
+  &-table
+    width: 100%
+    border-collapse: collapse
+    margin-bottom: 64px
+    &-cell
+      padding: 16px 0 16px 0
+      &_prognosis
+        width: 70px
+      &_time
+        padding-left: 20px
+        width: 60px
+    &-row
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06)
+      &:last-child
+        border: none
+
+table
+  border: 1px solid rgba(0, 0, 0, 0.06)
   
-  table
-    border: 1px solid rgba(0, 0, 0, 0.06)
-    
-  .mainItem
-    &-time
+.mainItem
+  &-time
       
       
 .popularNewsItem
