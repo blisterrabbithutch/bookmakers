@@ -68,3 +68,20 @@
     width: 140px
     &-image
       width: 100%
+      
+@media (max-width: $mobile-widths-only)
+  .bonuses
+    width: 280px
+    margin-left: 0
+    margin-right: 0
+    &-grid
+      width: 280px
+      flex-wrap: wrap
+
+  .bonusesItem
+    width: 130px
+    margin-right: 20px
+    &:nth-child(2n)
+      margin-right: 0
+    &-image
+      width: 100%

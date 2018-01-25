@@ -65,3 +65,19 @@
     &-link
       display: block
       padding-left: 50px
+      
+@media (max-width: $mobile-widths-only)
+  .header
+    &-logo
+      padding-left: 0
+      span
+        font-size: 12px
+    &-navigation
+      margin-left: 0
+      display: none
+      padding-bottom: 20px
+      &_opened
+        display: block
+    &-link
+      display: block
+      padding-left: 34px

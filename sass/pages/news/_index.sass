@@ -252,3 +252,48 @@
     &-matchesGrid 
       padding-left: 50px
     
+
+@media (max-width: $mobile-widths-only)
+  .newsPage
+    &-header
+      display: block
+  
+  .newsSection
+    margin-left: 0
+    margin-right: 0
+    width: 280px
+    &-tabs
+      margin-top: 20px
+    &-tabLink
+      font-size: 11px
+      margin-left: 17.5px;
+      margin-bottom: 5px
+      &:first-child
+        margin-left: 0
+
+  .newsItem
+    width: 135px
+    margin-right: 10px
+    margin-bottom: 15px
+    &:nth-child(2n)
+      margin-right: 0
+
+  .sidebar
+    width: 280px
+    margin-right: 0
+
+  .prognosisSection
+    &-matchesGrid
+      text-align: center
+
+  .prognosisItem
+    display: inline-block
+    margin-left: 0px
+    margin-right: 0px
+
+  .matchItem
+    display: inline-block
+
+  .matchesSection
+    &-matchesGrid
+      padding-left: 15px
