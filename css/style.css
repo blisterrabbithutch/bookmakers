@@ -84,7 +84,7 @@ body {
 
 .title {
   font-family: HelveticaNeue-CondensedBold;
-  margin: 31px 0 6px 0;
+  margin: 31px 0 5px 0;
   font-size: 32px;
   color: #000000;
   text-transform: uppercase;
@@ -207,7 +207,7 @@ body {
     top: 8px; } }
 
 .header {
-  background: #000000; }
+  background: rgba(0, 0, 0, 0.9); }
 
 .header-wrapper {
   box-sizing: border-box;
@@ -813,7 +813,8 @@ body {
 .sidebar {
   display: inline-block;
   vertical-align: top;
-  width: 256px; }
+  width: 256px;
+  margin-bottom: 25px; }
 
 .prognosisSection-titleWrapper {
   display: flex;
@@ -1021,3 +1022,158 @@ body {
     display: inline-block; }
   .matchesSection-matchesGrid {
     padding-left: 15px; } }
+
+.prognosisPage .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .prognosisPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .prognosisPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .prognosisPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.prognosisPage .sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisPage .mainSection {
+  width: 832px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-right: 32px; }
+
+.prognosisPage .mainSection-tabs {
+  display: inline-block;
+  margin-top: 48px; }
+
+.prognosisPage .mainSection-tabs-secondary {
+  padding: 8px 0 8px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisPage .mainSection-header {
+  height: 64px;
+  background: rgba(0, 0, 0, 0.01);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.prognosisPage .mainSection-header-headline {
+  opacity: 0.2;
+  font-family: HelveticaNeue-CondensedBold;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.prognosisPage .mainSection-header-headline:last-child {
+  margin-left: 74%; }
+
+.prognosisPage .mainSection-secondaryTabLink {
+  text-decoration: none;
+  opacity: 0.6;
+  font-family: HelveticaNeue-CondensedBold;
+  font-size: 15px;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  line-height: 24px; }
+
+.prognosisPage .mainSection-tabLink {
+  opacity: 0.6;
+  text-decoration: none;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 20px; }
+
+.prognosisPage .mainSection-grid {
+  border-top: 2px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisPage .mainSection-table {
+  width: 100%;
+  margin-bottom: 64px; }
+
+.prognosisPage .mainSection-table-cell {
+  padding: 16px 0 16px 0; }
+
+.prognosisPage .mainSection-table-cell_prognosis {
+  width: 70px; }
+
+.prognosisPage .mainSection-table-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisPage .mainSection-table-row:last-child {
+  border: none; }
+
+.prognosisPage table {
+  border: 1px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisPage .mainItem {
+  width: auto;
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: space-between; }
+
+.prognosisPage .mainItem-time {
+  padding-left: 10px; }
+
+.prognosisPage .mainItem-prognosis {
+  padding: 4px 8px 4px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px; }
+
+.prognosisPage .mainItem-link {
+  text-decoration: none; }
+
+.prognosisPage .mainItem-titleWrapper {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+  padding-left: 5px;
+  padding-bottom: 5px; }
+
+.prognosisPage .mainItem-title {
+  margin: 0;
+  height: 100%;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase; }
+
+.prognosisPage .mainItem-image {
+  width: 100%; }
+
+.prognosisPage .mainItem-description {
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  padding-left: 5px;
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  line-height: 21px; }
