@@ -44,9 +44,9 @@ body {
   display: block;
   margin-bottom: 64px; }
 
-.ajaxLoad-betSchool {
+.ajaxLoad-bonuses {
   display: block;
-  margin-bottom: 20px; }
+  margin-top: 0px; }
 
 .ajaxLoad-betSchool {
   display: block;
@@ -1535,3 +1535,69 @@ table {
 .ratingPage .filterSectionItem-hiddenContent-row {
   padding: 14px 79px 14px 32px;
   position: relative; }
+
+.schoolPage .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .schoolPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .schoolPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .schoolPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.schoolPage .mainSection-grid {
+  padding-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.schoolPage .secondarySection-grid {
+  background: rgba(0, 0, 0, 0.01); }
+
+.schoolPage .mainItem-number {
+  padding-left: 24px; }
+
+.schoolPage .schoolItem {
+  width: 184px;
+  margin-right: 32px;
+  margin-bottom: 43px; }
+
+.schoolPage .schoolItem-link {
+  text-decoration: none; }
+
+.schoolPage .schoolItem:nth-child(4n) {
+  margin-right: 0; }
+
+.schoolPage .schoolItem-title {
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.schoolPage .schoolItem-description {
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px; }
