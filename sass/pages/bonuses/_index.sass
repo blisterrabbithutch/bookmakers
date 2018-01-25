@@ -1,0 +1,63 @@
+.bonusesPage
+  .wrapper
+    +mixinContainer
+  .mainSection
+    &-grid
+      padding-top: 24px
+      display: flex
+      justify-content: flex-start
+      flex-wrap: wrap
+      
+      
+      
+  .bonusesItem
+    width: 184px
+    margin-right: 32px
+    &:nth-child(4n)
+      margin-right: 0
+    &-description
+      font-family: PTSerif-Regular;
+      font-size: 15px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 21px;
+      
+  .emailSection
+    &-title
+      margin-top: 46px;
+    &-form
+      border-top: 2px solid rgba(0, 0, 0, 0.06)
+      background: rgba(0,0,0,0.9)
+      position: relative
+      &-title
+        padding: 16px;
+        font-family: PTSerif-Regular;
+        font-size: 15px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 21px;
+      &-input
+        background: rgba(0,0,0,0.9)
+        padding: 12px
+        margin: 16px
+        display: inline-block
+        border: 1px solid rgba(0, 0, 0, 0.06)
+        &::-webkit-input-placeholder
+          background: rgba(0,0,0,0.9)
+          color: rgba(255,255,255,0.9);
+        &::-ms-input-placeholder
+          background: rgba(0,0,0,0.9)
+          color: rgba(255,255,255,0.9);
+        &::-moz-placeholder
+          background: rgba(0,0,0,0.9)
+          color: rgba(255,255,255,0.9);
+      &-send
+        display: inline-block
+        position: absolute
+        width: 20px
+        height: 20px
+        background: red
+        top: 152px
+        right: 50px;
+        border: none
+        background: url("../img/form-button-right.png") no-repeat center center

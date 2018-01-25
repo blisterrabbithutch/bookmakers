@@ -1182,6 +1182,34 @@ table {
 .secondarySection-grid {
   margin-top: 25px; }
 
+.matchesPage .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .matchesPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .matchesPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .matchesPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
 .matchesPage-grid {
   border-top: 2px solid rgba(0, 0, 0, 0.06); }
 
@@ -1225,6 +1253,7 @@ table {
   line-height: 16px; }
 
 .matchesPage .mainItem-prognosis {
+  font-size: 10px;
   padding-left: 38px; }
 
 .matchesPage .mainItem-teams-logo {
@@ -1298,3 +1327,97 @@ table {
 
 .matchesPage .mainSection-content-block {
   margin-bottom: 40px; }
+
+.bonusesPage .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .bonusesPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .bonusesPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .bonusesPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.bonusesPage .mainSection-grid {
+  padding-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.bonusesPage .bonusesItem {
+  width: 184px;
+  margin-right: 32px; }
+
+.bonusesPage .bonusesItem:nth-child(4n) {
+  margin-right: 0; }
+
+.bonusesPage .bonusesItem-description {
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.bonusesPage .emailSection-title {
+  margin-top: 46px; }
+
+.bonusesPage .emailSection-form {
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  background: rgba(0, 0, 0, 0.9);
+  position: relative; }
+
+.bonusesPage .emailSection-form-title {
+  padding: 16px;
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.bonusesPage .emailSection-form-input {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 12px;
+  margin: 16px;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.06); }
+
+.bonusesPage .emailSection-form-input::-webkit-input-placeholder {
+  background: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9); }
+
+.bonusesPage .emailSection-form-input::-ms-input-placeholder {
+  background: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9); }
+
+.bonusesPage .emailSection-form-input::-moz-placeholder {
+  background: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9); }
+
+.bonusesPage .emailSection-form-send {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  top: 152px;
+  right: 50px;
+  border: none;
+  background: url("../img/form-button-right.png") no-repeat center center; }
