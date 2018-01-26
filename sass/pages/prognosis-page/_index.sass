@@ -1,4 +1,4 @@
-.newsPreviewPage
+.prognosisPage
   & .wrapper
     +mixinContainer
   .mainSection
@@ -36,8 +36,8 @@
       color: #000000;
       letter-spacing: 0;
       line-height: 21px;
-  .newsPreview
-    background: url("../img/news-preview.jpg") center center
+  .prognosisPreview
+    background: url("../img/prognosis-page.jpg") center center
     background-size: cover
     min-height: 700px
     .wrapper
@@ -55,7 +55,7 @@
       top: 60px
       left: 20px
       background: rgba(255,255,255, 0.08)
-      border: 1px solid rgba(255,255,255, 0.15) 
+      border: 1px solid rgba(255,255,255, 0.15)
     &-title
       padding-top: 388px
       margin-top: 0
@@ -91,34 +91,27 @@
       line-height: 14px;
       span
         color: rgba(255,255,255,0.6)
-
-
-  .secondarySection
+        
+  .cuffSection
     &-grid
-      background: rgba(0,0,0,0.01)
-
-  .mainItem
-    &-number
-      padding-left: 24px
-
-  .schoolItem
-    width: 184px
-    margin-right: 32px
-    margin-bottom: 43px
-    &-link
-      text-decoration: none
-    &:nth-child(4n)
-      margin-right: 0
+      border: 1px solid rgba(0,0,0,0.03)
+      margin-top: 24px
     &-title
-      text-transform: uppercase
-      font-family: HelveticaNeue-Medium;
-      font-size: 10px;
-      color: #F24242;
-      letter-spacing: 0;
-      line-height: 16px;
-    &-description
-      font-family: PTSerif-Regular;
-      font-size: 15px;
-      color: #000000;
-      letter-spacing: 0;
-      line-height: 21px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    &Item
+      display: flex
+      justify-content: space-between
+      padding: 20px 0
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      &-rating
+        align-self: center;
+        height: 12px
+        padding: 4px 8px;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        border-radius: 3px;
+        opacity: 0.8;
+        font-family: HelveticaNeue-Bold;
+        font-size: 11px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 12px;

@@ -1954,7 +1954,8 @@ table {
     width: 300px; } }
 
 .newsPreviewPage .mainSection {
-  margin-bottom: 66px; }
+  margin-bottom: 66px;
+  margin-left: 0; }
 
 .newsPreviewPage .mainSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
@@ -2088,3 +2089,162 @@ table {
   color: #000000;
   letter-spacing: 0;
   line-height: 21px; }
+
+.prognosisPage .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .prognosisPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .prognosisPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .prognosisPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.prognosisPage .mainSection {
+  margin-bottom: 66px;
+  margin-left: 0; }
+
+.prognosisPage .mainSection-footer {
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  padding-top: 20px;
+  margin-bottom: 60px; }
+
+.prognosisPage .mainSection-footer-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  margin-right: 24px;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.prognosisPage .mainSection-content-block {
+  margin-top: 29px; }
+
+.prognosisPage .mainSection-title {
+  font-family: HelveticaNeue-Bold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px; }
+
+.prognosisPage .mainSection-grid {
+  padding-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.prognosisPage .mainSection-paragraph {
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.prognosisPage .prognosisPreview {
+  background: url("../img/prognosis-page.jpg") center center;
+  background-size: cover;
+  min-height: 700px; }
+
+.prognosisPage .prognosisPreview .wrapper {
+  position: relative; }
+
+.prognosisPage .prognosisPreview-prevPage {
+  padding: 10px 16px 10px 40px;
+  font-family: HelveticaNeue-Bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15); }
+
+.prognosisPage .prognosisPreview-title {
+  padding-top: 388px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: PTSerif-Bold;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 46px; }
+
+.prognosisPage .prognosisPreview-slogan {
+  display: block;
+  width: 500px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-bottom: 37px; }
+
+.prognosisPage .prognosisPreview-team {
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-right: 32px;
+  letter-spacing: 1px;
+  line-height: 16px; }
+
+.prognosisPage .prognosisPreview-date {
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 14px; }
+
+.prognosisPage .prognosisPreview-date span {
+  color: rgba(255, 255, 255, 0.6); }
+
+.prognosisPage .cuffSection-grid {
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  margin-top: 24px; }
+
+.prognosisPage .cuffSection-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisPage .cuffSectionItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisPage .cuffSectionItem-rating {
+  align-self: center;
+  height: 12px;
+  padding: 4px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+  opacity: 0.8;
+  font-family: HelveticaNeue-Bold;
+  font-size: 11px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 12px; }
