@@ -53,6 +53,19 @@ body {
   margin-bottom: 0;
   margin-bottom: 60px; }
 
+.tabs {
+  display: inline-block; }
+
+.tabs-tabLink {
+  opacity: 0.6;
+  text-decoration: none;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 20px; }
+
 @media (min-width: 992px) and (max-width: 1359px) {
   .buttonAuth {
     font-size: 11px; } }
@@ -1596,6 +1609,78 @@ table {
   line-height: 16px; }
 
 .schoolPage .schoolItem-description {
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.bookmakerPage .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .bookmakerPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .bookmakerPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .bookmakerPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.bookmakerPage .mainSection-grid {
+  padding-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.bookmakerPage .reviewSection {
+  width: 832px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 32px; }
+
+.bookmakerPage .secondarySection-grid {
+  background: rgba(0, 0, 0, 0.01); }
+
+.bookmakerPage .mainItem-number {
+  padding-left: 24px; }
+
+.bookmakerPage .schoolItem {
+  width: 184px;
+  margin-right: 32px;
+  margin-bottom: 43px; }
+
+.bookmakerPage .schoolItem-link {
+  text-decoration: none; }
+
+.bookmakerPage .schoolItem:nth-child(4n) {
+  margin-right: 0; }
+
+.bookmakerPage .schoolItem-title {
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.bookmakerPage .schoolItem-description {
   font-family: PTSerif-Regular;
   font-size: 15px;
   color: #000000;
