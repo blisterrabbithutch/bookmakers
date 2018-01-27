@@ -47,7 +47,6 @@ body {
   text-transform: uppercase;
   line-height: 14px;
   width: 100%;
-  margin-top: 20px;
   margin-bottom: 0;
   padding: 13px;
   border: 1px solid #F0F0F0;
@@ -657,7 +656,17 @@ body {
 
 .bonuses-title {
   margin-top: 25px;
-  padding-left: 25px; }
+  padding-left: 25px;
+  position: relative; }
+
+.bonuses-title:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/icon-bonus.png") no-repeat; }
 
 .bonuses-grid {
   width: 832px;
@@ -740,7 +749,8 @@ body {
 
 .betSchool-grid {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
-  padding-top: 24px; }
+  padding-top: 24px;
+  padding-bottom: 8px; }
 
 .betSchool-title {
   margin-top: 26px; }
@@ -909,7 +919,8 @@ body {
 
 .prognosisSection-matchesGrid {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
-  padding-top: 27px; }
+  padding-top: 27px;
+  padding-bottom: 22px; }
 
 .prognosisSection-title {
   margin-top: 46px; }
@@ -979,7 +990,8 @@ body {
 
 .matchesSection-matchesGrid {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
-  padding-top: 24px; }
+  padding-top: 24px;
+  margin-bottom: 22px; }
 
 .matchesSection-title {
   margin-top: 37px; }
@@ -1131,8 +1143,14 @@ body {
     padding-right: 10px;
     width: 300px; } }
 
+.prognosisPage .mainSection-header {
+  padding-left: 15px; }
+
 .prognosisPage .mainSection-header-headline:last-child {
-  margin-left: 74%; }
+  margin-left: 73%; }
+
+.prognosisPage .sidebar {
+  margin-bottom: 0px; }
 
 .mainSection {
   width: 832px;
@@ -1181,9 +1199,14 @@ body {
   padding: 8px 0 8px 0;
   border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
 
+.mainSection-secondaryTabLink {
+  margin-right: 32px; }
+
 .mainSection-header {
+  margin-top: 15px;
   height: 64px;
   background: rgba(0, 0, 0, 0.01);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   display: flex;
   justify-content: flex-start;
   align-items: center; }
@@ -1225,17 +1248,58 @@ body {
 .mainSection-table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 64px; }
+  margin-bottom: -5px; }
 
 .mainSection-table-cell {
-  padding: 16px 0 16px 0; }
+  padding: 16px 0 15px 0;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainSection-table-cell .mainItem-prognosis {
+  padding: 4px 8px;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  border-radius: 5px; }
+
+.mainSection-table-cell .mainItem-teams {
+  position: relative; }
+
+.mainSection-table-cell .mainItem-teams:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: -30px;
+  width: 30px;
+  height: 30px; }
+
+.mainSection-table-cell .mainItem-teams_england:after {
+  background: url(../img/england.png) no-repeat; }
+
+.mainSection-table-cell .mainItem-teams_germany:after {
+  background: url(../img/germany.png) no-repeat; }
+
+.mainSection-table-cell .mainItem-teams_spain:after {
+  background: url(../img/spain.png) no-repeat; }
 
 .mainSection-table-cell_prognosis {
-  width: 70px; }
+  text-align: right;
+  width: 60px;
+  padding-right: 10px;
+  opacity: 0.8;
+  font-family: HelveticaNeue-Bold;
+  font-size: 11px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 12px; }
 
 .mainSection-table-cell_time {
   padding-left: 20px;
-  width: 60px; }
+  width: 70px; }
+
+.mainSection-table-cell_teams {
+  width: 368px; }
 
 .mainSection-table-row {
   border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
@@ -1247,14 +1311,18 @@ table {
   border: 1px solid rgba(0, 0, 0, 0.06); }
 
 .popularNewsItem {
-  margin-bottom: 24px; }
+  margin-bottom: 22px; }
+
+.popularNewsItem-title {
+  margin-right: -2px;
+  text-transform: uppercase; }
 
 .popularNewsItem-content {
   display: inline-block;
-  width: 170px; }
+  width: 175px; }
 
 .popularNewsItem-picture {
-  margin-right: 16px;
+  margin-right: 11px;
   display: inline-block;
   vertical-align: top; }
 
@@ -1363,6 +1431,9 @@ table {
 .matchesPage .mainItem-prognosis {
   font-size: 10px;
   padding-left: 38px; }
+
+.matchesPage .mainItem-teams {
+  position: relative; }
 
 .matchesPage .mainItem-teams-logo {
   display: inline-block;
@@ -2135,8 +2206,7 @@ table {
     width: 300px; } }
 
 .prognosisPage .mainSection {
-  margin-bottom: 66px;
-  margin-left: 0; }
+  margin-bottom: 66px; }
 
 .prognosisPage .mainSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
@@ -2570,8 +2640,8 @@ table {
 
 .promotionsPage .mainSection {
   margin-bottom: 66px;
-  margin-left: 0;
-  margin-top: 40px; }
+  margin-left: 100px;
+  margin-top: 10px; }
 
 .promotionsPage .mainSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
