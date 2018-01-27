@@ -26,6 +26,19 @@ body {
 .buttonAuth-mobile {
   display: none; }
 
+.button_getBonus {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Bold;
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 12px;
+  padding: 14px 55px;
+  width: 100%;
+  background: #43A42F;
+  border-radius: 1px; }
+
 .ajaxLoad {
   font-family: HelveticaNeue-Bold;
   font-size: 13px;
@@ -2523,3 +2536,142 @@ table {
 .samplePage .mainSection-table-cell_score {
   text-align: right;
   padding-right: 24px; }
+
+.promotionsPage .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .promotionsPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .promotionsPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .promotionsPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.promotionsPage .sidebar {
+  margin-top: 40px; }
+
+.promotionsPage .mainSection {
+  margin-bottom: 66px;
+  margin-left: 0;
+  margin-top: 40px; }
+
+.promotionsPage .mainSection-footer {
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  padding-top: 20px;
+  margin-bottom: 60px; }
+
+.promotionsPage .mainSection-footer-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  margin-right: 24px;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.promotionsPage .mainSection-content-block {
+  margin-top: 29px; }
+
+.promotionsPage .mainSection-title {
+  font-family: HelveticaNeue-Bold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px; }
+
+.promotionsPage .mainSection-grid {
+  padding-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.promotionsPage .mainSection-paragraph {
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.promotionsPage .promotionsPreview {
+  background: url("../img/promotions-image.jpg") center center;
+  background-size: cover;
+  min-height: 700px; }
+
+.promotionsPage .promotionsPreview .wrapper {
+  position: relative; }
+
+.promotionsPage .promotionsPreview-prevPage {
+  padding: 10px 16px 10px 40px;
+  font-family: HelveticaNeue-Bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15); }
+
+.promotionsPage .promotionsPreview-title {
+  padding-top: 388px;
+  margin-top: 0;
+  margin: 0;
+  padding-bottom: 12px;
+  font-family: PTSerif-Bold;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 46px; }
+
+.promotionsPage .promotionsPreview-slogan {
+  display: block;
+  width: 500px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 26px;
+  padding-bottom: 37px;
+  margin: 0; }
+
+.promotionsPage .promotionsPreview-team {
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-right: 32px;
+  letter-spacing: 1px;
+  line-height: 16px; }
+
+.promotionsPage .promotionsPreview-date {
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 14px; }
+
+.promotionsPage .promotionsPreview-date span {
+  color: rgba(255, 255, 255, 0.6); }
