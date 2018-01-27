@@ -1,0 +1,155 @@
+.mainSection
+  width: 832px
+  margin-left: 100px
+  display: inline-block
+  margin-right: 32px
+  & .wrapper
+    +mixinContainer
+  & .sectionHeader
+    display: flex
+    justify-content: space-between
+    border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+  &-tabs
+    display: inline-block
+    margin-top: 48px
+    &-secondary
+      padding: 8px 0 8px 0
+      border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+  &-secondaryTabLink
+    margin-right: 32px;
+  &-header
+    margin-top: 15px;
+    height: 64px
+    background: rgba(0, 0, 0, 0.01)
+    border: 1px solid rgba(0, 0, 0, 0.06)
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    &-headline
+      opacity: 0.2;
+      font-family: HelveticaNeue-CondensedBold;
+      font-size: 13px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-transform: uppercase
+      padding-left: 15px
+      padding-right: 15px
+
+  &-secondaryTabLink
+    text-decoration: none
+    opacity: 0.6
+    font-family: HelveticaNeue-CondensedBold;
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase
+    letter-spacing: 0;
+    line-height: 24px;
+  &-tabLink
+    opacity: 0.6;
+    text-decoration: none
+    font-family: HelveticaNeue-Medium
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-left: 20px
+  &-grid
+    border-top: 2px solid rgba(0, 0, 0, 0.06)
+  &-table
+    width: 100%
+    border-collapse: collapse
+    margin-bottom: -5px
+    &-cell
+      padding: 16px 0 15px 0
+      font-family: HelveticaNeue-Medium;
+      font-size: 13px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 16px;
+      .mainItem
+        &-prognosis
+          padding: 4px 8px
+          border: 2px solid rgba(0, 0, 0, 0.06)
+          border-radius: 5px
+        &-teams
+          position: relative
+          &:after
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: -30px;
+            width: 30px;
+            height: 30px;
+          &_england
+            &:after
+              background: url(../img/england.png) no-repeat
+          &_germany
+            &:after
+              background: url(../img/germany.png) no-repeat
+          &_spain
+            &:after
+              background: url(../img/spain.png) no-repeat
+      &_prognosis
+        text-align: right;
+        width: 60px;
+        padding-right: 10px;
+        opacity: 0.8;
+        font-family: HelveticaNeue-Bold;
+        font-size: 11px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 12px;
+      &_time
+        padding-left: 20px
+        width: 70px
+      &_teams
+        width: 368px
+    &-row
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06)
+      &:last-child
+        border: none
+
+table
+  border: 1px solid rgba(0, 0, 0, 0.06)
+
+.popularNewsItem
+  margin-bottom: 22px
+  &-title
+    margin-right: -2px;
+    text-transform: uppercase
+  &-content
+    display: inline-block
+    width: 175px
+  &-picture
+    margin-right: 11px
+    display: inline-block
+    vertical-align: top
+  &-link
+    text-decoration: none
+  &-description
+    font-family: PTSerif-Regular;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 21px;
+  &-discipline
+    font-family: HelveticaNeue-Medium;
+    font-size: 10px;
+    color: #F24242;
+    letter-spacing: 0;
+    line-height: 16px
+  &-date
+    opacity: 0.6;
+    font-family: HelveticaNeue-Medium;
+    font-size: 10px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 16px;
+
+.secondarySection
+  &-title
+    margin-top: 46px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+  &-grid
+    margin-top: 25px
