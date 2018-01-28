@@ -1923,10 +1923,14 @@ table {
     width: 300px; } }
 
 .schoolPage .mainSection-grid {
+  border: none;
   padding-top: 24px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap; }
+
+.schoolPage .mainSection .ajaxLoad-newsSection {
+  margin-top: -10px; }
 
 .schoolPage .secondarySection-grid {
   background: rgba(0, 0, 0, 0.01); }
@@ -1937,7 +1941,7 @@ table {
 .schoolPage .schoolItem {
   width: 184px;
   margin-right: 32px;
-  margin-bottom: 43px; }
+  margin-bottom: 42px; }
 
 .schoolPage .schoolItem-link {
   text-decoration: none; }
@@ -1946,6 +1950,9 @@ table {
   margin-right: 0; }
 
 .schoolPage .schoolItem-title {
+  margin: 3px 0 0 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   text-transform: uppercase;
   font-family: HelveticaNeue-Medium;
   font-size: 10px;
@@ -1954,6 +1961,7 @@ table {
   line-height: 16px; }
 
 .schoolPage .schoolItem-description {
+  margin: 10px 0 0 0;
   font-family: PTSerif-Regular;
   font-size: 15px;
   color: #000000;
