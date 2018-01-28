@@ -3,21 +3,62 @@
     +mixinContainer
   .mainSection
     &-grid
-      padding-top: 24px
       display: flex
       justify-content: flex-start
       flex-wrap: wrap
+      border: none
+      margin-bottom: 28px
+      padding-right: 2px
+    .title
+      margin-top: 25px
+      margin-bottom: 10px
+      font-family: HelveticaNeue-CondensedBold;
+      font-size: 18px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 24px;
   .reviewSection
     width: 832px
     display: inline-block
     vertical-align: top
     margin-right: 32px
+    .reviewItem
+      margin-bottom: 11px
+      &-content
+        font-family: HelveticaNeue;
+        font-size: 15px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 21px;
+      &-title
+        font-family: HelveticaNeue-Bold;
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 24px;
   .bookmakerSiteSection
+    &-grid
+      margin-bottom: 40px
+    .reviewItem
+      margin-bottom: 11px
+      &-content
+        font-family: HelveticaNeue;
+        font-size: 15px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 21px;
+        margin-top: 10px
+    &-image
+      margin-top: 15px
+      margin-bottom: 20px
     &-footer
       border-top: 2px solid rgba(0,0,0,0.06)
-      padding-top: 20px
-      margin-bottom: 60px
+      padding-top: 16px
+      margin-bottom: 66px
+      &-links
+        display: inline-block
       &-link
+        margin-right: 21px
         text-decoration: none
         text-transform: uppercase
         font-family: HelveticaNeue-Medium;
@@ -25,6 +66,23 @@
         color: #F24242;
         letter-spacing: 0;
         line-height: 16px;
+      &-socials
+        float: right
+      &-social
+        display: inline-block
+        width: 24px;
+        height: 24px;
+        background: url("../img/social.png") no-repeat
+        margin-left: 10px
+        &_facebook
+          background-position: 0 0
+        &_vk
+          background-position: -40px 0
+        &_twitter
+          background-position: -80px 0
+        &_google
+          background-position: -120px 0
+        
 
 
   .secondarySection
@@ -59,27 +117,39 @@
       
   .thesisSection
     &-title
-      margin-top: 47px
+      margin-top: 25px
       border-bottom: 2px solid rgba(0,0,0,0.06)
     &-grid
       margin-top: 24px
       border: 1px solid rgba(0,0,0,0.02)
+      margin-bottom: 15px
       ul
         margin: 0
         padding: 0
         list-style: none
     &-item
       border-bottom: 1px solid rgba(0,0,0,0.02)
-      padding: 16px 0 16px 0
+      padding: 15px 0 16px 0
       padding-right: 100px
       font-family: HelveticaNeue-Medium
       font-size: 13px
       color: #000000
       letter-spacing: 0
       line-height: 16px
+      position: relative
       &-icons
-        float: right
-        
+        position: absolute
+        right: 1px
+        top: 15px
+      &-icon
+        margin-left: 13px
+        &_russianSupport
+          position: absolute
+          right: 1px
+          top: 18px
+        &_mobile
+          margin-right: 6px
+
   .paymentsSection
     &-title
       display: inline-block
@@ -94,7 +164,7 @@
   .paymentItem
     text-align: center
     width: 55px
-    padding: 28px 14px 
+    padding: 19px 14px 
     border: 1px solid rgba(0,0,0,0.02)
     
   .depositesSection
@@ -109,12 +179,21 @@
         padding: 0
         list-style: none
     &-item
-      border-bottom: 1px solid rgba(0,0,0,0.02)
-      padding: 16px 0 16px 0
+      border-bottom: 1px solid rgba(0,0,0,0.08)
+      padding: 15px 0 16px 0
       font-family: HelveticaNeue-Medium
       font-size: 13px
       color: #000000
       letter-spacing: 0
       line-height: 16px
+      position: relative
+      &-title
+        width: 170px
+        display: block
       &-content
-        float: right
+        position: absolute
+        right: 0
+        top: 18px
+        
+  .betSchool.sidebar
+    margin-bottom: 0

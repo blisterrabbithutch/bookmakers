@@ -886,7 +886,7 @@ body {
 
 .mainSection {
   width: 832px;
-  margin-left: 100px;
+  margin-left: 103px;
   display: inline-block;
   margin-right: 32px; }
 
@@ -917,6 +917,46 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     width: 300px; } }
+
+.mainSection-footer {
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  padding-top: 16px;
+  margin-bottom: 66px; }
+
+.mainSection-footer-links {
+  display: inline-block; }
+
+.mainSection-footer-link {
+  margin-right: 21px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainSection-footer-socials {
+  float: right; }
+
+.mainSection-footer-social {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/social.png") no-repeat;
+  margin-left: 10px; }
+
+.mainSection-footer-social_facebook {
+  background-position: 0 0; }
+
+.mainSection-footer-social_vk {
+  background-position: -40px 0; }
+
+.mainSection-footer-social_twitter {
+  background-position: -80px 0; }
+
+.mainSection-footer-social_google {
+  background-position: -120px 0; }
 
 .mainSection .sectionHeader {
   display: flex;
@@ -2088,10 +2128,21 @@ table {
     width: 300px; } }
 
 .bookmakerPage .mainSection-grid {
-  padding-top: 24px;
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  border: none;
+  margin-bottom: 28px;
+  padding-right: 2px; }
+
+.bookmakerPage .mainSection .title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-family: HelveticaNeue-CondensedBold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px; }
 
 .bookmakerPage .reviewSection {
   width: 832px;
@@ -2099,12 +2150,51 @@ table {
   vertical-align: top;
   margin-right: 32px; }
 
+.bookmakerPage .reviewSection .reviewItem {
+  margin-bottom: 11px; }
+
+.bookmakerPage .reviewSection .reviewItem-content {
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.bookmakerPage .reviewSection .reviewItem-title {
+  font-family: HelveticaNeue-Bold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px; }
+
+.bookmakerPage .bookmakerSiteSection-grid {
+  margin-bottom: 40px; }
+
+.bookmakerPage .bookmakerSiteSection .reviewItem {
+  margin-bottom: 11px; }
+
+.bookmakerPage .bookmakerSiteSection .reviewItem-content {
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 10px; }
+
+.bookmakerPage .bookmakerSiteSection-image {
+  margin-top: 15px;
+  margin-bottom: 20px; }
+
 .bookmakerPage .bookmakerSiteSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
-  padding-top: 20px;
-  margin-bottom: 60px; }
+  padding-top: 16px;
+  margin-bottom: 66px; }
+
+.bookmakerPage .bookmakerSiteSection-footer-links {
+  display: inline-block; }
 
 .bookmakerPage .bookmakerSiteSection-footer-link {
+  margin-right: 21px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: HelveticaNeue-Medium;
@@ -2112,6 +2202,28 @@ table {
   color: #F24242;
   letter-spacing: 0;
   line-height: 16px; }
+
+.bookmakerPage .bookmakerSiteSection-footer-socials {
+  float: right; }
+
+.bookmakerPage .bookmakerSiteSection-footer-social {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/social.png") no-repeat;
+  margin-left: 10px; }
+
+.bookmakerPage .bookmakerSiteSection-footer-social_facebook {
+  background-position: 0 0; }
+
+.bookmakerPage .bookmakerSiteSection-footer-social_vk {
+  background-position: -40px 0; }
+
+.bookmakerPage .bookmakerSiteSection-footer-social_twitter {
+  background-position: -80px 0; }
+
+.bookmakerPage .bookmakerSiteSection-footer-social_google {
+  background-position: -120px 0; }
 
 .bookmakerPage .secondarySection-grid {
   background: rgba(0, 0, 0, 0.01); }
@@ -2146,12 +2258,13 @@ table {
   line-height: 21px; }
 
 .bookmakerPage .thesisSection-title {
-  margin-top: 47px;
+  margin-top: 25px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
 
 .bookmakerPage .thesisSection-grid {
   margin-top: 24px;
-  border: 1px solid rgba(0, 0, 0, 0.02); }
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 15px; }
 
 .bookmakerPage .thesisSection-grid ul {
   margin: 0;
@@ -2160,16 +2273,30 @@ table {
 
 .bookmakerPage .thesisSection-item {
   border-bottom: 1px solid rgba(0, 0, 0, 0.02);
-  padding: 16px 0 16px 0;
+  padding: 15px 0 16px 0;
   padding-right: 100px;
   font-family: HelveticaNeue-Medium;
   font-size: 13px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 16px; }
+  line-height: 16px;
+  position: relative; }
 
 .bookmakerPage .thesisSection-item-icons {
-  float: right; }
+  position: absolute;
+  right: 1px;
+  top: 15px; }
+
+.bookmakerPage .thesisSection-item-icon {
+  margin-left: 13px; }
+
+.bookmakerPage .thesisSection-item-icon_russianSupport {
+  position: absolute;
+  right: 1px;
+  top: 18px; }
+
+.bookmakerPage .thesisSection-item-icon_mobile {
+  margin-right: 6px; }
 
 .bookmakerPage .paymentsSection-title {
   display: inline-block; }
@@ -2186,7 +2313,7 @@ table {
 .bookmakerPage .paymentItem {
   text-align: center;
   width: 55px;
-  padding: 28px 14px;
+  padding: 19px 14px;
   border: 1px solid rgba(0, 0, 0, 0.02); }
 
 .bookmakerPage .depositesSection-title {
@@ -2203,16 +2330,26 @@ table {
   list-style: none; }
 
 .bookmakerPage .depositesSection-item {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
-  padding: 16px 0 16px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 15px 0 16px 0;
   font-family: HelveticaNeue-Medium;
   font-size: 13px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 16px; }
+  line-height: 16px;
+  position: relative; }
+
+.bookmakerPage .depositesSection-item-title {
+  width: 170px;
+  display: block; }
 
 .bookmakerPage .depositesSection-item-content {
-  float: right; }
+  position: absolute;
+  right: 0;
+  top: 18px; }
+
+.bookmakerPage .betSchool.sidebar {
+  margin-bottom: 0; }
 
 .reviewPage .wrapper {
   box-sizing: border-box;
