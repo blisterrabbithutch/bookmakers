@@ -1289,8 +1289,11 @@ table {
   margin-right: 18px;
   margin-left: 2px; }
 
+.prognosisItem-link {
+  display: flex; }
+
 .prognosisItem-title {
-  display: inline-block;
+  align-self: center;
   width: 160px;
   font-family: HelveticaNeue-Medium;
   font-size: 13px;
@@ -2694,7 +2697,9 @@ table {
     width: 300px; } }
 
 .prognosisPage .mainSection {
-  margin-bottom: 66px; }
+  margin-left: 103px;
+  margin-right: 30px;
+  padding-top: 23px; }
 
 .prognosisPage .mainSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
@@ -2712,9 +2717,11 @@ table {
   line-height: 16px; }
 
 .prognosisPage .mainSection-content-block {
-  margin-top: 29px; }
+  margin-bottom: 38px; }
 
 .prognosisPage .mainSection-title {
+  margin-top: 0;
+  margin-bottom: 12px;
   font-family: HelveticaNeue-Bold;
   font-size: 18px;
   color: #000000;
@@ -2728,6 +2735,8 @@ table {
   flex-wrap: wrap; }
 
 .prognosisPage .mainSection-paragraph {
+  margin-top: 10px;
+  margin-bottom: 21px;
   font-family: HelveticaNeue;
   font-size: 15px;
   color: #000000;
@@ -2737,7 +2746,7 @@ table {
 .prognosisPage .prognosisPreview {
   background: url("../img/prognosis-page.jpg") center center;
   background-size: cover;
-  min-height: 700px; }
+  min-height: 636px; }
 
 .prognosisPage .prognosisPreview .wrapper {
   position: relative; }
@@ -2752,20 +2761,33 @@ table {
   letter-spacing: 0;
   line-height: 12px;
   position: absolute;
-  top: 60px;
-  left: 20px;
+  top: 50px;
+  left: 120px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15); }
 
+.prognosisPage .prognosisPreview-prevPage:after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 13px;
+  height: 13px;
+  background: url("../img/arrow-left.png") no-repeat; }
+
+.prognosisPage .prognosisPreview-content {
+  padding-left: 100px; }
+
 .prognosisPage .prognosisPreview-title {
-  padding-top: 388px;
+  padding-top: 342px;
   margin-top: 0;
   margin-bottom: 12px;
   font-family: PTSerif-Bold;
   font-size: 40px;
   color: #FFFFFF;
   letter-spacing: 0;
-  line-height: 46px; }
+  line-height: 46px;
+  width: 800px; }
 
 .prognosisPage .prognosisPreview-slogan {
   display: block;
@@ -2797,17 +2819,31 @@ table {
 .prognosisPage .prognosisPreview-date span {
   color: rgba(255, 255, 255, 0.6); }
 
+.prognosisPage .matchesSection-title {
+  margin-top: 30px; }
+
+.prognosisPage .matchesSection-sortingFilter {
+  margin-top: 33px;
+  margin-right: 18px; }
+
+.prognosisPage .sidebar {
+  margin-bottom: 68px; }
+
+.prognosisPage .betSchool.sidebar {
+  margin-bottom: 1px; }
+
 .prognosisPage .cuffSection-grid {
   border: 1px solid rgba(0, 0, 0, 0.03);
   margin-top: 24px; }
 
 .prognosisPage .cuffSection-title {
+  margin-top: 37px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
 
 .prognosisPage .cuffSectionItem {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 17px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
 
 .prognosisPage .cuffSectionItem-rating {

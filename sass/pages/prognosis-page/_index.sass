@@ -2,7 +2,9 @@
   & .wrapper
     +mixinContainer
   .mainSection
-    margin-bottom: 66px
+    margin-left: 103px
+    margin-right: 30px
+    padding-top: 23px
     &-footer
       border-top: 2px solid rgba(0,0,0,0.06)
       padding-top: 20px
@@ -17,8 +19,10 @@
         letter-spacing: 0;
         line-height: 16px;
     &-content-block
-      margin-top: 29px
+      margin-bottom: 38px
     &-title
+      margin-top: 0
+      margin-bottom: 12px
       font-family: HelveticaNeue-Bold;
       font-size: 18px;
       color: #000000;
@@ -30,6 +34,8 @@
       justify-content: flex-start
       flex-wrap: wrap
     &-paragraph
+      margin-top: 10px;
+      margin-bottom: 21px;
       font-family: HelveticaNeue;
       font-size: 15px;
       color: #000000;
@@ -38,7 +44,7 @@
   .prognosisPreview
     background: url("../img/prognosis-page.jpg") center center
     background-size: cover
-    min-height: 700px
+    min-height: 636px
     .wrapper
       position: relative
     &-prevPage
@@ -51,19 +57,30 @@
       letter-spacing: 0;
       line-height: 12px;
       position: absolute
-      top: 60px
-      left: 20px
+      top: 50px
+      left: 120px
       background: rgba(255,255,255, 0.08)
       border: 1px solid rgba(255,255,255, 0.15)
+      &:after
+        content: "";
+        position: absolute;
+        left: 12px;
+        top: 10px;
+        width: 13px;
+        height: 13px;
+        background: url("../img/arrow-left.png") no-repeat
+    &-content
+      padding-left: 100px
     &-title
-      padding-top: 388px
-      margin-top: 0
-      margin-bottom: 12px
+      padding-top: 342px;
+      margin-top: 0;
+      margin-bottom: 12px;
       font-family: PTSerif-Bold;
       font-size: 40px;
       color: #FFFFFF;
       letter-spacing: 0;
       line-height: 46px;
+      width: 800px;
     &-slogan
       display: block
       width: 500px
@@ -91,16 +108,31 @@
       span
         color: rgba(255,255,255,0.6)
         
+  .matchesSection
+    &-title
+      margin-top: 30px
+    &-sortingFilter
+      margin-top: 33px;
+      margin-right: 18px;
+  
+  .sidebar
+    margin-bottom: 68px
+      
+  .betSchool
+    &.sidebar
+      margin-bottom: 1px
+        
   .cuffSection
     &-grid
       border: 1px solid rgba(0,0,0,0.03)
       margin-top: 24px
     &-title
+      margin-top: 37px
       border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     &Item
       display: flex
       justify-content: space-between
-      padding: 20px 0
+      padding: 17px 0
       border-bottom: 1px solid rgba(0, 0, 0, 0.06);
       &-rating
         align-self: center;
