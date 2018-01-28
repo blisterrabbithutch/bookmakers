@@ -81,26 +81,57 @@
         background: url(../img/like.png) no-repeat
   
   .filterSection
+    margin-bottom: 26px
+    &-expandIcon
+      position: absolute
+      right: 20px;
+      top: 25px
+      background: rgba(0,0,0,0.5)
+      width: 10px
+      height: 2px
+      &:after
+        content: "";
+        position: absolute;
+        left: 4px;
+        top: -4px;
+        width: 2px;
+        height: 10px;
+        background: rgba(0,0,0,0.5)
+      &_opened
+        &:after
+          display: none
     ul
       list-style: none
       margin: 0
       padding: 0
     &Item
       border-bottom: 1px solid rgba(0, 0, 0, 0.06)
-      padding: 18px 79px 18px 18px
+      padding: 17px 79px 17px 18px
       font-family: HelveticaNeue-Medium;
       font-size: 13px;
       color: #000000;
       position: relative
       letter-spacing: 0;
       line-height: 16px;
-      input
-        position: absolute
-        right: 16px
+      &-title
+        display: block
+        input
+          display: none
+        input + .filterSectionItem-title-indicator
+          position: absolute
+          right: 15px
+          display: block
+          height: 20px
+          width: 20px
+          background: url("../img/checkbox.png") no-repeat
+        input:checked + .filterSectionItem-title-indicator
+          background: url("../img/checkbox-on.png") no-repeat
       &_safety,
       &_currency
         cursor: pointer
       &-hiddenContent
+        padding-top: 12px
+        padding-bottom: 12px
         display: none
         background: rgba(0,0,0,0.02)
         font-family: HelveticaNeue-Medium;
@@ -113,6 +144,6 @@
           right: 16px
           top: 14px
         &-row
-          padding: 14px 79px 14px 32px
+          padding: 8px 79px 8px 32px
           position: relative
         

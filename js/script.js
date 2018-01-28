@@ -17,8 +17,10 @@ $('.mainSection-content-block').on('click', function(){
 
 $('.filterSectionItem_currency').on('click', function(){
     $('.filterSectionItem-hiddenContent_currency').slideToggle();
+    $(this).find('.filterSection-expandIcon').toggleClass('filterSection-expandIcon_opened');
 })
 
 $('.filterSectionItem_safety').on('click', function(){
     $('.filterSectionItem-hiddenContent_safety').slideToggle();
+    $(this).find('.filterSection-expandIcon').toggleClass('filterSection-expandIcon_opened');
 })
