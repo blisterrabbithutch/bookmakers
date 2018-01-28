@@ -2888,13 +2888,18 @@ table {
     width: 300px; } }
 
 .articlePage .mainSection {
-  margin-bottom: 66px;
-  margin-left: 0; }
+  margin-left: 104px;
+  margin-bottom: 5px;
+  margin-right: 28px;
+  padding-top: 30px; }
 
 .articlePage .mainSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
-  padding-top: 20px;
+  padding-top: 12px;
   margin-bottom: 60px; }
+
+.articlePage .mainSection-footer-socials {
+  top: 10px; }
 
 .articlePage .mainSection-footer-link {
   text-decoration: none;
@@ -2907,10 +2912,11 @@ table {
   line-height: 16px; }
 
 .articlePage .mainSection-content-block {
-  margin-top: 29px;
   margin-bottom: 40px; }
 
 .articlePage .mainSection-title {
+  margin-top: 0;
+  margin-bottom: 12px;
   font-family: HelveticaNeue-Bold;
   font-size: 18px;
   color: #000000;
@@ -2924,6 +2930,8 @@ table {
   flex-wrap: wrap; }
 
 .articlePage .mainSection-paragraph {
+  margin-top: 10px;
+  margin-bottom: 21px;
   font-family: HelveticaNeue;
   font-size: 15px;
   color: #000000;
@@ -2931,12 +2939,21 @@ table {
   line-height: 21px; }
 
 .articlePage .mainSection-list {
-  list-style: none; }
+  margin: 0;
+  padding-left: 40px;
+  font-family: HelveticaNeue-Bold;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 19px; }
+
+.articlePage .mainSection-list li {
+  margin-bottom: 21px; }
 
 .articlePage .articlePreview {
   background: url("../img/article-image.jpg") center center;
   background-size: cover;
-  min-height: 700px; }
+  min-height: 636px; }
 
 .articlePage .articlePreview .wrapper {
   position: relative; }
@@ -2951,24 +2968,37 @@ table {
   letter-spacing: 0;
   line-height: 12px;
   position: absolute;
-  top: 60px;
-  left: 20px;
+  top: 50px;
+  left: 120px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15); }
 
+.articlePage .articlePreview-prevPage:after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 13px;
+  height: 13px;
+  background: url("../img/arrow-left.png") no-repeat; }
+
+.articlePage .articlePreview-content {
+  padding-left: 100px; }
+
 .articlePage .articlePreview-title {
-  padding-top: 388px;
+  padding-top: 354px;
   margin-top: 0;
   margin-bottom: 12px;
   font-family: PTSerif-Bold;
   font-size: 40px;
   color: #FFFFFF;
   letter-spacing: 0;
-  line-height: 46px; }
+  line-height: 46px;
+  width: 800px; }
 
 .articlePage .articlePreview-slogan {
   display: block;
-  width: 500px;
+  width: 530px;
   font-family: HelveticaNeue;
   font-size: 18px;
   color: #FFFFFF;
@@ -2992,6 +3022,18 @@ table {
   color: #FFFFFF;
   letter-spacing: 1px;
   line-height: 14px; }
+
+.articlePage .articlePreview-date span {
+  color: rgba(255, 255, 255, 0.6); }
+
+.articlePage .prognosisSection-title {
+  margin-top: 30px; }
+
+.articlePage .prognosisSection-sortingFilter {
+  margin-top: 33px; }
+
+.articlePage .betSchool.sidebar {
+  margin-bottom: 1px; }
 
 .samplePage .wrapper {
   box-sizing: border-box;

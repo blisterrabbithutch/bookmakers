@@ -2,12 +2,16 @@
   & .wrapper
     +mixinContainer
   .mainSection
-    margin-bottom: 66px
-    margin-left: 0
+    margin-left: 104px
+    margin-bottom: 5px
+    margin-right: 28px
+    padding-top: 30px
     &-footer
       border-top: 2px solid rgba(0,0,0,0.06)
-      padding-top: 20px
+      padding-top: 12px
       margin-bottom: 60px
+      &-socials
+        top: 10px
       &-link
         text-decoration: none
         text-transform: uppercase
@@ -18,9 +22,10 @@
         letter-spacing: 0;
         line-height: 16px;
     &-content-block
-      margin-top: 29px
       margin-bottom: 40px
     &-title
+      margin-top: 0
+      margin-bottom: 12px
       font-family: HelveticaNeue-Bold;
       font-size: 18px;
       color: #000000;
@@ -32,17 +37,27 @@
       justify-content: flex-start
       flex-wrap: wrap
     &-paragraph
+      margin-top: 10px;
+      margin-bottom: 21px;
       font-family: HelveticaNeue;
       font-size: 15px;
       color: #000000;
       letter-spacing: 0;
       line-height: 21px;
     &-list
-      list-style: none 
+      margin: 0
+      padding-left: 40px;
+      font-family: HelveticaNeue-Bold;
+      font-size: 15px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 19px;
+      li
+        margin-bottom: 21px
   .articlePreview
     background: url("../img/article-image.jpg") center center
     background-size: cover
-    min-height: 700px
+    min-height: 636px
     .wrapper
       position: relative
     &-prevPage
@@ -55,22 +70,33 @@
       letter-spacing: 0;
       line-height: 12px;
       position: absolute
-      top: 60px
-      left: 20px
+      top: 50px
+      left: 120px
       background: rgba(255,255,255, 0.08)
       border: 1px solid rgba(255,255,255, 0.15)
+      &:after
+        content: "";
+        position: absolute;
+        left: 12px;
+        top: 10px;
+        width: 13px;
+        height: 13px;
+        background: url("../img/arrow-left.png") no-repeat
+    &-content
+      padding-left: 100px
     &-title
-      padding-top: 388px
-      margin-top: 0
-      margin-bottom: 12px
+      padding-top: 354px;
+      margin-top: 0;
+      margin-bottom: 12px;
       font-family: PTSerif-Bold;
       font-size: 40px;
       color: #FFFFFF;
       letter-spacing: 0;
       line-height: 46px;
+      width: 800px;
     &-slogan
       display: block
-      width: 500px
+      width: 530px
       font-family: HelveticaNeue;
       font-size: 18px;
       color: #FFFFFF;
@@ -92,3 +118,12 @@
       color: #FFFFFF;
       letter-spacing: 1px;
       line-height: 14px;
+      span
+        color: rgba(255,255,255,0.6)
+  .prognosisSection
+    &-title
+      margin-top: 30px
+    &-sortingFilter
+      margin-top: 33px
+  .betSchool.sidebar
+    margin-bottom: 1px
