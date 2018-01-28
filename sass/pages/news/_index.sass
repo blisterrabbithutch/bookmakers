@@ -89,7 +89,7 @@
     border: none
   &-matchesGrid
     border-top: 2px solid rgba(0, 0, 0, 0.06)
-    padding-top: 27px
+    padding-top: 23px
     padding-bottom: 22px
   &-title
     margin-top: 46px
@@ -98,8 +98,12 @@
 .prognosisItem
   display: flex
   justify-content: flex-start
-  height: 64px
+  min-height: 62px
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+  &:first-child
+    border-top: 2px solid rgba(0, 0, 0, 0.06)
   &-picture
+    vertical-align: top
     display: inline-block;
     margin-top: 16px;
     width: 26px

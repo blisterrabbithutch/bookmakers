@@ -927,7 +927,8 @@ body {
 .mainSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
   padding-top: 16px;
-  margin-bottom: 66px; }
+  margin-bottom: 66px;
+  position: relative; }
 
 .mainSection-footer-links {
   display: inline-block; }
@@ -943,7 +944,9 @@ body {
   line-height: 16px; }
 
 .mainSection-footer-socials {
-  float: right; }
+  position: absolute;
+  top: 17px;
+  right: 0; }
 
 .mainSection-footer-social {
   display: inline-block;
@@ -1262,7 +1265,7 @@ table {
 
 .prognosisSection-matchesGrid {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
-  padding-top: 27px;
+  padding-top: 23px;
   padding-bottom: 22px; }
 
 .prognosisSection-title {
@@ -1271,9 +1274,14 @@ table {
 .prognosisItem {
   display: flex;
   justify-content: flex-start;
-  height: 64px; }
+  min-height: 62px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisItem:first-child {
+  border-top: 2px solid rgba(0, 0, 0, 0.06); }
 
 .prognosisItem-picture {
+  vertical-align: top;
   display: inline-block;
   margin-top: 16px;
   width: 26px;
@@ -2194,7 +2202,8 @@ table {
 .bookmakerPage .bookmakerSiteSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
   padding-top: 16px;
-  margin-bottom: 66px; }
+  margin-bottom: 66px;
+  position: relative; }
 
 .bookmakerPage .bookmakerSiteSection-footer-links {
   display: inline-block; }
@@ -2210,7 +2219,9 @@ table {
   line-height: 16px; }
 
 .bookmakerPage .bookmakerSiteSection-footer-socials {
-  float: right; }
+  position: absolute;
+  top: 17px;
+  right: 0; }
 
 .bookmakerPage .bookmakerSiteSection-footer-social {
   display: inline-block;
@@ -2492,8 +2503,9 @@ table {
     width: 300px; } }
 
 .newsPreviewPage .mainSection {
-  margin-bottom: 66px;
-  margin-left: 0; }
+  margin-left: 103px;
+  margin-right: 30px;
+  padding-top: 29px; }
 
 .newsPreviewPage .mainSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
@@ -2511,9 +2523,11 @@ table {
   line-height: 16px; }
 
 .newsPreviewPage .mainSection-content-block {
-  margin-top: 29px; }
+  margin-bottom: 38px; }
 
 .newsPreviewPage .mainSection-title {
+  margin-top: 0;
+  margin-bottom: 12px;
   font-family: HelveticaNeue-Bold;
   font-size: 18px;
   color: #000000;
@@ -2527,6 +2541,8 @@ table {
   flex-wrap: wrap; }
 
 .newsPreviewPage .mainSection-paragraph {
+  margin-top: 10px;
+  margin-bottom: 21px;
   font-family: HelveticaNeue;
   font-size: 15px;
   color: #000000;
@@ -2536,7 +2552,7 @@ table {
 .newsPreviewPage .newsPreview {
   background: url("../img/news-preview.jpg") center center;
   background-size: cover;
-  min-height: 700px; }
+  min-height: 636px; }
 
 .newsPreviewPage .newsPreview .wrapper {
   position: relative; }
@@ -2551,10 +2567,22 @@ table {
   letter-spacing: 0;
   line-height: 12px;
   position: absolute;
-  top: 60px;
-  left: 20px;
+  top: 50px;
+  left: 120px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15); }
+
+.newsPreviewPage .newsPreview-prevPage:after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 13px;
+  height: 13px;
+  background: url("../img/arrow-left.png") no-repeat; }
+
+.newsPreviewPage .newsPreview-content {
+  padding-left: 100px; }
 
 .newsPreviewPage .newsPreview-title {
   padding-top: 388px;
@@ -2595,6 +2623,15 @@ table {
 
 .newsPreviewPage .newsPreview-date span {
   color: rgba(255, 255, 255, 0.6); }
+
+.newsPreviewPage .prognosisSection-title {
+  margin-top: 30px; }
+
+.newsPreviewPage .prognosisSection-sortingFilter {
+  margin-top: 33px; }
+
+.newsPreviewPage .sidebar {
+  margin-bottom: 2px; }
 
 .newsPreviewPage .secondarySection-grid {
   background: rgba(0, 0, 0, 0.01); }
