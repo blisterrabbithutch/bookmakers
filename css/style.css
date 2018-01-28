@@ -3201,18 +3201,19 @@ table {
     padding-right: 10px;
     width: 300px; } }
 
-.promotionsPage .sidebar {
-  margin-top: 40px; }
-
 .promotionsPage .mainSection {
-  margin-bottom: 66px;
-  margin-left: 100px;
-  margin-top: 10px; }
+  margin-bottom: 24px;
+  margin-left: 104px;
+  margin-top: 33px;
+  margin-right: 28px; }
 
 .promotionsPage .mainSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
-  padding-top: 20px;
+  padding-top: 16px;
   margin-bottom: 60px; }
+
+.promotionsPage .mainSection-footer-socials {
+  top: 14px; }
 
 .promotionsPage .mainSection-footer-link {
   text-decoration: none;
@@ -3225,9 +3226,11 @@ table {
   line-height: 16px; }
 
 .promotionsPage .mainSection-content-block {
-  margin-top: 29px; }
+  margin-bottom: 40px; }
 
 .promotionsPage .mainSection-title {
+  margin-top: 0;
+  margin-bottom: 12px;
   font-family: HelveticaNeue-Bold;
   font-size: 18px;
   color: #000000;
@@ -3241,16 +3244,30 @@ table {
   flex-wrap: wrap; }
 
 .promotionsPage .mainSection-paragraph {
+  margin-top: 10px;
+  margin-bottom: 21px;
   font-family: HelveticaNeue;
   font-size: 15px;
   color: #000000;
   letter-spacing: 0;
   line-height: 21px; }
 
+.promotionsPage .mainSection-list {
+  margin: 0;
+  padding-left: 40px;
+  font-family: HelveticaNeue-Bold;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 19px; }
+
+.promotionsPage .mainSection-list li {
+  margin-bottom: 21px; }
+
 .promotionsPage .promotionsPreview {
   background: url("../img/promotions-image.jpg") center center;
   background-size: cover;
-  min-height: 700px; }
+  min-height: 636px; }
 
 .promotionsPage .promotionsPreview .wrapper {
   position: relative; }
@@ -3265,32 +3282,42 @@ table {
   letter-spacing: 0;
   line-height: 12px;
   position: absolute;
-  top: 60px;
-  left: 20px;
+  top: 50px;
+  left: 120px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15); }
 
+.promotionsPage .promotionsPreview-prevPage:after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 13px;
+  height: 13px;
+  background: url("../img/arrow-left.png") no-repeat; }
+
+.promotionsPage .promotionsPreview-content {
+  padding-left: 100px; }
+
 .promotionsPage .promotionsPreview-title {
-  padding-top: 388px;
+  padding-top: 444px;
   margin-top: 0;
-  margin: 0;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
   font-family: PTSerif-Bold;
   font-size: 40px;
   color: #FFFFFF;
   letter-spacing: 0;
-  line-height: 46px; }
+  line-height: 46px;
+  width: 830px; }
 
 .promotionsPage .promotionsPreview-slogan {
   display: block;
-  width: 500px;
+  width: 530px;
   font-family: HelveticaNeue;
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 0;
-  line-height: 26px;
-  padding-bottom: 37px;
-  margin: 0; }
+  line-height: 26px; }
 
 .promotionsPage .promotionsPreview-team {
   text-transform: uppercase;
@@ -3311,3 +3338,10 @@ table {
 
 .promotionsPage .promotionsPreview-date span {
   color: rgba(255, 255, 255, 0.6); }
+
+.promotionsPage .sidebar {
+  margin-top: 40px; }
+
+.promotionsPage .betSchool.sidebar {
+  margin-top: 0;
+  margin-bottom: 1px; }
