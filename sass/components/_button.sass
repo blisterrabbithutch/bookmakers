@@ -13,6 +13,15 @@
   background: none
   border: none
   cursor: pointer
+  position: relative
+  &:before
+    content: "";
+    position: absolute;
+    top: 26px;
+    left: -1px;
+    width: 12px;
+    height: 12px;
+    background: url(../img/arrow-right.png) no-repeat
   &:active, &:focus
     outline: none
   &-mobile
