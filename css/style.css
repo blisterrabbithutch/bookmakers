@@ -148,7 +148,7 @@ body {
   text-decoration: none;
   margin-bottom: 16px;
   display: block;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 16px;
   font-family: HelveticaNeue-Medium; }
 
@@ -565,13 +565,33 @@ body {
   padding-top: 37px;
   padding-bottom: 33px;
   padding-left: 140px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.06); }
+  border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+  display: flex; }
 
 .footer-navigationItem {
   display: inline-block;
   vertical-align: top;
   width: 180px;
   margin-right: 14px; }
+
+.footer-navigationItem:first-child {
+  margin-right: 0px; }
+
+.footer-navigationItem:nth-child(2) {
+  margin-right: 35px; }
+
+.footer-navigationItem:nth-child(3) {
+  margin-right: 35px; }
+
+.footer-navigationItem:nth-child(4) {
+  margin-right: 40px; }
+
+.footer-navigationItem:nth-child(5) {
+  margin-right: 0px;
+  width: 155px; }
+
+.footer-navigationItem:nth-child(6) {
+  margin-right: 0px; }
 
 .footer-navigationItemTitle {
   font-family: HelveticaNeue-Bold;
@@ -3065,11 +3085,12 @@ table {
 
 .samplePage .mainSection {
   margin-bottom: 66px;
-  margin-left: 0; }
+  margin-left: 104px;
+  margin-right: 28px; }
 
 .samplePage .mainSection-content-block {
-  margin-top: 29px;
-  margin-bottom: 40px; }
+  margin-top: 0px;
+  margin-bottom: 0; }
 
 .samplePage .mainSection-title {
   font-family: HelveticaNeue-Bold;
@@ -3079,6 +3100,8 @@ table {
   line-height: 40px; }
 
 .samplePage .mainSection-subtitle {
+  margin-top: 34px;
+  margin-bottom: 29px;
   text-transform: none;
   font-family: HelveticaNeue-Bold;
   font-size: 24px;
@@ -3087,6 +3110,7 @@ table {
   line-height: 32px; }
 
 .samplePage .mainSection-subtitle-small {
+  margin-bottom: 40px;
   font-family: HelveticaNeue-Bold;
   font-size: 18px;
   color: #000000;
@@ -3095,7 +3119,7 @@ table {
 
 .samplePage .mainSection-quote {
   border: 1px solid rgba(238, 228, 206, 0.8);
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 40px;
   background: #FCF7ED;
   padding: 20px 32px 26px 32px;
@@ -3107,6 +3131,8 @@ table {
   box-shadow: 0px 0px 32px 12px rgba(238, 228, 206, 0.3); }
 
 .samplePage .mainSection-paragraph {
+  margin-top: 10px;
+  margin-bottom: 21px;
   font-family: HelveticaNeue;
   font-size: 15px;
   color: #000000;
@@ -3114,13 +3140,19 @@ table {
   line-height: 21px; }
 
 .samplePage .mainSection-list {
+  margin-top: 48px;
   font-family: HelveticaNeue;
   font-size: 15px;
   color: #000000;
   letter-spacing: 0;
   line-height: 40px; }
 
+.samplePage .mainSection-list li {
+  line-height: 20px;
+  margin-bottom: 20px; }
+
 .samplePage .mainSection-marker {
+  margin-top: 43px;
   font-family: HelveticaNeue;
   font-size: 15px;
   color: #000000;
@@ -3135,7 +3167,10 @@ table {
   background: #D8D8D8;
   min-height: 624px;
   min-width: 832px;
-  margin-bottom: 64px; }
+  margin-bottom: 60px; }
+
+.samplePage .mainSection-simpleTable-block .subtitle {
+  margin-top: 0; }
 
 .samplePage .mainSection-simpleTable-content {
   margin-top: 24px;
@@ -3143,9 +3178,14 @@ table {
 
 .samplePage .mainSection-simpleTable-item {
   border: 1px solid rgba(0, 0, 0, 0.06);
-  padding: 12px 0;
+  padding: 11px 0;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
 
 .samplePage .mainSection-table {
   margin-top: 25px;
@@ -3160,18 +3200,34 @@ table {
   border: 1px solid rgba(0, 0, 0, 0.06);
   background: rgba(0, 0, 0, 0.03);
   opacity: 0.2;
-  font-family: HelveticaNeue-CondensedBold;
-  font-size: 13px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 16px; }
+  line-height: 16px;
+  font-size: 13px; }
+
+.samplePage .mainSection-table-header .mainSection-table-cell {
+  padding-top: 24px;
+  padding-bottom: 24px; }
+
+.samplePage .mainSection-table-cell {
+  font-family: HelveticaNeue-CondensedBold;
+  padding: 12px 0; }
 
 .samplePage .mainSection-table-cell_number {
   padding-left: 24px; }
 
 .samplePage .mainSection-table-cell_score {
   text-align: right;
-  padding-right: 24px; }
+  padding-right: 24px;
+  width: 190px; }
+
+.samplePage .mainSection-table-cell_organization {
+  width: 185px;
+  padding-left: 25px;
+  text-transform: uppercase; }
+
+.samplePage .betSchool.sidebar {
+  margin-bottom: 0px; }
 
 .promotionsPage .wrapper {
   box-sizing: border-box;
