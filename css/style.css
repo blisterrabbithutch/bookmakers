@@ -1901,6 +1901,107 @@ table {
 .matchesPage .mainSection-content-block {
   margin-bottom: 4px; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .matchesPage .mainSection {
+    width: 615px;
+    margin-left: 0; }
+  .matchesPage .mainSection .sectionHeader {
+    justify-content: space-between; }
+  .matchesPage .mainSection-tabs {
+    margin-left: 0; }
+  .matchesPage .mainSection-tabs-secondary {
+    margin-left: 0; }
+  .matchesPage .mainSection-tabLink {
+    margin-left: 10px; }
+  .matchesPage .mainSection-secondaryTabLink {
+    margin-right: 10px; }
+  .matchesPage .mainSection-table-cell_prognosis {
+    padding-left: 0; }
+  .matchesPage .mainSection-table-cell_firstTeam, .matchesPage .mainSection-table-cell_secondTeam {
+    width: 180px;
+    padding-left: 2px;
+    padding-right: 2px; }
+  .matchesPage .mainSection-table-cell_firstModify, .matchesPage .mainSection-table-cell_secondModify, .matchesPage .mainSection-table-cell_thirdModify {
+    width: 50px; }
+  .matchesPage .mainSection-table-cell_date {
+    width: 60px; }
+  .matchesPage .mainItem-prognosis {
+    padding: 4px; }
+  .matchesPage .mainItem-score {
+    margin: 0 10px; }
+  .matchesPage .mainItem-data, .matchesPage .mainItem-time {
+    padding-left: 5px; }
+  .matchesPage .mainItem-secondTeam {
+    margin-left: 5px;
+    font-size: 12px; }
+  .matchesPage .mainItem-firstTeam {
+    margin-right: 5px;
+    font-size: 12px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .matchesPage .mainSection {
+    width: 600px;
+    margin-right: 0;
+    margin-left: 0; }
+  .matchesPage .mainSection .sectionHeader {
+    justify-content: space-between; }
+  .matchesPage .mainSection-tabs {
+    margin-left: 0; }
+  .matchesPage .mainSection-tabs-secondary {
+    margin-left: 0; }
+  .matchesPage .mainSection-tabLink {
+    margin-left: 10px; }
+  .matchesPage .mainSection-secondaryTabLink {
+    margin-right: 10px; }
+  .matchesPage .mainSection-table-cell_date, .matchesPage .mainSection-table-cell_prognosis, .matchesPage .mainSection-table-cell_firstModify, .matchesPage .mainSection-table-cell_secondModify, .matchesPage .mainSection-table-cell_thirdModify {
+    display: none; }
+  .matchesPage .mainSection-header-score-title {
+    display: none; } }
+
+@media (max-width: 639px) {
+  .matchesPage .mainSection {
+    width: 280px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0; }
+  .matchesPage .mainSection .sectionHeader {
+    display: block; }
+  .matchesPage .mainSection-tabs {
+    margin-left: 0; }
+  .matchesPage .mainSection-tabs-secondary {
+    margin-left: 0;
+    margin-top: 15px; }
+  .matchesPage .mainSection-tabLink {
+    margin-left: 10px; }
+  .matchesPage .mainSection-tabLink:first-child {
+    margin-left: 0; }
+  .matchesPage .mainSection-secondaryTabLink {
+    margin-right: 10px; }
+  .matchesPage .mainSection-table-cell_date, .matchesPage .mainSection-table-cell_prognosis, .matchesPage .mainSection-table-cell_firstModify, .matchesPage .mainSection-table-cell_secondModify, .matchesPage .mainSection-table-cell_thirdModify {
+    display: none; }
+  .matchesPage .mainSection-table-cell_firstTeam, .matchesPage .mainSection-table-cell_secondTeam {
+    width: 100px;
+    position: relative; }
+  .matchesPage .mainSection-table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .matchesPage .mainSection-header-score-title {
+    display: none; }
+  .matchesPage .mainSection-header-expandIcon {
+    left: 10px; }
+  .matchesPage .mainItem-score {
+    margin: 0 15px; }
+  .matchesPage .mainItem-teams-logo {
+    display: none; }
+  .matchesPage .mainItem-secondTeam {
+    margin-left: 0; }
+  .matchesPage .mainItem-firstTeam {
+    margin-right: 0; }
+  .matchesPage .prognosisItem {
+    display: flex;
+    justify-content: center; } }
+
 .bonusesPage .wrapper {
   box-sizing: border-box;
   width: 1360px;
