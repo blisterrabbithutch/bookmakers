@@ -554,7 +554,7 @@ body {
   content: "";
   position: absolute;
   top: -3px;
-  left: -35px;
+  left: -42px;
   right: 0;
   width: 30px;
   height: 30px;
@@ -663,7 +663,9 @@ body {
   .footer-navigation {
     padding-left: 0; }
   .footer-navigationItem {
-    width: 144px; } }
+    width: 144px; }
+  .footer-navigationItem:first-child {
+    margin-right: 14px; } }
 
 @media (min-width: 640px) and (max-width: 991px) {
   .footer-disclaimer {
@@ -672,17 +674,49 @@ body {
   .footer-copyright {
     margin-left: 0; }
   .footer-navigation {
-    padding-left: 35px; }
+    padding-left: 35px;
+    flex-wrap: wrap;
+    justify-content: space-around; }
   .footer-navigationItem {
-    width: 170px; } }
+    width: 170px; }
+  .footer-navigationItem:nth-child(1) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(2) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(3) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(4) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(5) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(6) {
+    margin-right: 0; } }
 
 @media (max-width: 639px) {
+  .footer-logo:after {
+    display: none; }
   .footer-disclaimer {
     width: auto;
     margin-left: 0; }
   .footer-navigation {
-    padding-left: 35px;
-    padding-bottom: 15px; }
+    padding-left: 0px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  .footer-navigationItem {
+    width: 170px; }
+  .footer-navigationItem:nth-child(1) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(2) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(3) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(4) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(5) {
+    margin-right: 0; }
+  .footer-navigationItem:nth-child(6) {
+    margin-right: 0; }
   .footer-copyright {
     margin-left: 0; } }
 
@@ -883,7 +917,8 @@ body {
   .bonuses-grid {
     width: 615px; }
   .bonusesItem {
-    width: 150px; }
+    width: 150px;
+    margin-bottom: 74px; }
   .bonusesItem-image {
     width: 100%; } }
 
@@ -1500,6 +1535,8 @@ table {
     display: inline-block;
     margin-left: 15px;
     margin-right: 15px; }
+  .prognosisItem:first-child {
+    border-top: none; }
   .matchItem {
     display: inline-block; }
   .matchesSection-matchesGrid {

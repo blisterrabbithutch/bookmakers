@@ -7,7 +7,7 @@
       content: ""
       position: absolute
       top: -3px
-      left: -35px
+      left: -42px
       right: 0
       width: 30px
       height: 30px
@@ -83,6 +83,8 @@
       padding-left: 0
     &-navigationItem
       width: 144px
+      &:first-child
+        margin-right: 14px
       
 
 @media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
@@ -94,17 +96,51 @@
       margin-left: 0
     &-navigation
       padding-left: 35px
+      flex-wrap: wrap;
+      justify-content: space-around;
     &-navigationItem
       width: 170px
+      &:nth-child(1)
+        margin-right: 0
+      &:nth-child(2)
+        margin-right: 0
+      &:nth-child(3)
+        margin-right: 0
+      &:nth-child(4)
+        margin-right: 0
+      &:nth-child(5)
+        margin-right: 0
+      &:nth-child(6)
+        margin-right: 0
       
+
 @media (max-width: $mobile-widths-only)
   .footer
+    &-logo
+      &:after
+        display: none
     &-disclaimer
       width: auto
       margin-left: 0
     &-navigation
-      padding-left: 35px
+      padding-left: 0px
       padding-bottom: 15px
+      flex-wrap: wrap;
+      justify-content: flex-start
+    &-navigationItem
+      width: 170px
+      &:nth-child(1)
+        margin-right: 0
+      &:nth-child(2)
+        margin-right: 0
+      &:nth-child(3)
+        margin-right: 0
+      &:nth-child(4)
+        margin-right: 0
+      &:nth-child(5)
+        margin-right: 0
+      &:nth-child(6)
+        margin-right: 0
     &-copyright
       margin-left: 0
       
