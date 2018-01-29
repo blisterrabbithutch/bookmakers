@@ -700,7 +700,8 @@ body {
   .footer-navigationItem:nth-child(4) {
     margin-right: 0; }
   .footer-navigationItem:nth-child(5) {
-    margin-right: 0; }
+    margin-right: 0;
+    padding-right: 20px; }
   .footer-navigationItem:nth-child(6) {
     margin-right: 0; } }
 
@@ -2112,6 +2113,74 @@ table {
   right: 25px;
   border: none;
   background: url("../img/form-button-right.png") no-repeat center center; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .bonusesPage .mainSection {
+    margin-left: 0;
+    width: 615px; }
+  .bonusesPage .bonusesItem {
+    width: 142px;
+    margin-right: 15px; }
+  .bonusesPage .bonusesItem-description {
+    margin-bottom: 0; }
+  .bonusesPage .bonuses-grid {
+    padding-bottom: 74px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .bonusesPage .mainSection {
+    margin-left: 0;
+    width: 600px;
+    margin-right: 0; }
+  .bonusesPage .bonusesItem {
+    width: 138px;
+    margin-right: 15px; }
+  .bonusesPage .bonusesItem-description {
+    margin-bottom: 0; }
+  .bonusesPage .bonuses-grid {
+    padding-bottom: 74px; }
+  .bonusesPage .emailSection-title {
+    margin-top: 0; }
+  .bonusesPage .emailSection-form {
+    margin-top: 0px; }
+  .bonusesPage .emailSection-form-send {
+    top: 72px;
+    left: 205px; } }
+
+@media (max-width: 639px) {
+  .bonusesPage .mainSection {
+    margin-left: 0;
+    width: 280px;
+    margin-right: 0; }
+  .bonusesPage .mainSection .sectionHeader {
+    display: block; }
+  .bonusesPage .mainSection-tabLink {
+    margin-left: 46px; }
+  .bonusesPage .mainSection-tabLink:first-child {
+    margin-left: 0; }
+  .bonusesPage .bonusesItem {
+    width: 138px;
+    margin-right: 15px; }
+  .bonusesPage .bonusesItem-description {
+    margin-bottom: 0; }
+  .bonusesPage .bonuses-grid {
+    padding-bottom: 74px; }
+  .bonusesPage .bonusesItem {
+    width: 130px;
+    margin-right: 20px; }
+  .bonusesPage .bonusesItem:nth-child(2n) {
+    margin-right: 0; }
+  .bonusesPage .emailSection-title {
+    margin-top: 0; }
+  .bonusesPage .emailSection-form {
+    margin-top: 0px; }
+  .bonusesPage .emailSection-form-send {
+    top: 72px;
+    left: 205px; }
+  .bonusesPage .emailSection-title {
+    margin-top: 28px; }
+  .bonusesPage .prognosisItem {
+    display: flex;
+    justify-content: center; } }
 
 .ratingPage .wrapper {
   box-sizing: border-box;
