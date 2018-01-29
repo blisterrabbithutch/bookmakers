@@ -77,6 +77,7 @@
     margin-bottom: 64px
     &-grid
       padding-top: 20px
+      border-top: none
     .sectionHeader
       justify-content: flex-start
     &-tabs
@@ -253,15 +254,18 @@
         display: block
       &-tabs
         margin-left: 0
+        border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+        padding-bottom: 8px
         &-secondary
           margin-left: 0
           margin-top: 15px
       &-tabLink
-        margin-left: 10px
+        margin-left: 21px
         &:first-child
           margin-left: 0
       &-secondaryTabLink
         margin-right: 10px
+      
       &-table-cell
         &_date,
         &_prognosis,
@@ -273,6 +277,12 @@
         &_secondTeam
           width: 100px
           position: relative
+        &_firstTeam
+          text-align: left
+          padding-left: 10px
+        &_secondTeam
+          text-align: right
+          padding-right: 10px
       &-table
         &-row
           display: flex

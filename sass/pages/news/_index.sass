@@ -255,11 +255,13 @@
       border-top: none
     
   .matchItem
-    display: inline-block
+    display: block
+    &-date
+      float: right
     
   .matchesSection
     &-matchesGrid 
-      padding-left: 50px
+      //padding-left: 50px
     
 
 @media (max-width: $mobile-widths-only)
@@ -301,8 +303,10 @@
     margin-right: 0px
 
   .matchItem
-    display: inline-block
+    display: block
+    &-date
+      float: right
 
   .matchesSection
     &-matchesGrid
-      padding-left: 15px
+      padding-left: 0

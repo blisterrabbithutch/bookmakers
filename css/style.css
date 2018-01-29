@@ -1551,9 +1551,9 @@ table {
   .prognosisItem:first-child {
     border-top: none; }
   .matchItem {
-    display: inline-block; }
-  .matchesSection-matchesGrid {
-    padding-left: 50px; } }
+    display: block; }
+  .matchItem-date {
+    float: right; } }
 
 @media (max-width: 639px) {
   .newsPage-header {
@@ -1586,9 +1586,11 @@ table {
     margin-left: 0px;
     margin-right: 0px; }
   .matchItem {
-    display: inline-block; }
+    display: block; }
+  .matchItem-date {
+    float: right; }
   .matchesSection-matchesGrid {
-    padding-left: 15px; } }
+    padding-left: 0; } }
 
 .prognosisPage .wrapper {
   box-sizing: border-box;
@@ -1792,7 +1794,8 @@ table {
   margin-bottom: 64px; }
 
 .matchesPage .mainSection-grid {
-  padding-top: 20px; }
+  padding-top: 20px;
+  border-top: none; }
 
 .matchesPage .mainSection .sectionHeader {
   justify-content: flex-start; }
@@ -1968,12 +1971,14 @@ table {
   .matchesPage .mainSection .sectionHeader {
     display: block; }
   .matchesPage .mainSection-tabs {
-    margin-left: 0; }
+    margin-left: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+    padding-bottom: 8px; }
   .matchesPage .mainSection-tabs-secondary {
     margin-left: 0;
     margin-top: 15px; }
   .matchesPage .mainSection-tabLink {
-    margin-left: 10px; }
+    margin-left: 21px; }
   .matchesPage .mainSection-tabLink:first-child {
     margin-left: 0; }
   .matchesPage .mainSection-secondaryTabLink {
@@ -1983,6 +1988,12 @@ table {
   .matchesPage .mainSection-table-cell_firstTeam, .matchesPage .mainSection-table-cell_secondTeam {
     width: 100px;
     position: relative; }
+  .matchesPage .mainSection-table-cell_firstTeam {
+    text-align: left;
+    padding-left: 10px; }
+  .matchesPage .mainSection-table-cell_secondTeam {
+    text-align: right;
+    padding-right: 10px; }
   .matchesPage .mainSection-table-row {
     display: flex;
     justify-content: space-between;
@@ -2035,7 +2046,8 @@ table {
   padding-top: 24px;
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  border-top: none; }
 
 .bonusesPage .prognosisSection-title {
   margin-top: 28px; }
