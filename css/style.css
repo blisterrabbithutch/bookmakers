@@ -3462,6 +3462,21 @@ table {
     padding-right: 10px;
     width: 300px; } }
 
+.mainPage .mainSlider-matchTitle {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 29px;
+  width: 256px;
+  opacity: 0.6;
+  font-family: PTSerif-Bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 20px; }
+
+.mainPage .mainSlider-matchTitle:last-child {
+  margin-right: 0; }
+
 .mainPage .mainSlider-item {
   background: url("../img/main-slider-item-01.jpg");
   background-size: cover;
@@ -3488,10 +3503,11 @@ table {
   line-height: 26px; }
 
 .mainPage .mainSlider-matchTitles {
+  width: 1124px;
   position: absolute;
   color: white;
   top: -120px;
-  left: 310px; }
+  left: 120px; }
 
 .mainPage .mainSlider-cup {
   position: absolute;
@@ -3503,7 +3519,103 @@ table {
   position: absolute;
   color: white;
   top: -620px;
-  left: 1220px; }
+  left: 1140px; }
+
+.mainPage .bestCuffSection-block {
+  background: rgba(0, 0, 0, 0.01); }
+
+.mainPage .bestCuffItem-match {
+  text-align: center; }
+
+.mainPage .bestCuffItem-match-logo {
+  padding-top: 26px; }
+
+.mainPage .bestCuffItem-match-date {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 25px;
+  width: 50px; }
+
+.mainPage .bestCuffItem-match-day {
+  text-transform: uppercase;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .bestCuffItem-match-time {
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .bestCuffItem-teams {
+  text-align: center; }
+
+.mainPage .bestCuffItem-team {
+  display: inline-block;
+  width: 80px;
+  margin: 30px 20px; }
+
+.mainPage .bestCuffItem-name {
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .bestCuffItem-score {
+  text-align: center;
+  padding-bottom: 32px;
+  display: block; }
+
+.mainPage .bestCuffItem-scoreItem {
+  display: inline-block;
+  margin: 0 17px 0 17px;
+  padding: 4px 8px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  font-family: HelveticaNeue-Bold;
+  font-size: 11px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 14px; }
+
+.mainPage .prognosisSection-tabs {
+  display: inline-block;
+  margin-top: 48px; }
+
+.mainPage .prognosisSection-tabLink {
+  opacity: 0.6;
+  text-decoration: none;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 20px; }
+
+.mainPage .prognosisItem-score {
+  align-self: center;
+  padding: 4px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+  opacity: 0.8;
+  font-family: HelveticaNeue-Bold;
+  font-size: 11px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 12px; }
+
+.mainPage .prognosisItem-link {
+  width: 100%;
+  justify-content: space-between; }
 
 .mainPage .mainSection {
   width: 616px;
@@ -3644,6 +3756,87 @@ table {
 .mainPage .mainPreview-date span {
   color: rgba(255, 255, 255, 0.6); }
 
+.mainPage .mainPopularNews {
+  background: #FCF7ED; }
+
+.mainPage .mainPopularNews-header {
+  width: 1120px;
+  margin: 0 auto; }
+
+.mainPage .mainPopularNews-grid {
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start; }
+
+.mainPage .mainPopularNews-tabs {
+  display: inline-block;
+  margin-top: 48px; }
+
+.mainPage .mainPopularNews-tabLink {
+  opacity: 0.6;
+  text-decoration: none;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 20px; }
+
+.mainPage .mainPopularNewsItem {
+  width: 256px;
+  margin-right: 32px;
+  padding-bottom: 44px; }
+
+.mainPage .mainPopularNewsItem:nth-child(4n) {
+  margin-right: 0; }
+
+.mainPage .mainPopularNewsItem-link {
+  text-decoration: none; }
+
+.mainPage .mainPopularNewsItem-titleWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.mainPage .mainPopularNewsItem-title {
+  align-self: flex-start;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin: 0;
+  text-transform: uppercase; }
+
+.mainPage .mainPopularNewsItem-date {
+  text-align: center;
+  align-self: flex-end;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .mainPopularNewsItem-image {
+  width: 100%; }
+
+.mainPage .mainPopularNewsItem-description {
+  font-family: PTSerif-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 26px; }
+
+.mainPage .mainPopularNewsItem-descriptionBottom {
+  opacity: 0.6;
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 19px; }
+
 .mainPage .mainNewsSection-header {
   display: flex;
   justify-content: space-between; }
@@ -3672,6 +3865,16 @@ table {
 
 .mainPage .mainNewsItem:nth-child(3n) {
   margin-right: 0; }
+
+.mainPage .mainNewsItem-link {
+  text-decoration: none; }
+
+.mainPage .mainNewsItem-description, .mainPage .mainNewsItem-descriptionBottom {
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px; }
 
 .mainPage .sidebar_mainPage {
   width: 472px; }
@@ -3747,4 +3950,342 @@ table {
   font-size: 24px;
   color: #FF4242;
   letter-spacing: 0;
-  line-height: 32px; }
+  line-height: 32px;
+  position: relative; }
+
+.mainPage .recommendationSection-link:after {
+  content: "";
+  position: absolute;
+  right: -50px;
+  top: 7px;
+  width: 35px;
+  height: 14px;
+  background: url("../img/arrow-right-long.png") no-repeat; }
+
+.mainPage .mainMatchesSection {
+  width: 832px;
+  margin-left: 103px;
+  display: inline-block;
+  margin-right: 32px; }
+
+.mainPage .mainMatchesSection .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .mainPage .mainMatchesSection .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .mainPage .mainMatchesSection .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .mainPage .mainMatchesSection .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.mainPage .mainMatchesSection .sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
+.mainPage .mainMatchesSection-tabs {
+  display: inline-block;
+  margin-top: 48px; }
+
+.mainPage .mainMatchesSection-tabs-secondary {
+  padding: 8px 0 8px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
+.mainPage .mainMatchesSection-secondaryTabLink {
+  margin-right: 32px; }
+
+.mainPage .mainMatchesSection-header {
+  margin-top: 15px;
+  height: 64px;
+  background: rgba(0, 0, 0, 0.01);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.mainPage .mainMatchesSection-header-headline {
+  opacity: 0.2;
+  font-family: HelveticaNeue-CondensedBold;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.mainPage .mainMatchesSection-secondaryTabLink {
+  text-decoration: none;
+  opacity: 0.6;
+  font-family: HelveticaNeue-CondensedBold;
+  font-size: 15px;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  line-height: 24px; }
+
+.mainPage .mainMatchesSection-tabLink {
+  opacity: 0.6;
+  text-decoration: none;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 20px; }
+
+.mainPage .mainMatchesSection-grid {
+  border-top: 1px solid rgba(0, 0, 0, 0.06); }
+
+.mainPage .mainMatchesSection-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: -5px; }
+
+.mainPage .mainMatchesSection-table-cell {
+  padding: 16px 0 15px 0;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-data {
+  padding-left: 23px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-time {
+  padding-left: 23px;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-prognosis {
+  font-size: 10px; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-teams {
+  position: relative; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-teams-logo {
+  display: inline-block;
+  vertical-align: middle; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-firstTeam {
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-secondTeam {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-score {
+  margin: 0 36px;
+  text-align: center; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-firstModify, .mainPage .mainMatchesSection-table-cell .mainMatchItem-secondModify, .mainPage .mainMatchesSection-table-cell .mainMatchItem-thirdModify {
+  padding: 4px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 3px; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-prognosis {
+  padding: 4px 8px;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  border-radius: 5px; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-teams {
+  position: relative; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-teams:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: -30px;
+  width: 30px;
+  height: 30px; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-teams_england:after {
+  background: url(../img/england.png) no-repeat; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-teams_germany:after {
+  background: url(../img/germany.png) no-repeat; }
+
+.mainPage .mainMatchesSection-table-cell .mainMatchItem-teams_spain:after {
+  background: url(../img/spain.png) no-repeat; }
+
+.mainPage .mainMatchesSection-table-cell_prognosis {
+  text-align: right;
+  width: 60px;
+  padding-right: 10px;
+  opacity: 0.8;
+  font-family: HelveticaNeue-Bold;
+  font-size: 11px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 12px; }
+
+.mainPage .mainMatchesSection-table-cell_time {
+  padding-left: 20px;
+  width: 70px; }
+
+.mainPage .mainMatchesSection-table-cell_teams {
+  width: 368px; }
+
+.mainPage .mainMatchesSection-table-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+
+.mainPage .mainMatchesSection-table-row:last-child {
+  border: none; }
+
+.mainPage .mainMatchesSection {
+  margin-bottom: 64px; }
+
+.mainPage .mainMatchesSection-grid {
+  padding-top: 20px; }
+
+.mainPage .mainMatchesSection .sectionHeader {
+  justify-content: flex-start; }
+
+.mainPage .mainMatchesSection-tabs {
+  margin-left: 45px; }
+
+.mainPage .mainMatchesSection-tabs-secondary {
+  border: none;
+  margin-top: 40px;
+  margin-left: 182px; }
+
+.mainPage .mainMatchesSection-secondaryTabLink {
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  text-transform: none;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-right: 20px; }
+
+.mainPage .mainMatchesSection-secondaryTabLink:last-child {
+  margin-right: 0; }
+
+.mainPage .mainMatchesSection-header {
+  margin-top: 0px;
+  position: relative; }
+
+.mainPage .mainMatchesSection-header-title {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+
+.mainPage .mainMatchesSection-header-title img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 16px;
+  margin-left: 12px; }
+
+.mainPage .mainMatchesSection-header-title span {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .mainMatchesSection-header-score-title {
+  position: absolute;
+  right: 4px; }
+
+.mainPage .mainMatchesSection-header-score-titleItem {
+  padding: 0 20px;
+  opacity: 0.2;
+  font-family: HelveticaNeue-CondensedBold;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .mainMatchesSection-header-expandIcon {
+  position: absolute;
+  left: 36px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 10px;
+  height: 2px; }
+
+.mainPage .mainMatchesSection-header-expandIcon:after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: -4px;
+  width: 2px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.5); }
+
+.mainPage .mainMatchesSection-header-expandIcon_opened:after {
+  display: none; }
+
+.mainPage .mainMatchesSection-table {
+  margin-bottom: 34px;
+  display: none; }
+
+.mainPage .mainMatchesSection-table-cell {
+  padding: 7px 0 7px 0; }
+
+.mainPage .mainMatchesSection-table-cell_prognosis {
+  padding-left: 27px;
+  padding-right: 0px;
+  text-transform: uppercase; }
+
+.mainPage .mainMatchesSection-table-cell_firstTeam {
+  padding-left: 20px;
+  text-align: right; }
+
+.mainPage .mainMatchesSection-table-cell_secondTeam {
+  padding-right: 20px; }
+
+.mainPage .mainMatchesSection-table-cell_firstTeam, .mainPage .mainMatchesSection-table-cell_secondTeam {
+  width: 200px; }
+
+.mainPage .mainMatchesSection-table-cell_date {
+  width: 60px; }
+
+.mainPage .mainMatchesSection-content-block {
+  margin-bottom: 4px; }
