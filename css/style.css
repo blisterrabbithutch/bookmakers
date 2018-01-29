@@ -3401,3 +3401,350 @@ table {
 .promotionsPage .betSchool.sidebar {
   margin-top: 0;
   margin-bottom: 1px; }
+
+.mainPage .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .mainPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .mainPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .mainPage .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.mainPage .mainSlider {
+  min-height: 700px; }
+
+.mainPage .mainSlider .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  position: relative; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .mainPage .mainSlider .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .mainPage .mainSlider .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .mainPage .mainSlider .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.mainPage .mainSlider-item {
+  background: url("../img/main-slider-item-01.jpg");
+  background-size: cover;
+  height: 700px; }
+
+.mainPage .mainSlider-item-title {
+  margin: 0;
+  padding: 230px 0 20px 100px;
+  font-family: PTSerif-Bold;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 46px;
+  width: 540px; }
+
+.mainPage .mainSlider-item-slogan {
+  padding-left: 100px;
+  display: block;
+  width: 440px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 26px; }
+
+.mainPage .mainSlider-matchTitles {
+  position: absolute;
+  color: white;
+  top: -120px;
+  left: 310px; }
+
+.mainPage .mainSlider-cup {
+  position: absolute;
+  color: white;
+  top: -620px;
+  left: 110px; }
+
+.mainPage .mainSlider-postTime {
+  position: absolute;
+  color: white;
+  top: -620px;
+  left: 1220px; }
+
+.mainPage .mainSection {
+  width: 616px;
+  margin-bottom: 24px;
+  margin-left: 104px;
+  margin-top: 33px;
+  margin-right: 28px; }
+
+.mainPage .mainSection-footer {
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  padding-top: 16px;
+  margin-bottom: 60px; }
+
+.mainPage .mainSection-footer-socials {
+  top: 14px; }
+
+.mainPage .mainSection-footer-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  margin-right: 24px;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.mainPage .mainSection-content-block {
+  margin-bottom: 40px; }
+
+.mainPage .mainSection-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: HelveticaNeue-Bold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px; }
+
+.mainPage .mainSection-grid {
+  padding-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.mainPage .mainSection-paragraph {
+  margin-top: 10px;
+  margin-bottom: 21px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.mainPage .mainSection-list {
+  margin: 0;
+  padding-left: 40px;
+  font-family: HelveticaNeue-Bold;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 19px; }
+
+.mainPage .mainSection-list li {
+  margin-bottom: 21px; }
+
+.mainPage .mainPreview {
+  background: url("../img/promotions-image.jpg") center center;
+  background-size: cover;
+  min-height: 636px; }
+
+.mainPage .mainPreview .wrapper {
+  position: relative; }
+
+.mainPage .mainPreview-prevPage {
+  padding: 10px 16px 10px 40px;
+  font-family: HelveticaNeue-Bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15); }
+
+.mainPage .mainPreview-prevPage:after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 13px;
+  height: 13px;
+  background: url("../img/arrow-left.png") no-repeat; }
+
+.mainPage .mainPreview-content {
+  padding-left: 100px; }
+
+.mainPage .mainPreview-title {
+  padding-top: 444px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: PTSerif-Bold;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 46px;
+  width: 830px; }
+
+.mainPage .mainPreview-slogan {
+  display: block;
+  width: 530px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 26px; }
+
+.mainPage .mainPreview-team {
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-right: 32px;
+  letter-spacing: 1px;
+  line-height: 16px; }
+
+.mainPage .mainPreview-date {
+  text-transform: uppercase;
+  font-family: HelveticaNeue-Bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 14px; }
+
+.mainPage .mainPreview-date span {
+  color: rgba(255, 255, 255, 0.6); }
+
+.mainPage .mainNewsSection-header {
+  display: flex;
+  justify-content: space-between; }
+
+.mainPage .mainNewsSection-tabs {
+  display: inline-block;
+  margin-top: 48px; }
+
+.mainPage .mainNewsSection-tabLink {
+  opacity: 0.6;
+  text-decoration: none;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 20px; }
+
+.mainPage .mainNewsSection-grid {
+  display: flex;
+  justify-content: flex-start; }
+
+.mainPage .mainNewsItem {
+  width: 184px;
+  margin-right: 32px; }
+
+.mainPage .mainNewsItem:nth-child(3n) {
+  margin-right: 0; }
+
+.mainPage .sidebar_mainPage {
+  width: 472px; }
+
+.mainPage .recommendationSection {
+  min-height: 502px;
+  overflow: hidden; }
+
+.mainPage .recommendationSection .wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  position: relative; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .mainPage .recommendationSection .wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .mainPage .recommendationSection .wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .mainPage .recommendationSection .wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.mainPage .recommendationSection-title {
+  font-family: PTSerif-Bold;
+  font-size: 40px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 48px;
+  width: 400px;
+  padding-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 45px;
+  position: relative; }
+
+.mainPage .recommendationSection-title:before {
+  content: "";
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 184px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.06); }
+
+.mainPage .recommendationSection-image {
+  position: absolute;
+  height: 502px;
+  width: 900px;
+  top: 0;
+  right: -70px;
+  background: url(../img/recommend-image.jpg) no-repeat center;
+  background-size: contain; }
+
+.mainPage .recommendationSection-link {
+  margin-left: 100px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: HelveticaNeue-CondensedBold;
+  font-size: 24px;
+  color: #FF4242;
+  letter-spacing: 0;
+  line-height: 32px; }
