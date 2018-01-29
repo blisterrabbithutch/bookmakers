@@ -88,6 +88,26 @@ body {
   line-height: 16px;
   margin-left: 20px; }
 
+.slick-arrow {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  bottom: 100px;
+  border: none;
+  background: none;
+  font-size: 0;
+  width: 40px;
+  height: 20px; }
+
+.slick-next {
+  right: 40px;
+  background: url("../img/slick-right.png") no-repeat 4px 3px; }
+
+.slick-prev {
+  background: url("../img/slick-right.png") no-repeat 5px 3px;
+  transform: rotate(180deg);
+  left: 30px; }
+
 @media (min-width: 992px) and (max-width: 1359px) {
   .buttonAuth {
     font-size: 11px; } }
@@ -3481,6 +3501,13 @@ table {
   background: url("../img/main-slider-item-01.jpg");
   background-size: cover;
   height: 700px; }
+
+.mainPage .mainSlider-item:active, .mainPage .mainSlider-item:focus {
+  outline: none; }
+
+.mainPage .mainSlider-item_secondSlide {
+  background: url("../img/news-preview.jpg");
+  background-size: cover; }
 
 .mainPage .mainSlider-item-title {
   margin: 0;

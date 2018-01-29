@@ -34,3 +34,10 @@ $('.filterSectionItem_safety').on('click', function(){
     $('.filterSectionItem-hiddenContent_safety').slideToggle();
     $(this).find('.filterSection-expandIcon').toggleClass('filterSection-expandIcon_opened');
 })
+
+$(document).ready(function(){
+    $('.mainSlider-carousel').slick({
+        // autoplay: true,
+        // autoplaySpeed: 5000,
+});
+});
