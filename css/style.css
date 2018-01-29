@@ -3573,20 +3573,30 @@ table {
 .mainPage .mainSlider-postTime span {
   opacity: .6; }
 
+.mainPage .bestCuffSection {
+  padding-top: 22px; }
+
+.mainPage .bestCuffSection-title {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
 .mainPage .bestCuffSection-block {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin-top: 20px;
   background: rgba(0, 0, 0, 0.01); }
 
 .mainPage .bestCuffItem-match {
   text-align: center; }
 
 .mainPage .bestCuffItem-match-logo {
-  padding-top: 26px; }
+  padding-top: 20px;
+  margin-right: 9px; }
 
 .mainPage .bestCuffItem-match-date {
   display: inline-block;
   vertical-align: top;
-  padding-top: 25px;
-  width: 50px; }
+  padding-top: 22px;
+  width: 50px;
+  text-align: left; }
 
 .mainPage .bestCuffItem-match-day {
   text-transform: uppercase;
@@ -3595,7 +3605,9 @@ table {
   font-size: 10px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 16px; }
+  line-height: 16px;
+  display: inline-block;
+  vertical-align: top; }
 
 .mainPage .bestCuffItem-match-time {
   opacity: 0.6;
@@ -3603,15 +3615,29 @@ table {
   font-size: 13px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 16px; }
+  line-height: 8px;
+  display: inline-block;
+  vertical-align: top; }
 
 .mainPage .bestCuffItem-teams {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
+
+.mainPage .bestCuffItem-teams:before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 1px;
+  height: 64px;
+  background: rgba(0, 0, 0, 0.06); }
 
 .mainPage .bestCuffItem-team {
   display: inline-block;
   width: 80px;
-  margin: 30px 20px; }
+  margin: 30px 20px 18px 20px; }
 
 .mainPage .bestCuffItem-name {
   font-family: HelveticaNeue-Medium;
@@ -3622,12 +3648,12 @@ table {
 
 .mainPage .bestCuffItem-score {
   text-align: center;
-  padding-bottom: 32px;
+  padding-bottom: 25px;
   display: block; }
 
 .mainPage .bestCuffItem-scoreItem {
   display: inline-block;
-  margin: 0 17px 0 17px;
+  margin: 0 13px 0 8px;
   padding: 4px 8px;
   background: white;
   border-radius: 5px;
@@ -3831,21 +3857,31 @@ table {
   color: rgba(255, 255, 255, 0.6); }
 
 .mainPage .mainPopularNews {
-  background: #FCF7ED; }
+  background: #FCF7ED;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0px -25px 49px -18px #fcf7ed;
+  border: 1px solid rgba(151, 151, 151, 0.5); }
 
 .mainPage .mainPopularNews-header {
   width: 1120px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
+.mainPage .mainPopularNews-header .subtitle {
+  margin-top: 0;
+  padding-top: 38px;
+  display: inline-block;
+  vertical-align: top; }
 
 .mainPage .mainPopularNews-grid {
   width: 1120px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   display: flex;
   justify-content: flex-start; }
 
 .mainPage .mainPopularNews-tabs {
+  margin-left: 270px;
   display: inline-block;
-  margin-top: 48px; }
+  margin-top: 38px; }
 
 .mainPage .mainPopularNews-tabLink {
   opacity: 0.6;
@@ -3860,7 +3896,7 @@ table {
 .mainPage .mainPopularNewsItem {
   width: 256px;
   margin-right: 32px;
-  padding-bottom: 44px; }
+  padding-bottom: 30px; }
 
 .mainPage .mainPopularNewsItem:nth-child(4n) {
   margin-right: 0; }
@@ -3871,7 +3907,8 @@ table {
 .mainPage .mainPopularNewsItem-titleWrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-top: 5px; }
 
 .mainPage .mainPopularNewsItem-title {
   align-self: flex-start;
@@ -3884,6 +3921,7 @@ table {
   text-transform: uppercase; }
 
 .mainPage .mainPopularNewsItem-date {
+  text-transform: uppercase;
   text-align: center;
   align-self: flex-end;
   opacity: 0.6;
@@ -3901,9 +3939,11 @@ table {
   font-size: 18px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 26px; }
+  line-height: 26px;
+  margin-bottom: 0; }
 
 .mainPage .mainPopularNewsItem-descriptionBottom {
+  margin-top: 8px;
   opacity: 0.6;
   font-family: HelveticaNeue;
   font-size: 13px;
@@ -3989,6 +4029,9 @@ table {
 .mainPage .sidebar_mainPage {
   width: 472px; }
 
+.mainPage .stockSection-title {
+  margin-top: 42px; }
+
 .mainPage .recommendationSection {
   min-height: 532px;
   overflow: hidden; }
@@ -4046,14 +4089,14 @@ table {
 .mainPage .recommendationSection-image {
   position: absolute;
   height: 502px;
-  width: 900px;
-  top: 0;
-  right: -70px;
+  width: 1000px;
+  top: -3px;
+  right: -76px;
   background: url(../img/recommend-image.jpg) no-repeat center;
-  background-size: contain; }
+  z-index: -1; }
 
 .mainPage .recommendationSection-link {
-  margin-left: 100px;
+  margin-left: 104px;
   text-transform: uppercase;
   text-decoration: none;
   font-family: HelveticaNeue-CondensedBold;
@@ -4066,7 +4109,7 @@ table {
 .mainPage .recommendationSection-link:after {
   content: "";
   position: absolute;
-  right: -50px;
+  right: -55px;
   top: 7px;
   width: 35px;
   height: 14px;
@@ -4074,9 +4117,10 @@ table {
 
 .mainPage .mainMatchesSection {
   width: 832px;
-  margin-left: 103px;
+  margin-left: 120px;
   display: inline-block;
-  margin-right: 32px; }
+  margin-right: 32px;
+  padding-top: 24px; }
 
 .mainPage .mainMatchesSection .wrapper {
   box-sizing: border-box;
@@ -4113,9 +4157,11 @@ table {
 
 .mainPage .mainMatchesSection-tabs {
   display: inline-block;
-  margin-top: 48px; }
+  margin-top: 15px; }
 
 .mainPage .mainMatchesSection-tabs-secondary {
+  margin-top: 6px;
+  margin-left: 219px;
   padding: 8px 0 8px 0;
   border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
 
@@ -4161,9 +4207,6 @@ table {
   letter-spacing: 0;
   line-height: 16px;
   margin-left: 20px; }
-
-.mainPage .mainMatchesSection-grid {
-  border-top: 1px solid rgba(0, 0, 0, 0.06); }
 
 .mainPage .mainMatchesSection-table {
   width: 100%;
@@ -4299,9 +4342,7 @@ table {
   margin-left: 45px; }
 
 .mainPage .mainMatchesSection-tabs-secondary {
-  border: none;
-  margin-top: 40px;
-  margin-left: 182px; }
+  border: none; }
 
 .mainPage .mainMatchesSection-secondaryTabLink {
   opacity: 0.6;

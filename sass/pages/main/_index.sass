@@ -86,19 +86,26 @@
         opacity: .6
       
   .bestCuffSection
+    padding-top: 22px
+    &-title
+      border-bottom: 2px solid rgba(0, 0, 0, 0.06);
     &-block
+      border: 1px solid rgba(0,0,0,0.06)
+      margin-top: 20px
       background: rgba(0,0,0,0.01)
       
   .bestCuffItem
     &-match
       text-align: center
       &-logo
-        padding-top: 26px
+        padding-top: 20px
+        margin-right: 9px
       &-date
         display: inline-block;
         vertical-align: top
-        padding-top: 25px
+        padding-top: 22px
         width: 50px;
+        text-align: left
       &-day
         text-transform: uppercase
         opacity: 0.6;
@@ -107,19 +114,34 @@
         color: #000000;
         letter-spacing: 0;
         line-height: 16px;
+        display: inline-block;
+        vertical-align: top;
       &-time
         opacity: 0.6;
         font-family: HelveticaNeue-Medium;
         font-size: 13px;
         color: #000000;
         letter-spacing: 0;
-        line-height: 16px;
+        line-height: 8px;
+        display: inline-block;
+        vertical-align: top;
     &-teams
       text-align: center
+      position: relative
+      &:before
+        content: "";
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 1px;
+        height: 64px;
+        background: rgba(0,0,0,0.06)
     &-team
       display: inline-block
       width: 80px
-      margin: 30px 20px
+      margin: 30px 20px 18px 20px;
     &-name
       font-family: HelveticaNeue-Medium;
       font-size: 13px;
@@ -128,11 +150,11 @@
       line-height: 16px;
     &-score
       text-align: center
-      padding-bottom: 32px
+      padding-bottom: 25px
       display: block
       &Item
         display: inline-block
-        margin: 0 17px 0 17px
+        margin: 0 13px 0 8px
         padding: 4px 8px
         background: white
         border-radius: 5px
@@ -313,17 +335,26 @@
         
   .mainPopularNews
     background: #FCF7ED
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5), 0px -25px 49px -18px rgba(252,247,237,1)
+    border: 1px solid rgba(151,151,151,0.5)
     &-header
       width: 1120px
       margin: 0 auto
+      border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+      .subtitle
+        margin-top: 0
+        padding-top: 38px
+        display: inline-block
+        vertical-align: top
     &-grid
       width: 1120px
-      margin: 0 auto
+      margin: 20px auto 0 auto
       display: flex
       justify-content: flex-start
     &-tabs
+      margin-left: 270px
       display: inline-block
-      margin-top: 48px
+      margin-top: 38px
     &-tabLink
       opacity: 0.6;
       text-decoration: none
@@ -336,7 +367,7 @@
     &Item
       width: 256px
       margin-right: 32px
-      padding-bottom: 44px
+      padding-bottom: 30px
       &:nth-child(4n)
         margin-right: 0
       &-link
@@ -345,6 +376,7 @@
         display: flex
         flex-direction: row
         justify-content: space-between
+        padding-top: 5px
       &-title
         align-self: flex-start;
         font-family: HelveticaNeue-Medium;
@@ -355,6 +387,7 @@
         margin: 0
         text-transform: uppercase
       &-date
+        text-transform: uppercase
         text-align: center
         align-self: flex-end;
         opacity: 0.6;
@@ -371,7 +404,9 @@
         color: #000000;
         letter-spacing: 0;
         line-height: 26px;
+        margin-bottom: 0
       &-descriptionBottom
+        margin-top: 8px
         opacity: 0.6;
         font-family: HelveticaNeue;
         font-size: 13px;
@@ -449,6 +484,10 @@
     &_mainPage
       width: 472px;
       
+  .stockSection
+    &-title
+      margin-top: 42px
+      
   .recommendationSection
     min-height: 532px;
     overflow: hidden
@@ -476,14 +515,14 @@
         background: rgba(0,0,0,0.06)
     &-image
       position: absolute;
-      height: 502px
-      width: 900px;
-      top: 0
-      right: -70px;
+      height: 502px;
+      width: 1000px;
+      top: -3px;
+      right: -76px;
       background: url(../img/recommend-image.jpg) no-repeat center;
-      background-size: contain
+      z-index: -1;
     &-link
-      margin-left: 100px
+      margin-left: 104px
       text-transform: uppercase
       text-decoration: none
       font-family: HelveticaNeue-CondensedBold;
@@ -495,7 +534,7 @@
       &:after
         content: "";
         position: absolute;
-        right: -50px;
+        right: -55px;
         top: 7px;
         width: 35px;
         height: 14px;
@@ -504,9 +543,10 @@
 
   .mainMatchesSection
     width: 832px
-    margin-left: 103px
+    margin-left: 120px
     display: inline-block
     margin-right: 32px
+    padding-top: 24px
     & .wrapper
       +mixinContainer
     & .sectionHeader
@@ -515,8 +555,10 @@
       border-bottom: 2px solid rgba(0, 0, 0, 0.06)
     &-tabs
       display: inline-block
-      margin-top: 48px
+      margin-top: 15px
       &-secondary
+        margin-top: 6px
+        margin-left: 219px
         padding: 8px 0 8px 0
         border-bottom: 2px solid rgba(0, 0, 0, 0.06)
     &-secondaryTabLink
@@ -558,8 +600,6 @@
       letter-spacing: 0;
       line-height: 16px;
       margin-left: 20px
-    &-grid
-      border-top: 1px solid rgba(0, 0, 0, 0.06)
     &-table
       width: 100%
       border-collapse: collapse
@@ -680,8 +720,6 @@
       margin-left: 45px
       &-secondary
         border: none
-        margin-top: 40px
-        margin-left: 182px
     &-secondaryTabLink
       opacity: 0.6;
       font-family: HelveticaNeue-Medium;
