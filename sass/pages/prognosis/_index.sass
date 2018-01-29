@@ -17,3 +17,73 @@
   .sidebar
     margin-bottom: 0px
 
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .prognosisPage
+    .mainSection
+      margin-left: 0
+      width: 615px
+      padding-bottom: 25px
+      &-header
+        &-headline
+          &:last-child
+            margin-left: 67%
+      &-table
+        &-cell
+          &_teams
+            width: 300px
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .prognosisPage
+    .mainSection
+      margin-left: 0
+      width: 600px
+      padding-bottom: 25px
+      margin-right: 0
+      &-header
+        &-headline
+          &:last-child
+            margin-left: 67%
+      &-table
+        &-cell
+          &_teams
+            width: 300px
+    .secondarySection
+      &-grid
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    
+
+
+@media (max-width: $mobile-widths-only)
+  .prognosisPage
+    .mainSection
+      margin-left: 0
+      width: 280px
+      padding-bottom: 25px
+      margin-right: 0
+      .sectionHeader
+        display: block
+      &-tabs
+      &-tabLink
+        margin-left: 9px
+        &:first-child
+          margin-left: 0
+      &-secondaryTabLink
+        margin-right: 0
+      &-header
+        &-headline
+          &:last-child
+            margin-left: 20%
+      &-table
+        &-cell
+          &_teams
+            width: 130px
+          &_league
+            display: none
+    .secondarySection
+      &-grid
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    

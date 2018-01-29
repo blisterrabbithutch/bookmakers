@@ -194,6 +194,18 @@ body {
 .highlight-red {
   color: #FF4242; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .title {
+    font-size: 30px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .title {
+    font-size: 28px; } }
+
+@media (max-width: 639px) {
+  .title {
+    font-size: 24px; } }
+
 .navigationItemLink {
   color: #D8D8D8;
   text-decoration: none;
@@ -1614,6 +1626,56 @@ table {
 .prognosisPage .sidebar {
   margin-bottom: 0px; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .prognosisPage .mainSection {
+    margin-left: 0;
+    width: 615px;
+    padding-bottom: 25px; }
+  .prognosisPage .mainSection-header-headline:last-child {
+    margin-left: 67%; }
+  .prognosisPage .mainSection-table-cell_teams {
+    width: 300px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .prognosisPage .mainSection {
+    margin-left: 0;
+    width: 600px;
+    padding-bottom: 25px;
+    margin-right: 0; }
+  .prognosisPage .mainSection-header-headline:last-child {
+    margin-left: 67%; }
+  .prognosisPage .mainSection-table-cell_teams {
+    width: 300px; }
+  .prognosisPage .secondarySection-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; } }
+
+@media (max-width: 639px) {
+  .prognosisPage .mainSection {
+    margin-left: 0;
+    width: 280px;
+    padding-bottom: 25px;
+    margin-right: 0; }
+  .prognosisPage .mainSection .sectionHeader {
+    display: block; }
+  .prognosisPage .mainSection-tabLink {
+    margin-left: 9px; }
+  .prognosisPage .mainSection-tabLink:first-child {
+    margin-left: 0; }
+  .prognosisPage .mainSection-secondaryTabLink {
+    margin-right: 0; }
+  .prognosisPage .mainSection-header-headline:last-child {
+    margin-left: 20%; }
+  .prognosisPage .mainSection-table-cell_teams {
+    width: 130px; }
+  .prognosisPage .mainSection-table-cell_league {
+    display: none; }
+  .prognosisPage .secondarySection-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; } }
+
 .matchesPage .wrapper {
   box-sizing: border-box;
   width: 1360px;
@@ -2776,7 +2838,7 @@ table {
   letter-spacing: 0;
   line-height: 21px; }
 
-.prognosisPage .wrapper {
+.prognosisItemPage .wrapper {
   box-sizing: border-box;
   width: 1360px;
   padding-left: 16px;
@@ -2784,37 +2846,37 @@ table {
   margin: 0 auto; }
 
 @media only screen and (min-width: 992px) and (max-width: 1359px) {
-  .prognosisPage .wrapper {
+  .prognosisItemPage .wrapper {
     box-sizing: border-box;
     padding-left: 11px;
     padding-right: 11px;
     width: 992px; } }
 
 @media only screen and (max-width: 991px) and (min-width: 640px) {
-  .prognosisPage .wrapper {
+  .prognosisItemPage .wrapper {
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
     width: 640px; } }
 
 @media only screen and (max-width: 639px) {
-  .prognosisPage .wrapper {
+  .prognosisItemPage .wrapper {
     box-sizing: border-box;
     padding-left: 10px;
     padding-right: 10px;
     width: 300px; } }
 
-.prognosisPage .mainSection {
+.prognosisItemPage .mainSection {
   margin-left: 103px;
   margin-right: 30px;
   padding-top: 23px; }
 
-.prognosisPage .mainSection-footer {
+.prognosisItemPage .mainSection-footer {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
   padding-top: 20px;
   margin-bottom: 60px; }
 
-.prognosisPage .mainSection-footer-link {
+.prognosisItemPage .mainSection-footer-link {
   text-decoration: none;
   text-transform: uppercase;
   font-family: HelveticaNeue-Medium;
@@ -2824,10 +2886,10 @@ table {
   letter-spacing: 0;
   line-height: 16px; }
 
-.prognosisPage .mainSection-content-block {
+.prognosisItemPage .mainSection-content-block {
   margin-bottom: 38px; }
 
-.prognosisPage .mainSection-title {
+.prognosisItemPage .mainSection-title {
   margin-top: 0;
   margin-bottom: 12px;
   font-family: HelveticaNeue-Bold;
@@ -2836,13 +2898,13 @@ table {
   letter-spacing: 0;
   line-height: 24px; }
 
-.prognosisPage .mainSection-grid {
+.prognosisItemPage .mainSection-grid {
   padding-top: 24px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap; }
 
-.prognosisPage .mainSection-paragraph {
+.prognosisItemPage .mainSection-paragraph {
   margin-top: 10px;
   margin-bottom: 21px;
   font-family: HelveticaNeue;
@@ -2851,15 +2913,15 @@ table {
   letter-spacing: 0;
   line-height: 21px; }
 
-.prognosisPage .prognosisPreview {
+.prognosisItemPage .prognosisItemPreview {
   background: url("../img/prognosis-page.jpg") center center;
   background-size: cover;
   min-height: 636px; }
 
-.prognosisPage .prognosisPreview .wrapper {
+.prognosisItemPage .prognosisItemPreview .wrapper {
   position: relative; }
 
-.prognosisPage .prognosisPreview-prevPage {
+.prognosisItemPage .prognosisItemPreview-prevPage {
   padding: 10px 16px 10px 40px;
   font-family: HelveticaNeue-Bold;
   text-transform: uppercase;
@@ -2874,7 +2936,7 @@ table {
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15); }
 
-.prognosisPage .prognosisPreview-prevPage:after {
+.prognosisItemPage .prognosisItemPreview-prevPage:after {
   content: "";
   position: absolute;
   left: 12px;
@@ -2883,10 +2945,10 @@ table {
   height: 13px;
   background: url("../img/arrow-left.png") no-repeat; }
 
-.prognosisPage .prognosisPreview-content {
+.prognosisItemPage .prognosisItemPreview-content {
   padding-left: 100px; }
 
-.prognosisPage .prognosisPreview-title {
+.prognosisItemPage .prognosisItemPreview-title {
   padding-top: 342px;
   margin-top: 0;
   margin-bottom: 12px;
@@ -2897,7 +2959,7 @@ table {
   line-height: 46px;
   width: 800px; }
 
-.prognosisPage .prognosisPreview-slogan {
+.prognosisItemPage .prognosisItemPreview-slogan {
   display: block;
   width: 500px;
   font-family: HelveticaNeue;
@@ -2907,7 +2969,7 @@ table {
   line-height: 26px;
   margin-bottom: 37px; }
 
-.prognosisPage .prognosisPreview-team {
+.prognosisItemPage .prognosisItemPreview-team {
   text-transform: uppercase;
   font-family: HelveticaNeue-Bold;
   font-size: 13px;
@@ -2916,7 +2978,7 @@ table {
   letter-spacing: 1px;
   line-height: 16px; }
 
-.prognosisPage .prognosisPreview-date {
+.prognosisItemPage .prognosisItemPreview-date {
   text-transform: uppercase;
   font-family: HelveticaNeue-Bold;
   font-size: 13px;
@@ -2924,37 +2986,37 @@ table {
   letter-spacing: 1px;
   line-height: 14px; }
 
-.prognosisPage .prognosisPreview-date span {
+.prognosisItemPage .prognosisItemPreview-date span {
   color: rgba(255, 255, 255, 0.6); }
 
-.prognosisPage .matchesSection-title {
+.prognosisItemPage .matchesSection-title {
   margin-top: 30px; }
 
-.prognosisPage .matchesSection-sortingFilter {
+.prognosisItemPage .matchesSection-sortingFilter {
   margin-top: 33px;
   margin-right: 18px; }
 
-.prognosisPage .sidebar {
+.prognosisItemPage .sidebar {
   margin-bottom: 68px; }
 
-.prognosisPage .betSchool.sidebar {
+.prognosisItemPage .betSchool.sidebar {
   margin-bottom: 1px; }
 
-.prognosisPage .cuffSection-grid {
+.prognosisItemPage .cuffSection-grid {
   border: 1px solid rgba(0, 0, 0, 0.03);
   margin-top: 24px; }
 
-.prognosisPage .cuffSection-title {
+.prognosisItemPage .cuffSection-title {
   margin-top: 37px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
 
-.prognosisPage .cuffSectionItem {
+.prognosisItemPage .cuffSectionItem {
   display: flex;
   justify-content: space-between;
   padding: 17px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
 
-.prognosisPage .cuffSectionItem-rating {
+.prognosisItemPage .cuffSectionItem-rating {
   align-self: center;
   height: 12px;
   padding: 4px 8px;

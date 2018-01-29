@@ -22,3 +22,16 @@
   
 .highlight-red
   color: #FF4242
+  
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .title
+    font-size: 30px
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .title
+    font-size: 28px
+
+
+@media (max-width: $mobile-widths-only)
+  .title
+    font-size: 24px
