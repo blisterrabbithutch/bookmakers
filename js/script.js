@@ -64,3 +64,14 @@ $('.js-mobileFilter').on('click', function(){
     
     $(this).toggleClass('js-mobileFilter_opened');
 })
+
+$(window).resize(function() {
+    var width = $( this ).width();
+    if (width >= 992) {
+        // $('.header-navigation').show();
+        $('.header-navigation').css('display', 'inline-block');
+    } else {
+        // $('.header-navigation').hide();
+        $('.header-navigation').css('display', 'none');
+    }
+});

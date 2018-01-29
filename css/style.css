@@ -530,6 +530,8 @@ body {
     padding: 22px 0px 22px 10px; } }
 
 @media (min-width: 640px) and (max-width: 991px) {
+  .header-logo {
+    padding-left: 0; }
   .header-navigation {
     margin-left: 0;
     display: none;
@@ -538,7 +540,7 @@ body {
     display: block; }
   .header-link {
     display: block;
-    padding-left: 50px; } }
+    padding-left: 35px; } }
 
 @media (max-width: 639px) {
   .header-logo {
