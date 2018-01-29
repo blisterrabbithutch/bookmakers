@@ -147,3 +147,218 @@
           padding: 8px 79px 8px 32px
           position: relative
         
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .ratingPage
+    .mainSection
+      margin-left: 0
+      width: 615px
+      &-header
+        &-headline
+          padding-left: 11px
+          padding-right: 12px
+          &_number
+            margin-left: 8px
+          &_organization
+            margin-left: 0
+          &_safety
+            margin-left: 0
+          &_rating
+            margin-left: 0
+      &-table
+        &-cell
+          &_organization
+            padding-right: 18px;
+            padding-left: 20px;
+          &_safety
+            padding-right: 40px
+          &_bonuses
+            padding-right: 30px
+            padding-left: 10px
+          &_review
+            padding-right: 10px
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .ratingPage
+    .mainSection
+      width: 600px
+      margin-left: 0
+      &-header
+        &-headline
+          &_organization
+            margin-left: 0
+          &_safety
+            margin-left: 7px
+          &_rating
+            margin-left: 0px
+      &-content
+        width: 600px
+      &-table
+        &-cell
+          &_number
+            padding-right: 20px
+          &_rating
+            padding-right: 35px
+          &_site
+            display: none
+          &_organization
+            padding-right: 45px
+          &_bonuses
+            padding-right: 40px
+            
+    .wrapper
+      display: flex
+      flex-wrap: wrap
+      .mainSection
+        order: 2
+      .sidebar
+        order: 1
+        
+    .secondarySection
+      &-title
+        background: rgba(0,0,0,0.01);
+        padding-top: 15px;
+        padding-left: 18px;
+        margin-top: 46px;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        position: relative
+        &:before
+          content: "";
+          position: absolute;
+          right: 24px;
+          top: 19px
+          width: 2px;
+          height: 10px;
+          background: rgba(0, 0, 0, 0.5);
+        &:after
+          content: "";
+          position: absolute;
+          right: 20px;
+          top: 23px;
+          width: 10px;
+          height: 2px;
+          background: rgba(0, 0, 0, 0.5);
+        
+            
+      .js-mobileFilter
+        &_opened
+          &:before
+            display: none
+      .js-mobileFilter-content
+        display: none
+      .js-resetFilter
+        display: none
+      
+
+@media (max-width: $mobile-widths-only)
+  .ratingPage
+    .mainSection
+      width: 280px
+      margin-left: 0
+      .sectionHeader
+        display: block
+        .title
+          margin-top: 0px
+          display: block
+      &-tabs
+        margin-top: 15px
+        margin-right: 0
+        padding-bottom: 8px
+      &-tabLink
+        margin-left: 98px
+        &:first-child
+          margin-left: 0
+      &-header
+        &-headline
+          font-size: 10px
+          padding-left: 10px
+          padding-right: 0
+          &_number
+            display: none
+          &_organization
+            margin-left: 0
+            width: 78px
+          &_safety
+            margin-left: 0
+          &_rating
+            margin-left: 0px
+            padding-left: 12px
+          &_bonuses
+            padding-left: 15px
+      &-content
+        width: 280px
+      &-table
+        &-cell
+          &_number
+            display: none
+          &_rating
+            padding-right: 10px
+            padding-left: 15px
+          &_site
+            display: none
+          &_safety
+            width: 70px
+            padding-right: 15px
+            padding-left: 8px
+          &_organization
+            width: 70px
+            padding-right: 10px
+            padding-left: 10px
+          &_bonuses
+            display: none
+          &_review
+            padding-right: 5px
+      .mainItem
+        &-organization
+          width: 70px
+        &-safety
+          font-size: 10px
+        &-rating
+          font-size: 10px
+        &-review
+          padding: 10px 10px 10px 10px;
+          font-size: 10px
+          &:before
+            display: none
+
+    .wrapper
+      display: flex
+      flex-wrap: wrap
+      .mainSection
+        order: 2
+      .sidebar
+        order: 1
+    
+    .secondarySection
+      &-title
+        background: rgba(0,0,0,0.01);
+        padding-top: 15px;
+        padding-left: 18px;
+        margin-top: 46px;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        position: relative
+        &:before
+          content: "";
+          position: absolute;
+          right: 24px;
+          top: 19px
+          width: 2px;
+          height: 10px;
+          background: rgba(0, 0, 0, 0.5);
+        &:after
+          content: "";
+          position: absolute;
+          right: 20px;
+          top: 23px;
+          width: 10px;
+          height: 2px;
+          background: rgba(0, 0, 0, 0.5);
+
+
+      .js-mobileFilter
+        &_opened
+          &:before
+            display: none
+      .js-mobileFilter-content
+        display: none
+      .js-resetFilter
+        display: none

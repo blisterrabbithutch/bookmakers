@@ -58,3 +58,9 @@ $('.mainSlider-matchTitle').on('click', function(){
     console.log(slide);
 })
 
+$('.js-mobileFilter').on('click', function(){
+    $('.js-mobileFilter-content').slideToggle();
+    $('.js-resetFilter').slideToggle();
+    
+    $(this).toggleClass('js-mobileFilter_opened');
+})

@@ -812,6 +812,9 @@ body {
 .betTvItem:first-child {
   margin-right: 33px; }
 
+.betTvItem-link {
+  text-decoration: none; }
+
 .betTvItem-title {
   margin-top: 9px;
   text-align: left;
@@ -2393,6 +2396,193 @@ table {
 .ratingPage .filterSectionItem-hiddenContent-row {
   padding: 8px 79px 8px 32px;
   position: relative; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .ratingPage .mainSection {
+    margin-left: 0;
+    width: 615px; }
+  .ratingPage .mainSection-header-headline {
+    padding-left: 11px;
+    padding-right: 12px; }
+  .ratingPage .mainSection-header-headline_number {
+    margin-left: 8px; }
+  .ratingPage .mainSection-header-headline_organization {
+    margin-left: 0; }
+  .ratingPage .mainSection-header-headline_safety {
+    margin-left: 0; }
+  .ratingPage .mainSection-header-headline_rating {
+    margin-left: 0; }
+  .ratingPage .mainSection-table-cell_organization {
+    padding-right: 18px;
+    padding-left: 20px; }
+  .ratingPage .mainSection-table-cell_safety {
+    padding-right: 40px; }
+  .ratingPage .mainSection-table-cell_bonuses {
+    padding-right: 30px;
+    padding-left: 10px; }
+  .ratingPage .mainSection-table-cell_review {
+    padding-right: 10px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .ratingPage .mainSection {
+    width: 600px;
+    margin-left: 0; }
+  .ratingPage .mainSection-header-headline_organization {
+    margin-left: 0; }
+  .ratingPage .mainSection-header-headline_safety {
+    margin-left: 7px; }
+  .ratingPage .mainSection-header-headline_rating {
+    margin-left: 0px; }
+  .ratingPage .mainSection-content {
+    width: 600px; }
+  .ratingPage .mainSection-table-cell_number {
+    padding-right: 20px; }
+  .ratingPage .mainSection-table-cell_rating {
+    padding-right: 35px; }
+  .ratingPage .mainSection-table-cell_site {
+    display: none; }
+  .ratingPage .mainSection-table-cell_organization {
+    padding-right: 45px; }
+  .ratingPage .mainSection-table-cell_bonuses {
+    padding-right: 40px; }
+  .ratingPage .wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  .ratingPage .wrapper .mainSection {
+    order: 2; }
+  .ratingPage .wrapper .sidebar {
+    order: 1; }
+  .ratingPage .secondarySection-title {
+    background: rgba(0, 0, 0, 0.01);
+    padding-top: 15px;
+    padding-left: 18px;
+    margin-top: 46px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    position: relative; }
+  .ratingPage .secondarySection-title:before {
+    content: "";
+    position: absolute;
+    right: 24px;
+    top: 19px;
+    width: 2px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.5); }
+  .ratingPage .secondarySection-title:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    width: 10px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.5); }
+  .ratingPage .secondarySection .js-mobileFilter_opened:before {
+    display: none; }
+  .ratingPage .secondarySection .js-mobileFilter-content {
+    display: none; }
+  .ratingPage .secondarySection .js-resetFilter {
+    display: none; } }
+
+@media (max-width: 639px) {
+  .ratingPage .mainSection {
+    width: 280px;
+    margin-left: 0; }
+  .ratingPage .mainSection .sectionHeader {
+    display: block; }
+  .ratingPage .mainSection .sectionHeader .title {
+    margin-top: 0px;
+    display: block; }
+  .ratingPage .mainSection-tabs {
+    margin-top: 15px;
+    margin-right: 0;
+    padding-bottom: 8px; }
+  .ratingPage .mainSection-tabLink {
+    margin-left: 98px; }
+  .ratingPage .mainSection-tabLink:first-child {
+    margin-left: 0; }
+  .ratingPage .mainSection-header-headline {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 0; }
+  .ratingPage .mainSection-header-headline_number {
+    display: none; }
+  .ratingPage .mainSection-header-headline_organization {
+    margin-left: 0;
+    width: 78px; }
+  .ratingPage .mainSection-header-headline_safety {
+    margin-left: 0; }
+  .ratingPage .mainSection-header-headline_rating {
+    margin-left: 0px;
+    padding-left: 12px; }
+  .ratingPage .mainSection-header-headline_bonuses {
+    padding-left: 15px; }
+  .ratingPage .mainSection-content {
+    width: 280px; }
+  .ratingPage .mainSection-table-cell_number {
+    display: none; }
+  .ratingPage .mainSection-table-cell_rating {
+    padding-right: 10px;
+    padding-left: 15px; }
+  .ratingPage .mainSection-table-cell_site {
+    display: none; }
+  .ratingPage .mainSection-table-cell_safety {
+    width: 70px;
+    padding-right: 15px;
+    padding-left: 8px; }
+  .ratingPage .mainSection-table-cell_organization {
+    width: 70px;
+    padding-right: 10px;
+    padding-left: 10px; }
+  .ratingPage .mainSection-table-cell_bonuses {
+    display: none; }
+  .ratingPage .mainSection-table-cell_review {
+    padding-right: 5px; }
+  .ratingPage .mainSection .mainItem-organization {
+    width: 70px; }
+  .ratingPage .mainSection .mainItem-safety {
+    font-size: 10px; }
+  .ratingPage .mainSection .mainItem-rating {
+    font-size: 10px; }
+  .ratingPage .mainSection .mainItem-review {
+    padding: 10px 10px 10px 10px;
+    font-size: 10px; }
+  .ratingPage .mainSection .mainItem-review:before {
+    display: none; }
+  .ratingPage .wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  .ratingPage .wrapper .mainSection {
+    order: 2; }
+  .ratingPage .wrapper .sidebar {
+    order: 1; }
+  .ratingPage .secondarySection-title {
+    background: rgba(0, 0, 0, 0.01);
+    padding-top: 15px;
+    padding-left: 18px;
+    margin-top: 46px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    position: relative; }
+  .ratingPage .secondarySection-title:before {
+    content: "";
+    position: absolute;
+    right: 24px;
+    top: 19px;
+    width: 2px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.5); }
+  .ratingPage .secondarySection-title:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    width: 10px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.5); }
+  .ratingPage .secondarySection .js-mobileFilter_opened:before {
+    display: none; }
+  .ratingPage .secondarySection .js-mobileFilter-content {
+    display: none; }
+  .ratingPage .secondarySection .js-resetFilter {
+    display: none; } }
 
 .schoolPage .wrapper {
   box-sizing: border-box;
