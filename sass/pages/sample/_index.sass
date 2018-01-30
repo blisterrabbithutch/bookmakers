@@ -128,3 +128,72 @@
           
   .betSchool.sidebar
     margin-bottom: 0px
+    
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .samplePage
+    .mainSection
+      margin-left: 0
+      width: 615px
+      padding-bottom: 25px
+      &-image
+        min-width: 615px
+        min-height: 460px
+        margin-bottom: 30px
+      &-table
+        &-cell
+          &_safety
+            padding-right: 15px
+          &_rating
+            padding-right: 15px
+     
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .samplePage
+    .mainSection
+      margin-left: 0
+      width: 600px
+      margin-right: 0
+      padding-bottom: 25px
+      margin-bottom: 0
+      &-image
+        min-width: 600px
+        min-height: 450px
+        margin-bottom: 30px
+      &-table
+        &-cell
+          &_safety
+            padding-right: 15px
+          &_rating
+            padding-right: 15px
+    
+
+
+@media (max-width: $mobile-widths-only)
+  .samplePage
+    .mainSection
+      margin-left: 0
+      width: 280px
+      margin-right: 0
+      padding-bottom: 25px
+      margin-bottom: 0
+      &-image
+        min-width: 280px
+        min-height: 210px
+        margin-bottom: 30px
+      &-table
+        &-cell
+          font-size: 10px
+          &_organization
+            padding-left: 5px
+            padding-right: 5px
+          &_safety
+            padding-right: 5px
+          &_rating
+            padding-right: 5px
+          &_number
+            display: none
+          &_score
+            padding-right: 5px
+            padding-left: 5px
+    
+    

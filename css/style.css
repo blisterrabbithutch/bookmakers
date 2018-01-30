@@ -4175,6 +4175,62 @@ table {
 .samplePage .betSchool.sidebar {
   margin-bottom: 0px; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .samplePage .mainSection {
+    margin-left: 0;
+    width: 615px;
+    padding-bottom: 25px; }
+  .samplePage .mainSection-image {
+    min-width: 615px;
+    min-height: 460px;
+    margin-bottom: 30px; }
+  .samplePage .mainSection-table-cell_safety {
+    padding-right: 15px; }
+  .samplePage .mainSection-table-cell_rating {
+    padding-right: 15px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .samplePage .mainSection {
+    margin-left: 0;
+    width: 600px;
+    margin-right: 0;
+    padding-bottom: 25px;
+    margin-bottom: 0; }
+  .samplePage .mainSection-image {
+    min-width: 600px;
+    min-height: 450px;
+    margin-bottom: 30px; }
+  .samplePage .mainSection-table-cell_safety {
+    padding-right: 15px; }
+  .samplePage .mainSection-table-cell_rating {
+    padding-right: 15px; } }
+
+@media (max-width: 639px) {
+  .samplePage .mainSection {
+    margin-left: 0;
+    width: 280px;
+    margin-right: 0;
+    padding-bottom: 25px;
+    margin-bottom: 0; }
+  .samplePage .mainSection-image {
+    min-width: 280px;
+    min-height: 210px;
+    margin-bottom: 30px; }
+  .samplePage .mainSection-table-cell {
+    font-size: 10px; }
+  .samplePage .mainSection-table-cell_organization {
+    padding-left: 5px;
+    padding-right: 5px; }
+  .samplePage .mainSection-table-cell_safety {
+    padding-right: 5px; }
+  .samplePage .mainSection-table-cell_rating {
+    padding-right: 5px; }
+  .samplePage .mainSection-table-cell_number {
+    display: none; }
+  .samplePage .mainSection-table-cell_score {
+    padding-right: 5px;
+    padding-left: 5px; } }
+
 .promotionsPage .wrapper {
   box-sizing: border-box;
   width: 1360px;
