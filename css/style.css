@@ -551,7 +551,8 @@ body {
     display: block; }
   .header-link {
     display: block;
-    padding-left: 35px; }
+    padding-left: 35px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
   .header-bottom-left {
     margin-left: 0; }
   .header-bottom-right {
@@ -578,7 +579,8 @@ body {
     display: block; }
   .header-link {
     display: block;
-    padding-left: 34px; }
+    padding-left: 34px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
   .header-bottom {
     padding-top: 10px;
     padding-bottom: 20px; }
@@ -3063,8 +3065,6 @@ table {
   .bookmakerPage .bookmakerSiteSection-footer {
     margin-bottom: 0;
     padding-top: 10px; }
-  .bookmakerPage .bookmakerSiteSection-footer-links {
-    text-align: center; }
   .bookmakerPage .bookmakerSiteSection-footer-link {
     margin-right: 15px; }
   .bookmakerPage .bookmakerSiteSection-footer-link:nth-child(3) {
@@ -3072,10 +3072,8 @@ table {
   .bookmakerPage .bookmakerSiteSection-footer-socials {
     position: relative;
     padding-top: 10px;
-    left: 0;
+    left: -12px;
     top: 0;
-    right: 0;
-    margin: 0 auto;
     width: 160px; }
   .bookmakerPage .paymentsSection-titleWrapper {
     display: flex;
@@ -3406,6 +3404,79 @@ table {
   color: #000000;
   letter-spacing: 0;
   line-height: 21px; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .newsPreviewPage .mainSection {
+    margin-left: 0;
+    width: 615px;
+    padding-bottom: 25px; }
+  .newsPreviewPage .newsPreview-content {
+    padding-left: 0; }
+  .newsPreviewPage .newsPreview-prevPage {
+    left: 20px; }
+  .newsPreviewPage .newsPreview-title {
+    font-size: 36px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .newsPreviewPage .mainSection {
+    margin-left: 0;
+    width: 600px;
+    padding-bottom: 25px;
+    margin-right: 0; }
+  .newsPreviewPage .mainSection-footer {
+    margin-bottom: 0; }
+  .newsPreviewPage .mainSection-footer-link {
+    margin-right: 15px; }
+  .newsPreviewPage .newsPreview-content {
+    padding-left: 0; }
+  .newsPreviewPage .newsPreview-prevPage {
+    left: 20px; }
+  .newsPreviewPage .newsPreview-title {
+    font-size: 36px; }
+  .newsPreviewPage .newsPreview-slogan {
+    width: 350px; } }
+
+@media (max-width: 639px) {
+  .newsPreviewPage .mainSection {
+    margin-left: 0;
+    width: 280px;
+    padding-bottom: 25px;
+    margin-right: 0;
+    padding-bottom: 0; }
+  .newsPreviewPage .mainSection-footer {
+    padding-top: 12px;
+    margin-bottom: 0; }
+  .newsPreviewPage .mainSection-footer-link {
+    margin-right: 15px; }
+  .newsPreviewPage .mainSection-footer-socials {
+    position: relative;
+    padding-top: 10px;
+    left: -12px;
+    top: 0;
+    width: 160px; }
+  .newsPreviewPage .newsPreview {
+    min-height: 520px; }
+  .newsPreviewPage .newsPreview-content {
+    padding-left: 0; }
+  .newsPreviewPage .newsPreview-prevPage {
+    top: 20px;
+    left: 10px; }
+  .newsPreviewPage .newsPreview-title {
+    font-size: 26px;
+    line-height: 32px;
+    padding-top: 300px; }
+  .newsPreviewPage .newsPreview-slogan {
+    width: 190px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 15px; }
+  .newsPreviewPage .newsPreview-team {
+    font-size: 10px;
+    display: block; }
+  .newsPreviewPage .newsPreview-date {
+    font-size: 10px; }
+  .newsPreviewPage .newsPreview-details {
+    padding-bottom: 20px; } }
 
 .prognosisItemPage .wrapper {
   box-sizing: border-box;
