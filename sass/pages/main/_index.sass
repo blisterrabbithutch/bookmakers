@@ -169,7 +169,7 @@
   .prognosisSection
     &-tabs
       display: inline-block
-      margin-top: 28px
+      margin-top: 31px
     &-tabLink
       opacity: 0.6;
       text-decoration: none
@@ -182,6 +182,11 @@
     &-title
       margin-top: 28px
       padding-bottom: 8px
+    &-matchesGrid
+      &-sorting
+        &_football,
+        &_hockey
+          display: none
       
   .prognosisItem
     min-height: 70px
@@ -350,12 +355,18 @@
     &-grid
       width: 1120px
       margin: 20px auto 0 auto
-      display: flex
+      display: block
       justify-content: flex-start
+      &-sorting
+        display: flex
+        flex-wrap: wrap
+        &_new,
+        &_old
+          display: none
     &-tabs
       margin-left: 270px
       display: inline-block
-      margin-top: 38px
+      margin-top: 43px
     &-tabLink
       opacity: 0.6;
       text-decoration: none
@@ -422,7 +433,7 @@
       border-bottom: 2px solid rgba(0, 0, 0, 0.06)
     &-tabs
       display: inline-block
-      margin-top: 14px
+      margin-top: 17px
     &-tabLink
       opacity: 0.6;
       text-decoration: none
@@ -614,6 +625,12 @@
       letter-spacing: 0;
       line-height: 16px;
       margin-left: 20px
+    &-grid
+      &-sorting
+        &_basketball,
+        &_tennis,
+        &_hockey
+          display: none
     &-table
       width: 100%
       border-collapse: collapse
@@ -852,6 +869,8 @@
         width: auto
       &-tabs
         margin-left: 195px
+      &Item
+        width: 218px
         
     .mainMatchesSection
       margin-right: 0

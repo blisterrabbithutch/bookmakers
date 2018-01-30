@@ -141,7 +141,9 @@ body {
 
 .filterBtn {
   position: relative;
-  padding: 0; }
+  padding: 0;
+  border: none;
+  background: none; }
 
 .filterBtn:active, .filterBtn:focus {
   outline: none; }
@@ -149,7 +151,7 @@ body {
 .filterBtn_opened:after {
   content: "";
   position: absolute;
-  bottom: -15px;
+  bottom: -12px;
   left: 0;
   width: 100%;
   height: 2px;
@@ -4774,7 +4776,7 @@ table {
 
 .mainPage .prognosisSection-tabs {
   display: inline-block;
-  margin-top: 28px; }
+  margin-top: 31px; }
 
 .mainPage .prognosisSection-tabLink {
   opacity: 0.6;
@@ -4789,6 +4791,9 @@ table {
 .mainPage .prognosisSection-title {
   margin-top: 28px;
   padding-bottom: 8px; }
+
+.mainPage .prognosisSection-matchesGrid-sorting_football, .mainPage .prognosisSection-matchesGrid-sorting_hockey {
+  display: none; }
 
 .mainPage .prognosisItem {
   min-height: 70px; }
@@ -4983,13 +4988,20 @@ table {
 .mainPage .mainPopularNews-grid {
   width: 1120px;
   margin: 20px auto 0 auto;
-  display: flex;
+  display: block;
   justify-content: flex-start; }
+
+.mainPage .mainPopularNews-grid-sorting {
+  display: flex;
+  flex-wrap: wrap; }
+
+.mainPage .mainPopularNews-grid-sorting_new, .mainPage .mainPopularNews-grid-sorting_old {
+  display: none; }
 
 .mainPage .mainPopularNews-tabs {
   margin-left: 270px;
   display: inline-block;
-  margin-top: 38px; }
+  margin-top: 43px; }
 
 .mainPage .mainPopularNews-tabLink {
   opacity: 0.6;
@@ -5066,7 +5078,7 @@ table {
 
 .mainPage .mainNewsSection-tabs {
   display: inline-block;
-  margin-top: 14px; }
+  margin-top: 17px; }
 
 .mainPage .mainNewsSection-tabLink {
   opacity: 0.6;
@@ -5329,6 +5341,9 @@ table {
   line-height: 16px;
   margin-left: 20px; }
 
+.mainPage .mainMatchesSection-grid-sorting_basketball, .mainPage .mainMatchesSection-grid-sorting_tennis, .mainPage .mainMatchesSection-grid-sorting_hockey {
+  display: none; }
+
 .mainPage .mainMatchesSection-table {
   width: 100%;
   border-collapse: collapse;
@@ -5587,6 +5602,8 @@ table {
     width: auto; }
   .mainPage .mainPopularNews-tabs {
     margin-left: 195px; }
+  .mainPage .mainPopularNewsItem {
+    width: 218px; }
   .mainPage .mainMatchesSection {
     margin-right: 0;
     margin-left: 0; }
