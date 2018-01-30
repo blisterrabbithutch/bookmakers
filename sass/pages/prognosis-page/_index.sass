@@ -146,3 +146,90 @@
         color: #000000;
         letter-spacing: 0;
         line-height: 12px;
+
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .prognosisItemPage
+    .mainSection
+      margin-left: 0
+      width: 615px
+      padding-bottom: 25px
+
+    .prognosisItemPreview
+      &-content
+        padding-left: 0
+      &-prevPage
+        left: 20px
+      &-title
+        font-size: 36px
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .prognosisItemPage
+    .mainSection
+      margin-left: 0
+      width: 600px
+      padding-bottom: 25px
+      margin-right: 0
+      &-footer
+        margin-bottom: 0
+        &-link
+          margin-right: 15px
+    .prognosisItemPreview
+      &-content
+        padding-left: 0
+      &-prevPage
+        left: 20px
+      &-title
+        padding-top: 295px
+        font-size: 36px
+        width: 380px
+      &-slogan
+        width: 350px
+      &-details
+        padding-bottom: 25px
+
+
+
+@media (max-width: $mobile-widths-only)
+  .prognosisItemPage
+    .mainSection
+      margin-left: 0
+      width: 280px
+      padding-bottom: 25px
+      margin-right: 0
+      padding-bottom: 0
+      &-footer
+        padding-top: 12px
+        margin-bottom: 0
+        &-link
+          margin-right: 15px
+        &-socials
+          position: relative;
+          padding-top: 10px;
+          left: -12px
+          top: 0;
+          width: 160px;
+    .prognosisItemPreview
+      min-height: 520px
+      &-content
+        padding-left: 0
+      &-prevPage
+        top: 20px
+        left: 10px
+      &-title
+        width: 280px
+        font-size: 26px;
+        line-height: 32px;
+        padding-top: 240px
+      &-slogan
+        width: 190px;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 15px
+      &-team
+        font-size: 10px
+        display: block
+      &-date
+        font-size: 10px
+      &-details
+        padding-bottom: 20px
+

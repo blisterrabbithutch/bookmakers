@@ -3669,6 +3669,84 @@ table {
   letter-spacing: 0;
   line-height: 12px; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .prognosisItemPage .mainSection {
+    margin-left: 0;
+    width: 615px;
+    padding-bottom: 25px; }
+  .prognosisItemPage .prognosisItemPreview-content {
+    padding-left: 0; }
+  .prognosisItemPage .prognosisItemPreview-prevPage {
+    left: 20px; }
+  .prognosisItemPage .prognosisItemPreview-title {
+    font-size: 36px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .prognosisItemPage .mainSection {
+    margin-left: 0;
+    width: 600px;
+    padding-bottom: 25px;
+    margin-right: 0; }
+  .prognosisItemPage .mainSection-footer {
+    margin-bottom: 0; }
+  .prognosisItemPage .mainSection-footer-link {
+    margin-right: 15px; }
+  .prognosisItemPage .prognosisItemPreview-content {
+    padding-left: 0; }
+  .prognosisItemPage .prognosisItemPreview-prevPage {
+    left: 20px; }
+  .prognosisItemPage .prognosisItemPreview-title {
+    padding-top: 295px;
+    font-size: 36px;
+    width: 380px; }
+  .prognosisItemPage .prognosisItemPreview-slogan {
+    width: 350px; }
+  .prognosisItemPage .prognosisItemPreview-details {
+    padding-bottom: 25px; } }
+
+@media (max-width: 639px) {
+  .prognosisItemPage .mainSection {
+    margin-left: 0;
+    width: 280px;
+    padding-bottom: 25px;
+    margin-right: 0;
+    padding-bottom: 0; }
+  .prognosisItemPage .mainSection-footer {
+    padding-top: 12px;
+    margin-bottom: 0; }
+  .prognosisItemPage .mainSection-footer-link {
+    margin-right: 15px; }
+  .prognosisItemPage .mainSection-footer-socials {
+    position: relative;
+    padding-top: 10px;
+    left: -12px;
+    top: 0;
+    width: 160px; }
+  .prognosisItemPage .prognosisItemPreview {
+    min-height: 520px; }
+  .prognosisItemPage .prognosisItemPreview-content {
+    padding-left: 0; }
+  .prognosisItemPage .prognosisItemPreview-prevPage {
+    top: 20px;
+    left: 10px; }
+  .prognosisItemPage .prognosisItemPreview-title {
+    width: 280px;
+    font-size: 26px;
+    line-height: 32px;
+    padding-top: 240px; }
+  .prognosisItemPage .prognosisItemPreview-slogan {
+    width: 190px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 15px; }
+  .prognosisItemPage .prognosisItemPreview-team {
+    font-size: 10px;
+    display: block; }
+  .prognosisItemPage .prognosisItemPreview-date {
+    font-size: 10px; }
+  .prognosisItemPage .prognosisItemPreview-details {
+    padding-bottom: 20px; } }
+
 .articlePage .wrapper {
   box-sizing: border-box;
   width: 1360px;
