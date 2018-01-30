@@ -128,16 +128,33 @@
   .buttonAuth
     font-size: 11px
     
+  .slick
+    &-dots
+      width: 916px
+      padding-left: 75px
+      li
+        margin-right: 10px
+    &-prev
+      left: 10px
+    &-next
+      right: 10px
 
-@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
-  .ajaxLoad
-    &-matchesSection
-      margin-bottom: 30px
-      
 @media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
   .buttonAuth
     margin-right: 50px
     
+  .ajaxLoad
+    &-matchesSection
+      margin-bottom: 30px  
+    
+  .slick
+    &-dots
+      display: none !important
+    &-prev
+      left: 20px
+    &-next
+      right: 20px
+      
 @media (max-width: $mobile-widths-only)
   .buttonAuth
     display: none

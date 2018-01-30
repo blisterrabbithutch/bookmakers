@@ -141,15 +141,28 @@ body {
 
 @media (min-width: 992px) and (max-width: 1359px) {
   .buttonAuth {
-    font-size: 11px; } }
-
-@media (min-width: 640px) and (max-width: 991px) {
-  .ajaxLoad-matchesSection {
-    margin-bottom: 30px; } }
+    font-size: 11px; }
+  .slick-dots {
+    width: 916px;
+    padding-left: 75px; }
+  .slick-dots li {
+    margin-right: 10px; }
+  .slick-prev {
+    left: 10px; }
+  .slick-next {
+    right: 10px; } }
 
 @media (min-width: 640px) and (max-width: 991px) {
   .buttonAuth {
-    margin-right: 50px; } }
+    margin-right: 50px; }
+  .ajaxLoad-matchesSection {
+    margin-bottom: 30px; }
+  .slick-dots {
+    display: none !important; }
+  .slick-prev {
+    left: 20px; }
+  .slick-next {
+    right: 20px; } }
 
 @media (max-width: 639px) {
   .buttonAuth {
@@ -1594,7 +1607,11 @@ table {
     margin-bottom: 44px; }
   .sidebar {
     width: 260px;
-    margin-right: -90px; } }
+    margin-right: -90px; }
+  .prognosisSection-matchesGrid {
+    padding-top: 0; }
+  .prognosisItem:first-child {
+    border-top: none; } }
 
 @media (min-width: 640px) and (max-width: 991px) {
   .newsSection {
@@ -4212,6 +4229,12 @@ table {
     margin-right: 0;
     padding-bottom: 25px;
     margin-bottom: 0; }
+  .samplePage .mainSection-title {
+    font-size: 28px; }
+  .samplePage .mainSection-subtitle {
+    font-size: 20px; }
+  .samplePage .mainSection-subtitle-small {
+    font-size: 16px; }
   .samplePage .mainSection-image {
     min-width: 280px;
     min-height: 210px;
@@ -4918,7 +4941,8 @@ table {
 .mainPage .mainPopularNews {
   background: #FCF7ED;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0px -25px 49px -18px #fcf7ed;
-  border: 1px solid rgba(151, 151, 151, 0.5); }
+  border-top: 1px solid rgba(151, 151, 151, 0.5);
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5); }
 
 .mainPage .mainPopularNews-header {
   width: 1120px;
@@ -5499,3 +5523,160 @@ table {
 
 .mainPage .mainMatchesSection-content-block {
   margin-bottom: 4px; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .mainPage .mainSection {
+    margin-left: 0;
+    width: 615px; }
+  .mainPage .mainSlider-matchTitle {
+    width: 200px; }
+  .mainPage .mainSlider-postTime {
+    left: 840px; }
+  .mainPage .mainSlider-cup {
+    left: 10px; }
+  .mainPage .mainSlider-item-title {
+    padding-top: 180px;
+    padding-left: 0; }
+  .mainPage .mainSlider-item-slogan {
+    padding-left: 0; }
+  .mainPage .mainNewsSection-grid {
+    padding-bottom: 2px; }
+  .mainPage .mainNewsItem {
+    margin-right: 31px; }
+  .mainPage .mainPopularNews-header {
+    width: auto; }
+  .mainPage .mainPopularNews-grid {
+    width: auto; }
+  .mainPage .mainPopularNews-tabs {
+    margin-left: 195px; }
+  .mainPage .mainMatchesSection {
+    margin-right: 0;
+    margin-left: 0; }
+  .mainPage .prognosisSection-title {
+    margin-top: 25px; }
+  .mainPage .prognosisSection-matchesGrid {
+    padding-top: 0; }
+  .mainPage .prognosisSection-titleWrapper {
+    display: block; }
+  .mainPage .prognosisSection-tabs {
+    margin-top: 0;
+    padding-bottom: 8px; }
+  .mainPage .prognosisSection-tabLink {
+    margin-left: 4px; }
+  .mainPage .prognosisSection-tabLink:first-child {
+    margin-left: 0; }
+  .mainPage .prognosisItem:first-child {
+    border-top: none; }
+  .mainPage .recommendationSection-image {
+    right: -276px; }
+  .mainPage .recommendationSection-title {
+    margin-left: 0; }
+  .mainPage .recommendationSection-link {
+    margin-left: 0; }
+  .mainPage .prognosisItem-picture {
+    margin-right: 7px; }
+  .mainPage .prognosisItem-date {
+    margin-right: 2px; }
+  .mainPage .prognosisItem-title {
+    margin-right: 4px; }
+  .mainPage .sidebar {
+    width: 260px; }
+  .mainPage .mainMatchesSection {
+    width: 600px;
+    margin-right: 32px;
+    margin-left: 0; }
+  .mainPage .mainMatchesSection .sectionHeader {
+    justify-content: space-between; }
+  .mainPage .mainMatchesSection-tabs {
+    margin-left: 0; }
+  .mainPage .mainMatchesSection-tabs-secondary {
+    margin-left: 0; }
+  .mainPage .mainMatchesSection-tabLink {
+    margin-left: 10px; }
+  .mainPage .mainMatchesSection-secondaryTabLink {
+    margin-right: 10px; }
+  .mainPage .mainMatchesSection-table-cell_date, .mainPage .mainMatchesSection-table-cell_prognosis, .mainPage .mainMatchesSection-table-cell_firstModify, .mainPage .mainMatchesSection-table-cell_secondModify, .mainPage .mainMatchesSection-table-cell_thirdModify {
+    display: none; }
+  .mainPage .mainMatchesSection-header-score-title {
+    display: none; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .mainPage .mainSection {
+    margin-left: 0;
+    width: 600px; }
+  .mainPage .mainSlider-matchTitle {
+    width: 200px; }
+  .mainPage .mainSlider-postTime {
+    left: 482px; }
+  .mainPage .mainSlider-cup {
+    left: 20px; }
+  .mainPage .mainSlider-item-title {
+    padding-top: 180px;
+    padding-left: 0; }
+  .mainPage .mainSlider-item-slogan {
+    padding-left: 0; }
+  .mainPage .mainNewsSection-grid {
+    padding-bottom: 2px; }
+  .mainPage .mainNewsItem {
+    width: 183px;
+    margin-right: 25px; }
+  .mainPage .mainPopularNews {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+  .mainPage .mainPopularNews-header {
+    width: auto; }
+  .mainPage .mainPopularNews-grid {
+    width: 600px;
+    flex-wrap: wrap; }
+  .mainPage .mainPopularNews-tabs {
+    margin-left: 195px; }
+  .mainPage .mainPopularNewsItem {
+    width: 284px; }
+  .mainPage .mainPopularNewsItem:nth-child(2n) {
+    margin-right: 0; }
+  .mainPage .prognosisSection-title {
+    margin-top: 25px; }
+  .mainPage .prognosisSection-matchesGrid {
+    padding-top: 0; }
+  .mainPage .prognosisSection-titleWrapper {
+    display: block; }
+  .mainPage .prognosisSection-tabs {
+    margin-top: 0;
+    padding-bottom: 8px; }
+  .mainPage .prognosisSection-tabLink {
+    margin-left: 4px; }
+  .mainPage .prognosisSection-tabLink:first-child {
+    margin-left: 0; }
+  .mainPage .prognosisItem:first-child {
+    border-top: none; }
+  .mainPage .recommendationSection {
+    display: none; }
+  .mainPage .prognosisItem {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0; }
+  .mainPage .prognosisItem-picture {
+    margin-right: 7px; }
+  .mainPage .prognosisItem-date {
+    margin-right: 2px; }
+  .mainPage .prognosisItem-title {
+    margin-right: 4px; }
+  .mainPage .sidebar_mainPage {
+    width: 600px; }
+  .mainPage .mainMatchesSection {
+    width: 600px;
+    margin-right: 0;
+    margin-left: 0; }
+  .mainPage .mainMatchesSection .sectionHeader {
+    justify-content: space-between; }
+  .mainPage .mainMatchesSection-tabs {
+    margin-left: 0; }
+  .mainPage .mainMatchesSection-tabs-secondary {
+    margin-left: 0; }
+  .mainPage .mainMatchesSection-tabLink {
+    margin-left: 10px; }
+  .mainPage .mainMatchesSection-secondaryTabLink {
+    margin-right: 10px; }
+  .mainPage .mainMatchesSection-table-cell_date, .mainPage .mainMatchesSection-table-cell_prognosis, .mainPage .mainMatchesSection-table-cell_firstModify, .mainPage .mainMatchesSection-table-cell_secondModify, .mainPage .mainMatchesSection-table-cell_thirdModify {
+    display: none; }
+  .mainPage .mainMatchesSection-header-score-title {
+    display: none; } }

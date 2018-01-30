@@ -336,7 +336,8 @@
   .mainPopularNews
     background: #FCF7ED
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5), 0px -25px 49px -18px rgba(252,247,237,1)
-    border: 1px solid rgba(151,151,151,0.5)
+    border-top: 1px solid rgba(151,151,151,0.5)
+    border-bottom: 1px solid rgba(151,151,151,0.5)
     &-header
       width: 1120px
       margin: 0 auto
@@ -804,3 +805,219 @@
 
     &-content-block
       margin-bottom: 4px
+      
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .mainPage
+    .mainSection
+      margin-left: 0
+      width: 615px
+    .mainSlider
+      &-matchTitle
+        width: 200px
+      &-postTime
+        left: 840px
+      &-cup
+        left: 10px
+      &-item
+        &-title
+          padding-top: 180px
+          padding-left: 0
+        &-slogan
+          padding-left: 0
+          
+    .mainNewsSection
+      &-grid
+        padding-bottom: 2px
+          
+    .mainNewsItem
+      margin-right: 31px
+        
+    .mainPopularNews
+      &-header
+        width: auto
+      &-grid
+        width: auto
+      &-tabs
+        margin-left: 195px
+        
+    .mainMatchesSection
+      margin-right: 0
+      margin-left: 0
+      
+    .prognosisSection
+      &-title
+        margin-top: 25px
+      &-matchesGrid
+        padding-top: 0
+      &-titleWrapper
+        display: block
+      &-tabs
+        margin-top: 0
+        padding-bottom: 8px
+      &-tabLink
+        margin-left: 4px
+        &:first-child
+          margin-left: 0
+      
+    .prognosisItem
+      &:first-child
+        border-top: none
+          
+    .recommendationSection
+      &-image
+        right: -276px
+      &-title
+        margin-left: 0
+      &-link
+        margin-left: 0
+
+    .prognosisItem
+      &-picture
+        margin-right: 7px
+      &-date
+        margin-right: 2px
+      &-title
+        margin-right: 4px
+
+    .sidebar
+      width: 260px
+      
+    .mainMatchesSection
+      width: 600px
+      margin-right: 32px
+      margin-left: 0
+      .sectionHeader
+        justify-content: space-between
+      &-tabs
+        margin-left: 0
+        &-secondary
+          margin-left: 0
+      &-tabLink
+        margin-left: 10px
+      &-secondaryTabLink
+        margin-right: 10px
+      &-table-cell
+        &_date,
+        &_prognosis,
+        &_firstModify,
+        &_secondModify,
+        &_thirdModify
+          display: none
+
+      &-header-score-title
+        display: none
+          
+      
+
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .mainPage
+    .mainSection
+      margin-left: 0
+      width: 600px
+    .mainSlider
+      &-matchTitle
+        width: 200px
+      &-postTime
+        left: 482px
+      &-cup
+        left: 20px
+      &-item
+        &-title
+          padding-top: 180px
+          padding-left: 0
+        &-slogan
+          padding-left: 0
+
+    .mainNewsSection
+      &-grid
+        padding-bottom: 2px
+
+    .mainNewsItem
+      width: 183px
+      margin-right: 25px
+
+    .mainPopularNews
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5)
+      &-header
+        width: auto
+      &-grid
+        width: 600px
+        flex-wrap: wrap
+      &-tabs
+        margin-left: 195px
+
+    .mainPopularNewsItem
+      width: 284px
+      &:nth-child(2n)
+        margin-right: 0
+        
+    .prognosisSection
+      &-title
+        margin-top: 25px
+      &-matchesGrid
+        padding-top: 0
+      &-titleWrapper
+        display: block
+      &-tabs
+        margin-top: 0
+        padding-bottom: 8px
+      &-tabLink
+        margin-left: 4px
+        &:first-child
+          margin-left: 0
+
+    .prognosisItem
+      &:first-child
+        border-top: none
+
+    .recommendationSection
+      display: none
+
+    .prognosisItem
+      display: flex
+      margin-left: 0
+      margin-right: 0
+      &-picture
+        margin-right: 7px
+      &-date
+        margin-right: 2px
+      &-title
+        margin-right: 4px
+
+    .sidebar
+      &_mainPage
+        width: 600px
+
+    .mainMatchesSection
+      width: 600px
+      margin-right: 0
+      margin-left: 0
+      .sectionHeader
+        justify-content: space-between
+      &-tabs
+        margin-left: 0
+        &-secondary
+          margin-left: 0
+      &-tabLink
+        margin-left: 10px
+      &-secondaryTabLink
+        margin-right: 10px
+      &-table-cell
+        &_date,
+        &_prognosis,
+        &_firstModify,
+        &_secondModify,
+        &_thirdModify
+          display: none
+
+      &-header-score-title
+        display: none
+
+
+
+
+
+@media (max-width: $mobile-widths-only)
+  .mainPage
+    
