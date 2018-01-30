@@ -345,7 +345,7 @@ body {
 .header-bottom {
   text-align: center;
   padding-top: 53px;
-  padding-bottom: 59px;
+  padding-bottom: 49px;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -534,6 +534,10 @@ body {
   .header-bottom-left {
     margin-left: 0; }
   .header-bottom-right {
+    margin-right: 0; }
+  .header-bottom_reviewPage .header-bottom-right {
+    margin-right: 0; }
+  .header-bottom_reviewPage .header-bottom-likes {
     margin-right: 0; } }
 
 @media (min-width: 640px) and (max-width: 991px) {
@@ -600,7 +604,16 @@ body {
     font-size: 8px;
     padding: 10px 12px 10px 12px; }
   .header-bottom-reviews-desktop {
-    display: none; } }
+    display: none; }
+  .header-bottom_reviewPage .header-bottom {
+    justify-content: space-between; }
+  .header-bottom_reviewPage .header-bottom-right {
+    display: none; }
+  .header-bottom_reviewPage .header-bottom-left {
+    order: 2; }
+  .header-bottom_reviewPage .header-bottom-logo {
+    order: 1;
+    margin-left: 0px; } }
 
 .footer {
   background: black;
@@ -792,7 +805,8 @@ body {
 .betTv-tabs {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 220px; }
+  margin-right: 220px;
+  padding-bottom: 8px; }
 
 .betTv-tabItem {
   opacity: 0.6;
@@ -3174,6 +3188,33 @@ table {
 
 .reviewPage .reviewItem-username {
   margin-right: 20px; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .reviewPage .mainSection {
+    margin-left: 0;
+    width: 970px;
+    padding-bottom: 25px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .reviewPage .mainSection {
+    margin-left: 0;
+    width: 600px;
+    padding-bottom: 25px; } }
+
+@media (max-width: 639px) {
+  .reviewPage .mainSection {
+    margin-left: 0;
+    width: 280px;
+    padding-bottom: 25px; }
+  .reviewPage .mainSection-tabs {
+    display: block;
+    padding-bottom: 8px; }
+  .reviewPage .mainSection-tabLink {
+    margin-left: 79px; }
+  .reviewPage .mainSection-tabLink:first-child {
+    margin-left: 0; }
+  .reviewPage .reviewSection .sectionHeader {
+    display: block; } }
 
 .newsPreviewPage .wrapper {
   box-sizing: border-box;

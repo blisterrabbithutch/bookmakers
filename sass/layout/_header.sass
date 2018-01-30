@@ -6,7 +6,7 @@
   &-bottom
     text-align: center
     padding-top: 53px
-    padding-bottom: 59px
+    padding-bottom: 49px
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -182,6 +182,12 @@
         margin-left: 0
       &-right
         margin-right: 0
+        
+    &-bottom_reviewPage
+      .header-bottom-right
+        margin-right: 0
+      .header-bottom-likes
+        margin-right: 0
       
 @media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
   .header
@@ -251,3 +257,14 @@
         padding: 10px 12px 10px 12px;
         &-desktop
           display: none
+          
+    &-bottom_reviewPage
+      .header-bottom
+        justify-content: space-between
+        &-right
+          display: none
+        &-left
+          order: 2
+        &-logo
+          order: 1;
+          margin-left: 0px
