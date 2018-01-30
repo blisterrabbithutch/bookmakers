@@ -2170,6 +2170,8 @@ table {
     margin-right: 0; }
   .bonusesPage .mainSection .sectionHeader {
     display: block; }
+  .bonusesPage .mainSection-tabs {
+    padding-bottom: 8px; }
   .bonusesPage .mainSection-tabLink {
     margin-left: 46px; }
   .bonusesPage .mainSection-tabLink:first-child {
@@ -2659,6 +2661,53 @@ table {
   color: #000000;
   letter-spacing: 0;
   line-height: 21px; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .schoolPage .mainSection {
+    margin-left: 0;
+    width: 615px;
+    padding-bottom: 25px; }
+  .schoolPage .schoolItem {
+    width: 142px;
+    margin-right: 15px; }
+  .schoolPage .schoolItem-image {
+    width: 100%; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .schoolPage .mainSection {
+    margin-left: 0;
+    width: 600px;
+    margin-right: 0; }
+  .schoolPage .mainSection .ajaxLoad {
+    margin-bottom: 25px; }
+  .schoolPage .schoolItem {
+    width: 138px;
+    margin-right: 15px; }
+  .schoolPage .schoolItem-image {
+    width: 100%; } }
+
+@media (max-width: 639px) {
+  .schoolPage .mainSection {
+    margin-left: 0;
+    width: 280px;
+    margin-right: 0; }
+  .schoolPage .mainSection-tabs {
+    padding-bottom: 8px; }
+  .schoolPage .mainSection-tabLink {
+    margin-left: 46px; }
+  .schoolPage .mainSection-tabLink:first-child {
+    margin-left: 0; }
+  .schoolPage .mainSection .ajaxLoad {
+    margin-bottom: 25px; }
+  .schoolPage .mainSection .sectionHeader {
+    display: block; }
+  .schoolPage .schoolItem {
+    width: 132px;
+    margin-right: 15px; }
+  .schoolPage .schoolItem:nth-child(2n) {
+    margin-right: 0; }
+  .schoolPage .schoolItem-image {
+    width: 100%; } }
 
 .bookmakerPage .wrapper {
   box-sizing: border-box;
