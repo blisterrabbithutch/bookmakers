@@ -179,7 +179,13 @@ body {
   .ajaxLoad-newsSection {
     margin-bottom: 0px; }
   .ajaxLoad-matchesSection {
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+  .slick-dots {
+    display: none !important; }
+  .slick-prev {
+    left: 20px; }
+  .slick-next {
+    right: 20px; } }
 
 .title {
   font-family: HelveticaNeue-CondensedBold;
@@ -2084,7 +2090,7 @@ table {
   .matchesPage .mainSection-header-score-title {
     display: none; }
   .matchesPage .mainSection-header-expandIcon {
-    left: 10px; }
+    display: none; }
   .matchesPage .mainItem-score {
     margin: 0 15px; }
   .matchesPage .mainItem-teams-logo {
@@ -5680,3 +5686,154 @@ table {
     display: none; }
   .mainPage .mainMatchesSection-header-score-title {
     display: none; } }
+
+@media (max-width: 639px) {
+  .mainPage .mainSection {
+    margin-left: 0;
+    margin-right: 0;
+    width: 280px; }
+  .mainPage .mainSlider-matchTitle {
+    width: 200px; }
+  .mainPage .mainSlider-postTime {
+    left: 20px;
+    top: -598px;
+    font-size: 10px; }
+  .mainPage .mainSlider-postTime:before {
+    display: none; }
+  .mainPage .mainSlider-cup {
+    font-size: 10px;
+    left: 20px; }
+  .mainPage .mainSlider-item-title {
+    width: 280px;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 240px;
+    padding-left: 0; }
+  .mainPage .mainSlider-item-slogan {
+    font-size: 15px;
+    width: 188px;
+    padding-left: 0; }
+  .mainPage .mainNewsSection-header {
+    display: block; }
+  .mainPage .mainNewsSection-grid {
+    padding-bottom: 2px;
+    display: block; }
+  .mainPage .mainNewsSection-tabs {
+    padding-bottom: 8px; }
+  .mainPage .mainNewsSection-tabLink {
+    margin-left: 9px; }
+  .mainPage .mainNewsSection-tabLink:first-child {
+    margin-left: 0; }
+  .mainPage .mainNewsItem {
+    display: block;
+    width: 280px;
+    margin-right: 0;
+    margin-bottom: 50px; }
+  .mainPage .mainNewsItem-image {
+    width: 100%; }
+  .mainPage .mainNewsItem-description {
+    padding-bottom: 0px;
+    font-size: 13px;
+    border-bottom: none; }
+  .mainPage .mainNewsItem-descriptionBottom {
+    margin: 10px 0;
+    font-size: 13px; }
+  .mainPage .mainPopularNews {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+  .mainPage .mainPopularNews-header {
+    width: auto; }
+  .mainPage .mainPopularNews-grid {
+    width: 280px;
+    flex-wrap: wrap; }
+  .mainPage .mainPopularNews-tabs {
+    margin-left: 0;
+    padding-bottom: 8px; }
+  .mainPage .mainPopularNews-tabLink {
+    margin-left: 66px; }
+  .mainPage .mainPopularNews-tabLink:first-child {
+    margin-left: 0; }
+  .mainPage .mainPopularNewsItem {
+    width: 284px;
+    margin-right: 0; }
+  .mainPage .mainPopularNewsItem-titleWrapper {
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+  .mainPage .prognosisSection-title {
+    margin-top: 25px; }
+  .mainPage .prognosisSection-matchesGrid {
+    padding-top: 0; }
+  .mainPage .prognosisSection-titleWrapper {
+    display: block; }
+  .mainPage .prognosisSection-tabs {
+    margin-top: 14px;
+    padding-bottom: 8px; }
+  .mainPage .prognosisSection-tabLink {
+    margin-left: 9px; }
+  .mainPage .prognosisSection-tabLink:first-child {
+    margin-left: 0; }
+  .mainPage .prognosisItem:first-child {
+    border-top: none; }
+  .mainPage .prognosisItem-picture {
+    margin-left: 12px;
+    margin-right: 5px; }
+  .mainPage .recommendationSection {
+    display: none; }
+  .mainPage .prognosisItem {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0; }
+  .mainPage .prognosisItem-picture {
+    margin-right: 7px; }
+  .mainPage .prognosisItem-date {
+    margin-right: 2px; }
+  .mainPage .prognosisItem-title {
+    margin-right: 4px; }
+  .mainPage .sidebar_mainPage {
+    width: 280px; }
+  .mainPage .mainMatchesSection {
+    width: 280px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0; }
+  .mainPage .mainMatchesSection .sectionHeader {
+    display: block; }
+  .mainPage .mainMatchesSection-tabs {
+    margin-left: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+    padding-bottom: 8px; }
+  .mainPage .mainMatchesSection-tabs-secondary {
+    margin-left: 0;
+    margin-top: 15px; }
+  .mainPage .mainMatchesSection-tabLink {
+    margin-left: 21px; }
+  .mainPage .mainMatchesSection-tabLink:first-child {
+    margin-left: 0; }
+  .mainPage .mainMatchesSection-secondaryTabLink {
+    margin-right: 10px; }
+  .mainPage .mainMatchesSection-table-cell_date, .mainPage .mainMatchesSection-table-cell_prognosis, .mainPage .mainMatchesSection-table-cell_firstModify, .mainPage .mainMatchesSection-table-cell_secondModify, .mainPage .mainMatchesSection-table-cell_thirdModify {
+    display: none; }
+  .mainPage .mainMatchesSection-table-cell_firstTeam, .mainPage .mainMatchesSection-table-cell_secondTeam {
+    width: 100px;
+    position: relative; }
+  .mainPage .mainMatchesSection-table-cell_firstTeam {
+    text-align: left;
+    padding-left: 10px; }
+  .mainPage .mainMatchesSection-table-cell_secondTeam {
+    text-align: right;
+    padding-right: 10px; }
+  .mainPage .mainMatchesSection-table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .mainPage .mainMatchesSection-header-score-title {
+    display: none; }
+  .mainPage .mainMatchesSection-header-expandIcon {
+    display: none; }
+  .mainPage .mainMatchesSection-table-cell .mainMatchItem-teams-logo {
+    display: none; }
+  .mainPage .mainMatchesSection-table-cell .mainMatchItem-score {
+    margin: 0 15px; }
+  .mainPage .mainMatchesSection-table-cell .mainMatchItem-secondTeam {
+    margin-left: 0; }
+  .mainPage .mainMatchesSection-table-cell .mainMatchItem-firstTeam {
+    margin-right: 0; } }
