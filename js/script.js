@@ -108,6 +108,8 @@ $('.mainPopularNews-tabLink').on('click', function(){
     $( ".mainPopularNews-grid" ).find(selectedBlock).css( "display", "flex" );
 })
 
+// скрипт двойного фильтра, работают в паре.
+
 $('.mainMatchesSection-tabLink').on('click', function(){
     const tabData = $(this).attr('data-item');
     $('.mainMatchesSection-tabLink').removeClass('filterBtn_opened');
@@ -124,4 +126,15 @@ $('.mainMatchesSection-secondaryTabLink').on('click', function(){
     const selectedBlock = $("div [data-item='" + tabData +"']");
     $( ".mainMatchesSection-grid-sorting-secondary" ).hide();
     $( ".mainMatchesSection-grid-sorting" ).find(selectedBlock).css( "display", "block" );
+})
+
+// конец парного фильтра
+
+$('.betTv-tabItem').on('click', function(){
+    const tabData = $(this).attr('data-item');
+    $('.betTv-tabItem').removeClass('filterBtn_opened');
+    $(this).toggleClass('filterBtn_opened');
+    const selectedBlock = $("div [data-item='" + tabData +"']");
+    $( ".betTv-grid-sorting" ).hide();
+    $( ".betTv-grid" ).find(selectedBlock).css( "display", "block" );
 })

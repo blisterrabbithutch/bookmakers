@@ -873,7 +873,7 @@ body {
   letter-spacing: 0;
   line-height: 16px;
   text-decoration: none;
-  margin-top: 55px;
+  margin-top: 57px;
   margin-left: 25px;
   display: inline-block; }
 
@@ -881,6 +881,12 @@ body {
   padding-top: 32px;
   padding-bottom: 33px;
   text-align: center; }
+
+.betTv-grid-sorting_sport {
+  display: none; }
+
+.betTv-grid-sorting_cyber {
+  display: none; }
 
 .betTv-title {
   display: inline-block;
