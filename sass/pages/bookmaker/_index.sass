@@ -200,3 +200,72 @@
         
   .betSchool.sidebar
     margin-bottom: 0
+    
+
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .bookmakerPage
+    .mainSection
+      margin-left: 0
+      width: 615px
+      padding-bottom: 25px
+    .reviewSection
+      width: auto
+      margin-right: 0
+    .bookmakerSiteSection
+      &-image
+        width: 100%
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .bookmakerPage
+    .mainSection
+      margin-right: 0
+      margin-left: 0
+      width: 600px
+      padding-bottom: 25px
+    .reviewSection
+      width: auto
+      margin-right: 0
+    .bookmakerSiteSection
+      &-image
+        width: 100%
+      &-footer
+        margin-bottom: 0
+
+@media (max-width: $mobile-widths-only)
+  .bookmakerPage
+    .mainSection
+      margin-right: 0
+      margin-left: 0
+      width: 280px
+      padding-bottom: 25px
+      padding-bottom: 0
+    .reviewSection
+      width: auto
+      margin-right: 0
+    .bookmakerSiteSection
+      &-image
+        width: 100%
+      &-footer
+        margin-bottom: 0
+        padding-top: 10px
+        &-links
+          text-align: center
+        &-link
+          margin-right: 15px
+          &:nth-child(3)
+            margin-right: 0
+        &-socials
+          position: relative;
+          padding-top: 10px;
+          left: 0;
+          top: 0;
+          right: 0;
+          margin: 0 auto;
+          width: 160px;
+    .paymentsSection
+      &-titleWrapper
+        display: flex
+        justify-content: space-between
+      &-tabs
+        margin-top: 18px
+  
