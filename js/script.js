@@ -42,6 +42,11 @@ $(document).ready(function(){
         dots: true
     });
 
+    $('.bestCuffSection-slider').slick({
+        // autoplay: true,
+        // autoplaySpeed: 5000,
+    });
+
     function $replaceDots() {
         $( ".slick-dots li:nth-child(1) button" ).replaceWith( "<div data-item='1' class='mainSlider-matchTitle'>Карточки, голы, стычки. В&nbsp;матче&nbsp;«Ницца» — «Монако» будет&nbsp;всe</div>" );
         $( ".slick-dots li:nth-child(2) button" ).replaceWith( "<div data-item='2' class='mainSlider-matchTitle'>Paddy Power: Кого подпишут «шпоры» в зимнее окно</div>" );

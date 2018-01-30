@@ -139,6 +139,16 @@ body {
   height: 4px;
   background: #FF4242; }
 
+.bestCuffSection .slick-next {
+  right: -20px;
+  top: -32px;
+  background: url("../img/right-arrow-black.png") no-repeat 4px 3px; }
+
+.bestCuffSection .slick-prev {
+  background: url("../img/right-arrow-black.png") no-repeat 5px 3px;
+  left: 178px;
+  top: -34px; }
+
 .filterBtn {
   position: relative;
   padding: 0;
@@ -180,7 +190,15 @@ body {
   .slick-prev {
     left: 20px; }
   .slick-next {
-    right: 20px; } }
+    right: 20px; }
+  .bestCuffSection .slick-next {
+    right: -20px;
+    top: -32px;
+    background: url("../img/right-arrow-black.png") no-repeat 4px 3px; }
+  .bestCuffSection .slick-prev {
+    background: url("../img/right-arrow-black.png") no-repeat 5px 3px;
+    left: 500px;
+    top: -34px; } }
 
 @media (max-width: 639px) {
   .buttonAuth {
@@ -4685,6 +4703,12 @@ table {
 .mainPage .bestCuffSection {
   padding-top: 22px; }
 
+.mainPage .bestCuffSection-block {
+  position: relative; }
+
+.mainPage .bestCuffSection-block:active, .mainPage .bestCuffSection-block:focus {
+  outline: none; }
+
 .mainPage .bestCuffSection-title {
   border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
 
@@ -4698,7 +4722,8 @@ table {
 
 .mainPage .bestCuffItem-match-logo {
   padding-top: 20px;
-  margin-right: 9px; }
+  margin-right: 9px;
+  display: inline-block; }
 
 .mainPage .bestCuffItem-match-date {
   display: inline-block;
