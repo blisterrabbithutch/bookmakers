@@ -4348,6 +4348,84 @@ table {
   margin-top: 0;
   margin-bottom: 1px; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .promotionsPage .mainSection {
+    margin-left: 0;
+    width: 615px;
+    padding-bottom: 25px; }
+  .promotionsPage .promotionsPreview-content {
+    padding-left: 0; }
+  .promotionsPage .promotionsPreview-prevPage {
+    left: 20px; }
+  .promotionsPage .promotionsPreview-title {
+    font-size: 36px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .promotionsPage .mainSection {
+    margin-left: 0;
+    width: 600px;
+    padding-bottom: 25px;
+    margin-right: 0; }
+  .promotionsPage .mainSection-footer {
+    margin-bottom: 0; }
+  .promotionsPage .mainSection-footer-link {
+    margin-right: 15px; }
+  .promotionsPage .promotionsPreview-content {
+    padding-left: 0; }
+  .promotionsPage .promotionsPreview-prevPage {
+    left: 20px; }
+  .promotionsPage .promotionsPreview-title {
+    padding-top: 300px;
+    font-size: 36px;
+    width: 400px; }
+  .promotionsPage .promotionsPreview-slogan {
+    width: 350px; }
+  .promotionsPage .promotionsPreview-details {
+    padding-bottom: 25px; } }
+
+@media (max-width: 639px) {
+  .promotionsPage .mainSection {
+    margin-left: 0;
+    width: 280px;
+    padding-bottom: 25px;
+    margin-right: 0;
+    padding-bottom: 0; }
+  .promotionsPage .mainSection-footer {
+    padding-top: 12px;
+    margin-bottom: 0; }
+  .promotionsPage .mainSection-footer-link {
+    margin-right: 15px; }
+  .promotionsPage .mainSection-footer-socials {
+    position: relative;
+    padding-top: 10px;
+    left: -12px;
+    top: 0;
+    width: 160px; }
+  .promotionsPage .promotionsPreview {
+    min-height: 520px; }
+  .promotionsPage .promotionsPreview-content {
+    padding-left: 0; }
+  .promotionsPage .promotionsPreview-prevPage {
+    top: 20px;
+    left: 10px; }
+  .promotionsPage .promotionsPreview-title {
+    width: 280px;
+    font-size: 26px;
+    line-height: 32px;
+    padding-top: 240px; }
+  .promotionsPage .promotionsPreview-slogan {
+    width: 190px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 15px; }
+  .promotionsPage .promotionsPreview-team {
+    font-size: 10px;
+    display: block; }
+  .promotionsPage .promotionsPreview-date {
+    font-size: 10px; }
+  .promotionsPage .promotionsPreview-details {
+    padding-bottom: 20px; } }
+
 .mainPage .wrapper {
   box-sizing: border-box;
   width: 1360px;
