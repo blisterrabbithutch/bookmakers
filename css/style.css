@@ -3923,6 +3923,84 @@ table {
 .articlePage .betSchool.sidebar {
   margin-bottom: 1px; }
 
+@media (min-width: 992px) and (max-width: 1359px) {
+  .articlePage .mainSection {
+    margin-left: 0;
+    width: 615px;
+    padding-bottom: 25px; }
+  .articlePage .articlePreview-content {
+    padding-left: 0; }
+  .articlePage .articlePreview-prevPage {
+    left: 20px; }
+  .articlePage .articlePreview-title {
+    font-size: 36px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .articlePage .mainSection {
+    margin-left: 0;
+    width: 600px;
+    padding-bottom: 25px;
+    margin-right: 0; }
+  .articlePage .mainSection-footer {
+    margin-bottom: 0; }
+  .articlePage .mainSection-footer-link {
+    margin-right: 15px; }
+  .articlePage .articlePreview-content {
+    padding-left: 0; }
+  .articlePage .articlePreview-prevPage {
+    left: 20px; }
+  .articlePage .articlePreview-title {
+    padding-top: 300px;
+    font-size: 36px;
+    width: 400px; }
+  .articlePage .articlePreview-slogan {
+    width: 350px; }
+  .articlePage .articlePreview-details {
+    padding-bottom: 25px; } }
+
+@media (max-width: 639px) {
+  .articlePage .mainSection {
+    margin-left: 0;
+    width: 280px;
+    padding-bottom: 25px;
+    margin-right: 0;
+    padding-bottom: 0; }
+  .articlePage .mainSection-footer {
+    padding-top: 12px;
+    margin-bottom: 0; }
+  .articlePage .mainSection-footer-link {
+    margin-right: 15px; }
+  .articlePage .mainSection-footer-socials {
+    position: relative;
+    padding-top: 10px;
+    left: -12px;
+    top: 0;
+    width: 160px; }
+  .articlePage .articlePreview {
+    min-height: 520px; }
+  .articlePage .articlePreview-content {
+    padding-left: 0; }
+  .articlePage .articlePreview-prevPage {
+    top: 20px;
+    left: 10px; }
+  .articlePage .articlePreview-title {
+    width: 280px;
+    font-size: 26px;
+    line-height: 32px;
+    padding-top: 240px; }
+  .articlePage .articlePreview-slogan {
+    width: 190px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 15px; }
+  .articlePage .articlePreview-team {
+    font-size: 10px;
+    display: block; }
+  .articlePage .articlePreview-date {
+    font-size: 10px; }
+  .articlePage .articlePreview-details {
+    padding-bottom: 20px; } }
+
 .samplePage .wrapper {
   box-sizing: border-box;
   width: 1360px;
