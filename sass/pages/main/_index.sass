@@ -432,10 +432,23 @@
       letter-spacing: 0;
       line-height: 16px;
       margin-left: 20px
+      padding: 0
     &-grid
       margin-top: 23px
-      display: flex
-      justify-content: flex-start
+      &-sorting
+        display: flex
+        justify-content: flex-start
+        flex-wrap: wrap
+        &_all
+          display: flex
+        &_football
+          display: none
+        &_hockey
+          display: none
+          
+          
+          
+      
 
   .mainNewsItem
     width: 184px
@@ -1057,7 +1070,8 @@
       &-tabs
         padding-bottom: 8px
       &-tabLink
-        margin-left: 9px
+        margin-left: 4px;
+        padding: 0;
         &:first-child
           margin-left: 0
 
@@ -1138,31 +1152,6 @@
       &_mainPage
         width: 280px
 
-    //.mainMatchesSection
-    //  width: 600px
-    //  margin-right: 0
-    //  margin-left: 0
-    //  .sectionHeader
-    //    justify-content: space-between
-    //  &-tabs
-    //    margin-left: 0
-    //    &-secondary
-    //      margin-left: 0
-    //  &-tabLink
-    //    margin-left: 10px
-    //  &-secondaryTabLink
-    //    margin-right: 10px
-    //  &-table-cell
-    //    &_date,
-    //    &_prognosis,
-    //    &_firstModify,
-    //    &_secondModify,
-    //    &_thirdModify
-    //      display: none
-    //
-    //  &-header-score-title
-    //    display: none
-    //
     .mainMatchesSection
       width: 280px
       margin-right: 0

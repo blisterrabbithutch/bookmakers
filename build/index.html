@@ -82,19 +82,6 @@
 				<div class="wrapper">
                     <span class="mainSlider-cup">Кубок лиги</span>
                     <span class="mainSlider-postTime">10 минут <span>назад</span></span>
-					<!--<div class="mainSlider-matchTitles">-->
-						<!--<div data-item="1" class="mainSlider-matchTitle">Карточки, голы, стычки. В&nbsp;матче&nbsp;«Ницца» — «Монако» будет&nbsp;всё-->
-						<!--</div>-->
-						<!--<div data-item="2" class="mainSlider-matchTitle">-->
-							<!--Paddy Power: Кого подпишут «шпоры» в зимнее окно-->
-						<!--</div>-->
-						<!--<div data-item="3" class="mainSlider-matchTitle">-->
-							<!--СК Армении проводит расследование по договорному матчу национального чемпионата-->
-						<!--</div>-->
-						<!--<div data-item="4" class="mainSlider-matchTitle">-->
-							<!--Роберто Манчини заинтересовался работой со сборной Австралии на&nbsp;ЧМ–2018-->
-						<!--</div>-->
-					<!--</div>-->
 				</div>
 		</section>
 		<div class="wrapper">
@@ -103,62 +90,166 @@
 					<div class="mainNewsSection-header">
 						<h1 class="subtitle subtitle-mainNewsSection">Главное</h1>
 						<div class="mainNewsSection-tabs tabs">
-							<a href="#" class="mainNewsSection-tabLink">Все</a>
-							<a href="#" class="mainNewsSection-tabLink">Футбол</a>
-							<a href="#" class="mainNewsSection-tabLink">Хоккей</a>
-							<a href="#" class="mainNewsSection-tabLink">Теннис</a>
-							<a href="#" class="mainNewsSection-tabLink">Баскетбол</a>
+							<button href="" data-item="all" class="mainNewsSection-tabLink mainNewsSection-tabLink__all filterBtn filterBtn_opened">Все</button>
+							<button href="" data-item="football" class="mainNewsSection-tabLink mainNewsSection-tabLink__football filterBtn">Футбол</button>
+							<button href="" data-item="hockey" class="mainNewsSection-tabLink mainNewsSection-tabLink__hockey filterBtn">Хоккей</button>
+							<button href="" data-item="tennis" class="mainNewsSection-tabLink mainNewsSection-tabLink__tennis filterBtn">Теннис</button>
+							<button href="" data-item="basketball" class="mainNewsSection-tabLink mainNewsSection-tabLink__basketball filterBtn">Баскетбол</button>
 						</div>
 					</div>
 					<div class="mainNewsSection-grid">
-						<div class="mainNewsItem">
-							<a class="mainNewsItem-link" href="#">
-								<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
-								<div class="mainNewsItem-titleWrapper">
-									<h3 class="mainNewsItem-title">Кубок Испании</h3>
-									<span class="mainNewsItem-date">20 апр</span>
-								</div>
-								<p class="mainNewsItem-description">
-									Топ-2 события для ставок
-									на ответные матчи 1/8 финала Кубка Испании
-								</p>
-								<p class="mainNewsItem-descriptionBottom">
-									Игроки «Авангарда» устроили потасовку
-									на новогоднем корпоративе
-								</p>
-							</a>
+						<div data-item="all" class="mainNewsSection-grid-sorting mainNewsSection-grid-sorting_all">
+							<div class="mainNewsItem">
+								<a class="mainNewsItem-link" href="#">
+									<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
+									<div class="mainNewsItem-titleWrapper">
+										<h3 class="mainNewsItem-title">Кубок Испании</h3>
+										<span class="mainNewsItem-date">20 апр</span>
+									</div>
+									<p class="mainNewsItem-description">
+										Топ-2 события для ставок
+										на ответные матчи 1/8 финала Кубка Испании
+									</p>
+									<p class="mainNewsItem-descriptionBottom">
+										Игроки «Авангарда» устроили потасовку
+										на новогоднем корпоративе
+									</p>
+								</a>
+							</div>
+							<div class="mainNewsItem">
+								<a class="mainNewsItem-link" href="#">
+									<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
+									<div class="mainNewsItem-titleWrapper">
+										<h3 class="mainNewsItem-title">Бундеслига</h3>
+										<span class="mainNewsItem-date"><span>18 часов</span> назад</span>
+									</div>
+									<p class="mainNewsItem-description">
+										Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
+									</p>
+									<p class="mainNewsItem-descriptionBottom">
+										ПСЖ пробился в 1/2 финала Кубка французской лиги
+									</p>
+								</a>
+							</div>
+							<div class="mainNewsItem">
+								<a class="mainNewsItem-link" href="#">
+									<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
+									<div class="mainNewsItem-titleWrapper">
+										<h3 class="mainNewsItem-title">Премьер-лига</h3>
+										<span class="mainNewsItem-date"><span>18 часов</span> назад</span>
+									</div>
+									<p class="mainNewsItem-description">
+										Прогноз на матч «Челси» — «Лестер Сити»
+										Александра Елагина
+									</p>
+									<p class="mainNewsItem-descriptionBottom">
+										Хакеры Fancy Bears обвинили Макларена
+										и WADA в связях со спецслужбами США
+									</p>
+								</a>
+							</div>
 						</div>
-						<div class="mainNewsItem">
-							<a class="mainNewsItem-link" href="#">
-								<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
-								<div class="mainNewsItem-titleWrapper">
-									<h3 class="mainNewsItem-title">Бундеслига</h3>
-									<span class="mainNewsItem-date"><span>18 часов</span> назад</span>
-								</div>
-								<p class="mainNewsItem-description">
-									Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
-								</p>
-								<p class="mainNewsItem-descriptionBottom">
-									ПСЖ пробился в 1/2 финала Кубка французской лиги
-								</p>
-							</a>
+						<div data-item="football" class="mainNewsSection-grid-sorting mainNewsSection-grid-sorting_football">
+							<div class="mainNewsItem">
+								<a class="mainNewsItem-link" href="#">
+									<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
+									<div class="mainNewsItem-titleWrapper">
+										<h3 class="mainNewsItem-title">Кубок Испании</h3>
+										<span class="mainNewsItem-date">20 апр</span>
+									</div>
+									<p class="mainNewsItem-description">
+										Топ-2 события для ставок
+										на ответные матчи 1/8 финала Кубка Испании
+									</p>
+									<p class="mainNewsItem-descriptionBottom">
+										Игроки «Авангарда» устроили потасовку
+										на новогоднем корпоративе
+									</p>
+								</a>
+							</div>
+							<div class="mainNewsItem">
+								<a class="mainNewsItem-link" href="#">
+									<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
+									<div class="mainNewsItem-titleWrapper">
+										<h3 class="mainNewsItem-title">Бундеслига</h3>
+										<span class="mainNewsItem-date"><span>18 часов</span> назад</span>
+									</div>
+									<p class="mainNewsItem-description">
+										Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
+									</p>
+									<p class="mainNewsItem-descriptionBottom">
+										ПСЖ пробился в 1/2 финала Кубка французской лиги
+									</p>
+								</a>
+							</div>
+							<div class="mainNewsItem">
+								<a class="mainNewsItem-link" href="#">
+									<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
+									<div class="mainNewsItem-titleWrapper">
+										<h3 class="mainNewsItem-title">Премьер-лига</h3>
+										<span class="mainNewsItem-date"><span>18 часов</span> назад</span>
+									</div>
+									<p class="mainNewsItem-description">
+										Прогноз на матч «Челси» — «Лестер Сити»
+										Александра Елагина
+									</p>
+									<p class="mainNewsItem-descriptionBottom">
+										Хакеры Fancy Bears обвинили Макларена
+										и WADA в связях со спецслужбами США
+									</p>
+								</a>
+							</div>
 						</div>
-						<div class="mainNewsItem">
-							<a class="mainNewsItem-link" href="#">
-								<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
-								<div class="mainNewsItem-titleWrapper">
-									<h3 class="mainNewsItem-title">Премьер-лига</h3>
-									<span class="mainNewsItem-date"><span>18 часов</span> назад</span>
-								</div>
-								<p class="mainNewsItem-description">
-									Прогноз на матч «Челси» — «Лестер Сити»
-									Александра Елагина
-								</p>
-								<p class="mainNewsItem-descriptionBottom">
-									Хакеры Fancy Bears обвинили Макларена
-									и WADA в связях со спецслужбами США 
-								</p>
-							</a>
+						<div data-item="hockey" class="mainNewsSection-grid-sorting mainNewsSection-grid-sorting_hockey">
+							<div class="mainNewsItem">
+								<a class="mainNewsItem-link" href="#">
+									<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
+									<div class="mainNewsItem-titleWrapper">
+										<h3 class="mainNewsItem-title">Кубок Испании</h3>
+										<span class="mainNewsItem-date">20 апр</span>
+									</div>
+									<p class="mainNewsItem-description">
+										Топ-2 события для ставок
+										на ответные матчи 1/8 финала Кубка Испании
+									</p>
+									<p class="mainNewsItem-descriptionBottom">
+										Игроки «Авангарда» устроили потасовку
+										на новогоднем корпоративе
+									</p>
+								</a>
+							</div>
+							<div class="mainNewsItem">
+								<a class="mainNewsItem-link" href="#">
+									<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
+									<div class="mainNewsItem-titleWrapper">
+										<h3 class="mainNewsItem-title">Бундеслига</h3>
+										<span class="mainNewsItem-date"><span>18 часов</span> назад</span>
+									</div>
+									<p class="mainNewsItem-description">
+										Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
+									</p>
+									<p class="mainNewsItem-descriptionBottom">
+										ПСЖ пробился в 1/2 финала Кубка французской лиги
+									</p>
+								</a>
+							</div>
+							<div class="mainNewsItem">
+								<a class="mainNewsItem-link" href="#">
+									<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="mainNewsItem-image">
+									<div class="mainNewsItem-titleWrapper">
+										<h3 class="mainNewsItem-title">Премьер-лига</h3>
+										<span class="mainNewsItem-date"><span>18 часов</span> назад</span>
+									</div>
+									<p class="mainNewsItem-description">
+										Прогноз на матч «Челси» — «Лестер Сити»
+										Александра Елагина
+									</p>
+									<p class="mainNewsItem-descriptionBottom">
+										Хакеры Fancy Bears обвинили Макларена
+										и WADA в связях со спецслужбами США
+									</p>
+								</a>
+							</div>
 						</div>
 					</div>
 					<button type="button" class="ajaxLoad ajaxLoad-mainNewsSection">Все новости</button>

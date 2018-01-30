@@ -139,6 +139,22 @@ body {
   height: 4px;
   background: #FF4242; }
 
+.filterBtn {
+  position: relative;
+  padding: 0; }
+
+.filterBtn:active, .filterBtn:focus {
+  outline: none; }
+
+.filterBtn_opened:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #FF4242; }
+
 @media (min-width: 992px) and (max-width: 1359px) {
   .buttonAuth {
     font-size: 11px; }
@@ -5060,12 +5076,25 @@ table {
   color: #000000;
   letter-spacing: 0;
   line-height: 16px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  padding: 0; }
 
 .mainPage .mainNewsSection-grid {
-  margin-top: 23px;
+  margin-top: 23px; }
+
+.mainPage .mainNewsSection-grid-sorting {
   display: flex;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.mainPage .mainNewsSection-grid-sorting_all {
+  display: flex; }
+
+.mainPage .mainNewsSection-grid-sorting_football {
+  display: none; }
+
+.mainPage .mainNewsSection-grid-sorting_hockey {
+  display: none; }
 
 .mainPage .mainNewsItem {
   width: 184px;
@@ -5724,7 +5753,8 @@ table {
   .mainPage .mainNewsSection-tabs {
     padding-bottom: 8px; }
   .mainPage .mainNewsSection-tabLink {
-    margin-left: 9px; }
+    margin-left: 4px;
+    padding: 0; }
   .mainPage .mainNewsSection-tabLink:first-child {
     margin-left: 0; }
   .mainPage .mainNewsItem {
