@@ -208,6 +208,30 @@
 .matchItem
   border: 2px solid rgba(0, 0, 0, 0.06)
   margin-bottom: 4px
+  cursor: pointer
+  position: relative
+  &-score
+    width: 50px
+    position: absolute
+    top: 20px
+    right: -15px
+    display: none
+    font-family: HelveticaNeue-Medium;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 16px;
+    &-first
+      display: block
+      margin-bottom: 20px
+    &-second
+      display: block
+  &:hover
+    background: rgba(0,0,0,0.01)
+  &:hover .matchItem-date
+    display: none
+  &:hover .matchItem-score
+    display: block
   &-date
     display: inline-block
     vertical-align: top
@@ -303,6 +327,8 @@
     display: block
     &-date
       float: right
+    &-score
+      right: -24px
     
   .newsPage
     .ajaxLoad
@@ -350,6 +376,8 @@
     display: block
     &-date
       float: right
+    &-score
+      right: -24px
 
   .matchesSection
     &-matchesGrid

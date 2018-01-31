@@ -25,6 +25,16 @@
     margin-left: 100px
     margin-bottom: 22px
     width: 1100px
+    position: relative
+    &:after
+      content: ""
+      position: absolute
+      top: -1px
+      right: -27px
+      width: 30px
+      height: 30px
+      background: url(../img/disclaimer.png) no-repeat
+    
   &-copyright
     opacity: 0.2
     font-family: HelveticaNeue-Medium
@@ -77,6 +87,8 @@
     &-disclaimer
       width: 880px
       margin-left: 0
+      &:after
+        right: -55px
     &-copyright
       margin-left: 0
     &-navigation
@@ -92,6 +104,8 @@
     &-disclaimer
       width: auto
       margin-left: 0
+      &:after
+        display: none
     &-copyright
       margin-left: 0
     &-navigation
@@ -123,6 +137,8 @@
     &-disclaimer
       width: auto
       margin-left: 0
+      &:after
+        display: none
     &-navigation
       padding-left: 0px
       padding-bottom: 15px
