@@ -977,6 +977,7 @@ body {
   .betTv-logo {
     margin-left: 0; }
   .betTv-tabs {
+    padding-bottom: 11px;
     margin-right: 0;
     display: block; }
   .betTv-grid {
@@ -1526,7 +1527,23 @@ table {
   margin-top: 50px;
   margin-right: 10px;
   background: none;
-  border: none; }
+  border: none;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: relative; }
+
+.prognosisSection-sortingFilter:after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 6px;
+  width: 13px;
+  height: 13px;
+  background: url("../img/arrow-down-gray.png") no-repeat; }
 
 .prognosisSection-matchesGrid {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
@@ -1605,7 +1622,23 @@ table {
   margin-top: 41px;
   margin-right: 10px;
   background: none;
-  border: none; }
+  border: none;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: relative; }
+
+.matchesSection-sortingFilter:after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 6px;
+  width: 13px;
+  height: 13px;
+  background: url("../img/arrow-down-gray.png") no-repeat; }
 
 .matchesSection-matchesGrid {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
@@ -1703,7 +1736,9 @@ table {
   .matchItem {
     display: block; }
   .matchItem-date {
-    float: right; } }
+    float: right; }
+  .newsPage .ajaxLoad {
+    margin-bottom: 0; } }
 
 @media (max-width: 639px) {
   .newsPage-header {
@@ -1824,6 +1859,8 @@ table {
     margin-right: 0; }
   .prognosisPage .mainSection .sectionHeader {
     display: block; }
+  .prognosisPage .mainSection-tabs {
+    padding-bottom: 11px; }
   .prognosisPage .mainSection-tabLink {
     margin-left: 9px; }
   .prognosisPage .mainSection-tabLink:first-child {
@@ -2141,9 +2178,10 @@ table {
   .matchesPage .mainSection-tabs {
     margin-left: 0;
     border-bottom: 2px solid rgba(0, 0, 0, 0.06);
-    padding-bottom: 8px; }
+    padding-bottom: 11px; }
   .matchesPage .mainSection-tabs-secondary {
     margin-left: 0;
+    padding-bottom: 11px;
     margin-top: 15px; }
   .matchesPage .mainSection-tabLink {
     margin-left: 21px; }
@@ -2270,9 +2308,10 @@ table {
 
 .bonusesPage .emailSection-form-input {
   color: #fff;
-  width: 200px;
+  width: 220px;
+  box-sizing: border-box;
   background: rgba(0, 0, 0, 0.9);
-  padding: 12px;
+  padding: 12px 32px 12px 12px;
   margin: 14px 16px;
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.06); }
@@ -2330,7 +2369,7 @@ table {
     margin-top: 0px; }
   .bonusesPage .emailSection-form-send {
     top: 72px;
-    left: 205px; } }
+    left: 210px; } }
 
 @media (max-width: 639px) {
   .bonusesPage .mainSection {
@@ -2340,7 +2379,7 @@ table {
   .bonusesPage .mainSection .sectionHeader {
     display: block; }
   .bonusesPage .mainSection-tabs {
-    padding-bottom: 8px; }
+    padding-bottom: 11px; }
   .bonusesPage .mainSection-tabLink {
     margin-left: 46px; }
   .bonusesPage .mainSection-tabLink:first-child {
@@ -2362,8 +2401,8 @@ table {
   .bonusesPage .emailSection-form {
     margin-top: 0px; }
   .bonusesPage .emailSection-form-send {
-    top: 72px;
-    left: 205px; }
+    top: 112px;
+    left: 210px; }
   .bonusesPage .emailSection-title {
     margin-top: 28px; }
   .bonusesPage .prognosisItem {
@@ -2684,9 +2723,9 @@ table {
   .ratingPage .mainSection-tabs {
     margin-top: 15px;
     margin-right: 0;
-    padding-bottom: 8px; }
+    padding-bottom: 11px; }
   .ratingPage .mainSection-tabLink {
-    margin-left: 98px; }
+    margin-left: 58px; }
   .ratingPage .mainSection-tabLink:first-child {
     margin-left: 0; }
   .ratingPage .mainSection-header-headline {
@@ -3334,7 +3373,7 @@ table {
     padding-bottom: 25px; }
   .reviewPage .mainSection-tabs {
     display: block;
-    padding-bottom: 8px; }
+    padding-bottom: 11px; }
   .reviewPage .mainSection-tabLink {
     margin-left: 79px; }
   .reviewPage .mainSection-tabLink:first-child {
@@ -3762,7 +3801,23 @@ table {
 
 .prognosisItemPage .matchesSection-sortingFilter {
   margin-top: 33px;
-  margin-right: 18px; }
+  margin-right: 18px;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: relative; }
+
+.prognosisItemPage .matchesSection-sortingFilter:after {
+  content: "";
+  position: absolute;
+  right: -19px;
+  top: 6px;
+  width: 13px;
+  height: 13px;
+  background: url("../img/arrow-down-gray.png") no-repeat; }
 
 .prognosisItemPage .sidebar {
   margin-bottom: 68px; }
@@ -4341,7 +4396,7 @@ table {
     padding-bottom: 25px;
     margin-bottom: 0; }
   .samplePage .mainSection-title {
-    font-size: 28px; }
+    font-size: 24px; }
   .samplePage .mainSection-subtitle {
     font-size: 20px; }
   .samplePage .mainSection-subtitle-small {
@@ -5790,7 +5845,7 @@ table {
     display: block; }
   .mainPage .prognosisSection-tabs {
     margin-top: 0;
-    padding-bottom: 8px; }
+    padding-bottom: 11px; }
   .mainPage .prognosisSection-tabLink {
     margin-left: 4px; }
   .mainPage .prognosisSection-tabLink:first-child {
@@ -5862,7 +5917,7 @@ table {
     padding-bottom: 2px;
     display: block; }
   .mainPage .mainNewsSection-tabs {
-    padding-bottom: 8px; }
+    padding-bottom: 11px; }
   .mainPage .mainNewsSection-tabLink {
     margin-left: 4px;
     padding: 0; }
@@ -5891,7 +5946,7 @@ table {
     flex-wrap: wrap; }
   .mainPage .mainPopularNews-tabs {
     margin-left: 0;
-    padding-bottom: 8px; }
+    padding-bottom: 11px; }
   .mainPage .mainPopularNews-tabLink {
     margin-left: 66px; }
   .mainPage .mainPopularNews-tabLink:first-child {
@@ -5910,7 +5965,7 @@ table {
     display: block; }
   .mainPage .prognosisSection-tabs {
     margin-top: 14px;
-    padding-bottom: 8px; }
+    padding-bottom: 11px; }
   .mainPage .prognosisSection-tabLink {
     margin-left: 9px; }
   .mainPage .prognosisSection-tabLink:first-child {
@@ -5944,10 +5999,11 @@ table {
   .mainPage .mainMatchesSection-tabs {
     margin-left: 0;
     border-bottom: 2px solid rgba(0, 0, 0, 0.06);
-    padding-bottom: 8px; }
+    padding-bottom: 11px; }
   .mainPage .mainMatchesSection-tabs-secondary {
     margin-left: 0;
-    margin-top: 15px; }
+    margin-top: 15px;
+    padding-bottom: 12px; }
   .mainPage .mainMatchesSection-tabLink {
     margin-left: 21px; }
   .mainPage .mainMatchesSection-tabLink:first-child {
