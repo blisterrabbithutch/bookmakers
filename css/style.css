@@ -2178,7 +2178,11 @@ table {
 
 .matchesPage .mainSection-header {
   margin-top: 0px;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
+
+.matchesPage .mainSection-header:hover {
+  background: rgba(255, 255, 255, 0.8); }
 
 .matchesPage .mainSection-header-title {
   margin-left: auto;
@@ -5814,6 +5818,9 @@ table {
   margin-top: 0px;
   position: relative;
   cursor: pointer; }
+
+.mainPage .mainMatchesSection-header:hover {
+  background: rgba(255, 255, 255, 0.8); }
 
 .mainPage .mainMatchesSection-header-title {
   margin-left: auto;
