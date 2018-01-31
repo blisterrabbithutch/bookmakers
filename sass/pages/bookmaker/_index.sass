@@ -158,11 +158,23 @@
       display: inline-block
     &-grid
       margin-top: 24px
-      display: flex
-      justify-content: flex-start
-      flex-wrap: wrap
+      display: block
+      &-sorting
+        display: flex
+        justify-content: flex-start
+        flex-wrap: wrap
+        &_get
+          display: none
     &-titleWrapper
       border-bottom: 2px solid rgba(0,0,0,0.06)
+      display: flex
+      justify-content: space-between
+    &-tabs
+      margin-top: 18px
+    &-tabLink
+     &:hover
+      color: rgba(0,0,0,0.6)
+         
       
   .paymentItem
     text-align: center

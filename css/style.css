@@ -466,7 +466,7 @@ body {
 .header-bottom-link:before {
   content: "";
   position: absolute;
-  top: 11px;
+  top: 10px;
   left: 9px;
   width: 12px;
   height: 12px;
@@ -3295,12 +3295,26 @@ table {
 
 .bookmakerPage .paymentsSection-grid {
   margin-top: 24px;
+  display: block; }
+
+.bookmakerPage .paymentsSection-grid-sorting {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap; }
 
+.bookmakerPage .paymentsSection-grid-sorting_get {
+  display: none; }
+
 .bookmakerPage .paymentsSection-titleWrapper {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between; }
+
+.bookmakerPage .paymentsSection-tabs {
+  margin-top: 18px; }
+
+.bookmakerPage .paymentsSection-tabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
 
 .bookmakerPage .paymentItem {
   text-align: center;

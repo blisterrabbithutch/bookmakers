@@ -211,3 +211,12 @@ $('.reviewSection-tabLink').on('click', function(){
     $( ".reviewSection-grid-sorting" ).hide();
     $( ".reviewSection-grid" ).find(selectedBlock).css( "display", "block" );
 })
+
+$('.paymentsSection-tabLink').on('click', function(){
+    const tabData = $(this).attr('data-item');
+    $('.paymentsSection-tabLink').removeClass('filterBtn_opened');
+    $(this).toggleClass('filterBtn_opened');
+    const selectedBlock = $("div [data-item='" + tabData +"']");
+    $( ".paymentsSection-grid-sorting" ).hide();
+    $( ".paymentsSection-grid" ).find(selectedBlock).css( "display", "flex" );
+})
