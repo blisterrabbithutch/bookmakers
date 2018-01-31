@@ -22,7 +22,7 @@ $('.mainMatchesSection-content-block').on('click', function(){
         $(this).children('table').fadeIn();
     }
     $(this).toggleClass('checked');
-    $(this).find('.mainMatchesSection-header-expandIcon').toggleClass('mainSection-header-expandIcon_opened');
+    $(this).find('.mainMatchesSection-header-expandIcon').toggleClass('mainMatchesSection-header-expandIcon_opened');
 })
 
 $('.filterSectionItem_currency').on('click', function(){
@@ -44,8 +44,7 @@ $(document).ready(function(){
     });
 
     $('.bestCuffSection-slider').slick({
-        // autoplay: true,
-        // autoplaySpeed: 5000,
+
     });
 
     function $replaceDots() {
