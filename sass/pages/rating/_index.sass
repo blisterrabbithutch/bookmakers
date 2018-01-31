@@ -123,16 +123,24 @@
       padding: 0
     &Item
       border-bottom: 1px solid rgba(0, 0, 0, 0.06)
-      padding: 17px 79px 17px 18px
       font-family: HelveticaNeue-Medium
       font-size: 13px
       color: #000000
       position: relative
       letter-spacing: 0
       line-height: 16px
+      &:hover
+        background: rgba(0,0,0,0.04)
+        .filterSectionItem-title-indicator
+          opacity: .8
+      &:active
+        background: rgba(0,0,0,0.08)
+        .filterSectionItem-title-indicator
+          opacity: .5
       &-title
         display: block
         cursor: pointer
+        padding: 17px 79px 17px 18px
         input
           display: none
         input + .filterSectionItem-title-indicator
@@ -162,9 +170,10 @@
           right: 16px
           top: 14px
         &-row
-          padding: 8px 79px 8px 32px
           position: relative
-        
+          .filterSectionItem-title
+            padding: 8px 79px 8px 32px
+
 @media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
   .ratingPage
     .mainSection
