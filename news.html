@@ -46,267 +46,641 @@
 				<div class="newsPage-header">
 					<h1 class="title title-newsSection">Новости</h1>
 					<div class="newsSection-tabs">
-						<a href="#" class="newsSection-tabLink">Все</a>
-						<a href="#" class="newsSection-tabLink">Футбол</a>
-						<a href="#" class="newsSection-tabLink">Хоккей</a>
-						<a href="#" class="newsSection-tabLink">Теннис</a>
-						<a href="#" class="newsSection-tabLink">Баскетбол</a>
+						<button data-item="newsSection-all" class="newsSection-tabLink filterBtn filterBtn_opened">Все</button>
+						<button data-item="newsSection-football" class="newsSection-tabLink filterBtn">Футбол</button>
+						<button data-item="newsSection-hockey" class="newsSection-tabLink filterBtn">Хоккей</button>
+						<button data-item="newsSection-tennis" class="newsSection-tabLink filterBtn">Теннис</button>
+						<button data-item="newsSection-basketball" class="newsSection-tabLink filterBtn">Баскетбол</button>
 					</div>
 				</div>
 				<div class="newsSection-grid">
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Кубок Испании</h3>
-								<span class="newsItem-date">20 апр</span>
-							</div>
-							<p class="newsItem-description">
-								Разнообразные тоталы 
-								«Барселоны». Топ-2 
-								события для ставок
-								на ответные матчи 1/8
-								финала Кубка Испании
-							</p>
-						</a>
+					<div data-item="newsSection-all" class="newsSection-grid-sorting newsSection-grid-sorting_all">
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">20 апр</span>
+								</div>
+								<p class="newsItem-description">
+									Разнообразные тоталы
+									«Барселоны». Топ-2
+									события для ставок
+									на ответные матчи 1/8
+									финала Кубка Испании
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Бундеслига</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Английская премьер-лига</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Оборона на оборону. Прогноз на матч «Челси» — «Лестер Сити»
+									от Bookmakers
+									и Александра Елагина
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-04.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Английская премьер-лига</h3>
+									<span class="newsItem-date">1 час назад</span>
+								</div>
+								<p class="newsItem-description">
+									«Лестер» забьёт парочку, «Челси» будет трудно. Топ-3 ставки и экспресс на Кубок Англии 16–17 января
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-05.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Балотелли укрепит — прогноз на матч «Монако» — «Ницца»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-06.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Обычная победа «матрасников» — прогноз на матч «Атлетико Мадрид» — «Севилья»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-07.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Новости</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									БК Paddy Power вернулась к ставкам на Brexit
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-08.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Гол Анхеля Ди Марии помог ПСЖ обыграть «Нант»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-09.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">IBF</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Поединок между Энтони Джошуа и Джозефом Паркером состоится 31 марта
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-10.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Бундеслига</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Спортивный директор «Боруссии» про Обамеянга: «Я не знаю, что происходит в его голове»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-11.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Единая лига ВТБ</h3>
+									<span class="newsItem-date">21 час назад</span>
+								</div>
+								<p class="newsItem-description">
+									ЦСКА вновь проиграл
+									в Единой лиге ВТБ
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-12.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Ла лига</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Лионель Месси превзошел легендарный рекорд Герда Мюллера
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">20 апр</span>
+								</div>
+								<p class="newsItem-description">
+									Разнообразные тоталы
+									«Барселоны». Топ-2
+									события для ставок
+									на ответные матчи 1/8
+									финала Кубка Испании
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Бундеслига</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Английская премьер-лига</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Оборона на оборону. Прогноз на матч «Челси» — «Лестер Сити»
+									от Bookmakers
+									и Александра Елагина
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-04.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Английская премьер-лига</h3>
+									<span class="newsItem-date">1 час назад</span>
+								</div>
+								<p class="newsItem-description">
+									«Лестер» забьёт парочку, «Челси» будет трудно. Топ-3 ставки и экспресс на Кубок Англии 16–17 января
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-05.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Балотелли укрепит — прогноз на матч «Монако» — «Ницца»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-06.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Обычная победа «матрасников» — прогноз на матч «Атлетико Мадрид» — «Севилья»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-07.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Новости</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									БК Paddy Power вернулась к ставкам на Brexit
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-08.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Гол Анхеля Ди Марии помог ПСЖ обыграть «Нант»
+								</p>
+							</a>
+						</div>
 					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Бундеслига</h3>
-								<span class="newsItem-date">18 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
-							</p>
-						</a>
+					<div data-item="newsSection-football" class="newsSection-grid-sorting newsSection-grid-sorting_football">
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-06.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Обычная победа «матрасников» — прогноз на матч «Атлетико Мадрид» — «Севилья»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-07.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Новости</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									БК Paddy Power вернулась к ставкам на Brexit
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-08.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Гол Анхеля Ди Марии помог ПСЖ обыграть «Нант»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-09.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">IBF</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Поединок между Энтони Джошуа и Джозефом Паркером состоится 31 марта
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-10.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Бундеслига</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Спортивный директор «Боруссии» про Обамеянга: «Я не знаю, что происходит в его голове»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-11.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Единая лига ВТБ</h3>
+									<span class="newsItem-date">21 час назад</span>
+								</div>
+								<p class="newsItem-description">
+									ЦСКА вновь проиграл
+									в Единой лиге ВТБ
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-12.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Ла лига</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Лионель Месси превзошел легендарный рекорд Герда Мюллера
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">20 апр</span>
+								</div>
+								<p class="newsItem-description">
+									Разнообразные тоталы
+									«Барселоны». Топ-2
+									события для ставок
+									на ответные матчи 1/8
+									финала Кубка Испании
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Бундеслига</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Английская премьер-лига</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Оборона на оборону. Прогноз на матч «Челси» — «Лестер Сити»
+									от Bookmakers
+									и Александра Елагина
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-04.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Английская премьер-лига</h3>
+									<span class="newsItem-date">1 час назад</span>
+								</div>
+								<p class="newsItem-description">
+									«Лестер» забьёт парочку, «Челси» будет трудно. Топ-3 ставки и экспресс на Кубок Англии 16–17 января
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-05.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Балотелли укрепит — прогноз на матч «Монако» — «Ницца»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-06.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Обычная победа «матрасников» — прогноз на матч «Атлетико Мадрид» — «Севилья»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-07.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Новости</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									БК Paddy Power вернулась к ставкам на Brexit
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-08.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Гол Анхеля Ди Марии помог ПСЖ обыграть «Нант»
+								</p>
+							</a>
+						</div>
 					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Английская премьер-лига</h3>
-								<span class="newsItem-date">18 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Оборона на оборону. Прогноз на матч «Челси» — «Лестер Сити»
-								от Bookmakers
-								и Александра Елагина
-							</p>
-						</a>
+					<div data-item="newsSection-hockey" class="newsSection-grid-sorting newsSection-grid-sorting_hockey">
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">20 апр</span>
+								</div>
+								<p class="newsItem-description">
+									Разнообразные тоталы
+									«Барселоны». Топ-2
+									события для ставок
+									на ответные матчи 1/8
+									финала Кубка Испании
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Бундеслига</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-08.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Гол Анхеля Ди Марии помог ПСЖ обыграть «Нант»
+								</p>
+							</a>
+						</div>
 					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-04.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Английская премьер-лига</h3>
-								<span class="newsItem-date">1 час назад</span>
-							</div>
-							<p class="newsItem-description">
-								«Лестер» забьёт парочку, «Челси» будет трудно. Топ-3 ставки и экспресс на Кубок Англии 16–17 января
-							</p>
-						</a>
+					<div data-item="newsSection-tennis" class="newsSection-grid-sorting newsSection-grid-sorting_tennis">
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">20 апр</span>
+								</div>
+								<p class="newsItem-description">
+									Разнообразные тоталы
+									«Барселоны». Топ-2
+									события для ставок
+									на ответные матчи 1/8
+									финала Кубка Испании
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Бундеслига</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Английская премьер-лига</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Оборона на оборону. Прогноз на матч «Челси» — «Лестер Сити»
+									от Bookmakers
+									и Александра Елагина
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-04.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Английская премьер-лига</h3>
+									<span class="newsItem-date">1 час назад</span>
+								</div>
+								<p class="newsItem-description">
+									«Лестер» забьёт парочку, «Челси» будет трудно. Топ-3 ставки и экспресс на Кубок Англии 16–17 января
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-05.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Балотелли укрепит — прогноз на матч «Монако» — «Ницца»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-06.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Кубок Испании</h3>
+									<span class="newsItem-date">18 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Обычная победа «матрасников» — прогноз на матч «Атлетико Мадрид» — «Севилья»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-07.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Новости</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									БК Paddy Power вернулась к ставкам на Brexit
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-08.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Гол Анхеля Ди Марии помог ПСЖ обыграть «Нант»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-09.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">IBF</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Поединок между Энтони Джошуа и Джозефом Паркером состоится 31 марта
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-10.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Бундеслига</h3>
+									<span class="newsItem-date">20 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Спортивный директор «Боруссии» про Обамеянга: «Я не знаю, что происходит в его голове»
+								</p>
+							</a>
+						</div>
+						<div class="newsItem">
+							<a class="newsItem-link" href="#">
+								<img src="img/news-item-05.jpg" alt="Иллюстрация новости" class="newsItem-image">
+								<div class="newsItem-titleWrapper">
+									<h3 class="newsItem-title">Лига 1</h3>
+									<span class="newsItem-date">17 часов назад</span>
+								</div>
+								<p class="newsItem-description">
+									Балотелли укрепит — прогноз на матч «Монако» — «Ницца»
+								</p>
+							</a>
+						</div>
 					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-05.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Лига 1</h3>
-								<span class="newsItem-date">17 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Балотелли укрепит — прогноз на матч «Монако» — «Ницца»
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-06.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Кубок Испании</h3>
-								<span class="newsItem-date">18 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Обычная победа «матрасников» — прогноз на матч «Атлетико Мадрид» — «Севилья»
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-07.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Новости</h3>
-								<span class="newsItem-date">17 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								БК Paddy Power вернулась к ставкам на Brexit
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-08.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Лига 1</h3>
-								<span class="newsItem-date">20 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Гол Анхеля Ди Марии помог ПСЖ обыграть «Нант»
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-09.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">IBF</h3>
-								<span class="newsItem-date">20 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Поединок между Энтони Джошуа и Джозефом Паркером состоится 31 марта
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-10.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Бундеслига</h3>
-								<span class="newsItem-date">20 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Спортивный директор «Боруссии» про Обамеянга: «Я не знаю, что происходит в его голове»
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-11.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Единая лига ВТБ</h3>
-								<span class="newsItem-date">21 час назад</span>
-							</div>
-							<p class="newsItem-description">
-								ЦСКА вновь проиграл
-								в Единой лиге ВТБ
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-12.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Ла лига</h3>
-								<span class="newsItem-date">20 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Лионель Месси превзошел легендарный рекорд Герда Мюллера
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-01.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Кубок Испании</h3>
-								<span class="newsItem-date">20 апр</span>
-							</div>
-							<p class="newsItem-description">
-								Разнообразные тоталы
-								«Барселоны». Топ-2
-								события для ставок
-								на ответные матчи 1/8
-								финала Кубка Испании
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-02.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Бундеслига</h3>
-								<span class="newsItem-date">18 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Мюнхен мощнее! Прогноз на матч «Байер 04» — «Бавария Мюнхен»
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-03.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Английская премьер-лига</h3>
-								<span class="newsItem-date">18 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Оборона на оборону. Прогноз на матч «Челси» — «Лестер Сити»
-								от Bookmakers
-								и Александра Елагина
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-04.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Английская премьер-лига</h3>
-								<span class="newsItem-date">1 час назад</span>
-							</div>
-							<p class="newsItem-description">
-								«Лестер» забьёт парочку, «Челси» будет трудно. Топ-3 ставки и экспресс на Кубок Англии 16–17 января
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-05.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Лига 1</h3>
-								<span class="newsItem-date">17 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Балотелли укрепит — прогноз на матч «Монако» — «Ницца»
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-06.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Кубок Испании</h3>
-								<span class="newsItem-date">18 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Обычная победа «матрасников» — прогноз на матч «Атлетико Мадрид» — «Севилья»
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-07.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Новости</h3>
-								<span class="newsItem-date">17 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								БК Paddy Power вернулась к ставкам на Brexit
-							</p>
-						</a>
-					</div>
-					<div class="newsItem">
-						<a class="newsItem-link" href="#">
-							<img src="img/news-item-08.jpg" alt="Иллюстрация новости" class="newsItem-image">
-							<div class="newsItem-titleWrapper">
-								<h3 class="newsItem-title">Лига 1</h3>
-								<span class="newsItem-date">20 часов назад</span>
-							</div>
-							<p class="newsItem-description">
-								Гол Анхеля Ди Марии помог ПСЖ обыграть «Нант»
-							</p>
-						</a>
-					</div>
+					<div data-item="newsSection-basketball" class="newsSection-grid-sorting newsSection-grid-sorting_basketball"></div>
 				</div>
 				<button type="button" class="ajaxLoad ajaxLoad-newsSection">Загрузить еще</button>
 			</section>

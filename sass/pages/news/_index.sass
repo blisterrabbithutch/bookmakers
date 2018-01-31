@@ -16,11 +16,18 @@
     line-height: 16px;
     margin-left: 20px
   &-grid
-    display: flex 
-    justify-content: flex-start
-    flex-wrap: wrap
+    display: block
     padding-top: 22px
     border-top: 2px solid rgba(0, 0, 0, 0.06)
+    &-sorting
+      display: flex
+      justify-content: flex-start
+      flex-wrap: wrap
+      &_football,
+      &_hockey,
+      &_tennis,
+      &_basketball
+        display: none
 
 .newsItem
   width: 187px

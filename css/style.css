@@ -161,10 +161,10 @@ body {
 .filterBtn_opened:after {
   content: "";
   position: absolute;
-  bottom: -12px;
+  bottom: -15px;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 3px;
   background: #FF4242; }
 
 @media (min-width: 992px) and (max-width: 1359px) {
@@ -1096,7 +1096,18 @@ body {
   padding-bottom: 8px; }
 
 .betSchool-title {
+  padding-left: 25px;
+  position: relative;
   margin-top: 26px; }
+
+.betSchool-title:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  width: 12px;
+  height: 18px;
+  background: url(../img/school-icon.png) no-repeat; }
 
 .betSchoolItem {
   margin-bottom: 11px;
@@ -1406,11 +1417,17 @@ table {
   margin-left: 20px; }
 
 .newsSection-grid {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  display: block;
   padding-top: 22px;
   border-top: 2px solid rgba(0, 0, 0, 0.06); }
+
+.newsSection-grid-sorting {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.newsSection-grid-sorting_football, .newsSection-grid-sorting_hockey, .newsSection-grid-sorting_tennis, .newsSection-grid-sorting_basketball {
+  display: none; }
 
 .newsItem {
   width: 187px;

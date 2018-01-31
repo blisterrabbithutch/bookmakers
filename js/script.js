@@ -138,3 +138,13 @@ $('.betTv-tabItem').on('click', function(){
     $( ".betTv-grid-sorting" ).hide();
     $( ".betTv-grid" ).find(selectedBlock).css( "display", "block" );
 })
+
+
+$('.newsSection-tabLink').on('click', function(){
+    const tabData = $(this).attr('data-item');
+    $('.newsSection-tabLink').removeClass('filterBtn_opened');
+    $(this).toggleClass('filterBtn_opened');
+    const selectedBlock = $("div [data-item='" + tabData +"']");
+    $( ".newsSection-grid-sorting" ).hide();
+    $( ".newsSection-grid" ).find(selectedBlock).css( "display", "flex" );
+})
