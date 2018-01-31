@@ -4893,6 +4893,12 @@ table {
   letter-spacing: 0;
   line-height: 20px; }
 
+.mainPage .mainSlider-matchTitle:hover {
+  opacity: 1; }
+
+.mainPage .mainSlider-matchTitle:active {
+  opacity: .8; }
+
 .mainPage .mainSlider-matchTitle:last-child {
   margin-right: 0; }
 
