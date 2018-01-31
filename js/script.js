@@ -148,3 +148,25 @@ $('.newsSection-tabLink').on('click', function(){
     $( ".newsSection-grid-sorting" ).hide();
     $( ".newsSection-grid" ).find(selectedBlock).css( "display", "flex" );
 })
+
+// скрипт двойного фильтра со страницы прогнозы на спорт через универсальные кнопки.
+
+$('.prognosisPage-tabLink').on('click', function(){
+    const tabData = $(this).attr('data-item');
+    $('.prognosisPage-tabLink').removeClass('filterBtn_opened');
+    $(this).toggleClass('filterBtn_opened');
+    const selectedBlock = $("div [data-item='" + tabData +"']");
+    $( ".mainSection-content-sorting" ).hide();
+    $( ".mainSection-content" ).find(selectedBlock).css( "display", "block" );
+})
+
+$('.prognosisPage-secondaryTabLink').on('click', function(){
+    const tabData = $(this).attr('data-item');
+    $('.prognosisPage-secondaryTabLink').removeClass('filterBtn_opened');
+    $(this).toggleClass('filterBtn_opened');
+    const selectedBlock = $("div [data-item='" + tabData +"']");
+    $( ".mainSection-content-sorting-secondary" ).hide();
+    $( ".mainSection-content-sorting" ).find(selectedBlock).css( "display", "block" );
+})
+
+// конец парного фильтра

@@ -9,7 +9,19 @@
   .wrapper
     +mixinContainer
   .mainSection
-    padding-bottom: 25px
+    padding-bottom: 64px
+    &-content
+      &-sorting
+        &_football,
+        &_hockey,
+        &_tennis,
+        &_basketball
+          display: none
+        &-secondary
+          &_17Jan,
+          &_18Jan
+            display: none
+            
     &-header
       padding-left: 15px
       &-headline 
@@ -23,7 +35,7 @@
     .mainSection
       margin-left: 0
       width: 615px
-      padding-bottom: 25px
+      padding-bottom: 64px
       &-header
         &-headline
           &:last-child
@@ -38,7 +50,7 @@
     .mainSection
       margin-left: 0
       width: 600px
-      padding-bottom: 25px
+      padding-bottom: 0
       margin-right: 0
       &-header
         &-headline
@@ -61,7 +73,7 @@
     .mainSection
       margin-left: 0
       width: 280px
-      padding-bottom: 25px
+      padding-bottom: 0px
       margin-right: 0
       .sectionHeader
         display: block

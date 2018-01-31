@@ -949,6 +949,8 @@ body {
   line-height: 33px; }
 
 @media (min-width: 992px) and (max-width: 1359px) {
+  .betTv {
+    background: url("../img/betTv-background.jpg") center 0px; }
   .betTv-tabs {
     margin-right: 80px; }
   .betTvItem {
@@ -1769,7 +1771,13 @@ table {
     width: 300px; } }
 
 .prognosisPage .mainSection {
-  padding-bottom: 25px; }
+  padding-bottom: 64px; }
+
+.prognosisPage .mainSection-content-sorting_football, .prognosisPage .mainSection-content-sorting_hockey, .prognosisPage .mainSection-content-sorting_tennis, .prognosisPage .mainSection-content-sorting_basketball {
+  display: none; }
+
+.prognosisPage .mainSection-content-sorting-secondary_17Jan, .prognosisPage .mainSection-content-sorting-secondary_18Jan {
+  display: none; }
 
 .prognosisPage .mainSection-header {
   padding-left: 15px; }
@@ -1784,7 +1792,7 @@ table {
   .prognosisPage .mainSection {
     margin-left: 0;
     width: 615px;
-    padding-bottom: 25px; }
+    padding-bottom: 64px; }
   .prognosisPage .mainSection-header-headline:last-child {
     margin-left: 67%; }
   .prognosisPage .mainSection-table-cell_teams {
@@ -1794,7 +1802,7 @@ table {
   .prognosisPage .mainSection {
     margin-left: 0;
     width: 600px;
-    padding-bottom: 25px;
+    padding-bottom: 0;
     margin-right: 0; }
   .prognosisPage .mainSection-header-headline:last-child {
     margin-left: 67%; }
@@ -1809,7 +1817,7 @@ table {
   .prognosisPage .mainSection {
     margin-left: 0;
     width: 280px;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
     margin-right: 0; }
   .prognosisPage .mainSection .sectionHeader {
     display: block; }
