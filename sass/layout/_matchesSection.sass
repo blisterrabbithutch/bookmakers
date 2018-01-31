@@ -1,0 +1,119 @@
+.matchesSection
+  &-titleWrapper
+    &-titleWrapper
+    display: flex
+    justify-content: space-between
+  &-sortingFilter
+    align-self: flex-start
+    margin-top: 41px
+    margin-right: 10px
+    background: none
+    border: none
+    opacity: 0.6;
+    font-family: HelveticaNeue-Medium;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: relative
+    &:after
+      content: ""
+      position: absolute
+      right: -12px
+      top: 6px
+      width: 13px
+      height: 13px
+      background: url("../img/arrow-down-gray.png") no-repeat
+  &-matchesGrid
+    border-top: 2px solid rgba(0, 0, 0, 0.06)
+    padding-top: 24px
+    margin-bottom: 22px
+  &-title
+    margin-top: 37px
+
+
+.matchItem
+  border: 2px solid rgba(0, 0, 0, 0.06)
+  margin-bottom: 4px
+  cursor: pointer
+  position: relative
+  &-score
+    width: 50px
+    position: absolute
+    top: 20px
+    right: -15px
+    display: none
+    font-family: HelveticaNeue-Medium;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 16px;
+    &-first
+      display: block
+      margin-bottom: 20px
+    &-second
+      display: block
+  &:hover
+    background: rgba(0,0,0,0.01)
+  &:hover .matchItem-date
+    display: none
+  &:hover .matchItem-score
+    display: block
+  &-date
+    display: inline-block
+    vertical-align: top
+    margin-top: 29px
+    width: 40px
+    font-size: 10px
+    opacity: 0.6
+    font-family: HelveticaNeue-Medium
+    color: #000000
+    letter-spacing: 0
+    line-height: 16px
+  &-time
+    font-size: 13px
+  &-link
+    text-decoration: none
+  &-teams
+    display: inline-block
+    vertical-align: middle
+    width: 185px
+    padding: 16px 0px 7px 16px
+  &-firstTeam,
+  &-secondTeam
+    display: inline-block
+    width: 150px
+  &-firstTeam
+    margin-bottom: 7px
+  &-firstTeamTitle,
+  &-secondTeamTitle
+    margin: 0
+    font-family: HelveticaNeue-Medium
+    font-size: 13px
+    color: #000000
+    letter-spacing: 0
+    line-height: 16px
+    display: inline-block
+    vertical-align: top
+  &-firstTeamPicture,
+  &-secondTeamPicture
+    margin-right: 12px
+    
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .matchItem
+    display: block
+    &-date
+      float: right
+    &-score
+      right: -24
+
+
+@media (max-width: $mobile-widths-only)
+  .matchItem
+    display: block
+    &-date
+      float: right
+
+  .matchesSection
+    &-matchesGrid
+      padding-left: 0

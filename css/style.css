@@ -1649,213 +1649,6 @@ table {
     width: 280px;
     margin-right: 0; } }
 
-.newsSection {
-  width: 832px;
-  margin-left: 100px;
-  display: inline-block;
-  margin-right: 32px; }
-
-.newsSection-tabs {
-  display: inline-block;
-  margin-top: 48px; }
-
-.newsSection-tabLink {
-  opacity: 0.6;
-  text-decoration: none;
-  font-family: HelveticaNeue-Medium;
-  font-size: 13px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 16px;
-  margin-left: 20px; }
-
-.newsSection-grid {
-  display: block;
-  padding-top: 22px;
-  border-top: 2px solid rgba(0, 0, 0, 0.06); }
-
-.newsSection-grid-sorting {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap; }
-
-.newsSection-grid-sorting_football, .newsSection-grid-sorting_hockey, .newsSection-grid-sorting_tennis, .newsSection-grid-sorting_basketball {
-  display: none; }
-
-.newsItem {
-  width: 187px;
-  margin-right: 28px;
-  margin-bottom: 44px; }
-
-.newsItem:nth-child(4n) {
-  margin-right: 0; }
-
-.newsItem-link {
-  text-decoration: none; }
-
-.newsItem-titleWrapper {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
-  padding-left: 5px;
-  padding-bottom: 5px; }
-
-.newsItem-title {
-  font-family: HelveticaNeue-Medium;
-  font-size: 10px;
-  margin: 0;
-  color: #F24242;
-  letter-spacing: 0;
-  line-height: 16px;
-  text-transform: uppercase; }
-
-.newsItem-image {
-  width: 100%; }
-
-.newsItem-date {
-  display: block;
-  font-family: HelveticaNeue-Medium;
-  font-size: 10px;
-  margin: 0 0 4px 0;
-  color: black;
-  letter-spacing: 0;
-  line-height: 16px;
-  text-transform: uppercase; }
-
-.newsItem-description {
-  font-family: PTSerif-Regular;
-  font-size: 15px;
-  padding-left: 5px;
-  color: #000000;
-  margin-top: 5px;
-  margin-bottom: 0;
-  letter-spacing: 0;
-  line-height: 21px; }
-
-.newsPage-wrapper {
-  box-sizing: border-box;
-  width: 1360px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin: 0 auto; }
-
-@media only screen and (min-width: 992px) and (max-width: 1359px) {
-  .newsPage-wrapper {
-    box-sizing: border-box;
-    padding-left: 11px;
-    padding-right: 11px;
-    width: 992px; } }
-
-@media only screen and (max-width: 991px) and (min-width: 640px) {
-  .newsPage-wrapper {
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 640px; } }
-
-@media only screen and (max-width: 639px) {
-  .newsPage-wrapper {
-    box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 300px; } }
-
-.newsPage-header {
-  display: flex; }
-
-.prognosisSection-titleWrapper {
-  display: flex;
-  justify-content: space-between; }
-
-.prognosisSection-sortingFilter {
-  align-self: flex-start;
-  margin-top: 50px;
-  margin-right: 10px;
-  background: none;
-  border: none;
-  opacity: 0.6;
-  font-family: HelveticaNeue-Medium;
-  font-size: 13px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 16px;
-  position: relative; }
-
-.prognosisSection-sortingFilter:after {
-  content: "";
-  position: absolute;
-  right: -12px;
-  top: 6px;
-  width: 13px;
-  height: 13px;
-  background: url("../img/arrow-down-gray.png") no-repeat; }
-
-.prognosisSection-matchesGrid {
-  border-top: 2px solid rgba(0, 0, 0, 0.06);
-  padding-top: 23px;
-  padding-bottom: 22px; }
-
-.prognosisSection-title {
-  margin-top: 46px; }
-
-.prognosisItem {
-  display: flex;
-  justify-content: flex-start;
-  min-height: 62px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
-
-.prognosisItem:first-child {
-  border-top: 2px solid rgba(0, 0, 0, 0.06); }
-
-.prognosisItem-picture {
-  vertical-align: top;
-  display: inline-block;
-  margin-top: 16px;
-  width: 26px;
-  height: 26px;
-  margin-right: 18px;
-  margin-left: 2px; }
-
-.prognosisItem-link {
-  display: flex; }
-
-.prognosisItem-title {
-  align-self: center;
-  width: 160px;
-  font-family: HelveticaNeue-Medium;
-  font-size: 13px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 16px; }
-
-.prognosisItem-date {
-  text-align: right;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 14px;
-  width: 42px;
-  font-size: 10px;
-  opacity: 0.6;
-  font-family: HelveticaNeue-Medium;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 16px; }
-
-.prognosisItem-time {
-  font-size: 13px; }
-
-.prognosisItem-link {
-  text-decoration: none; }
-
-.stockSection-title {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
-  margin-top: 36px; }
-
-.stockSection-image {
-  margin-top: 24px;
-  display: block;
-  width: 100%;
-  height: 280px;
-  background: rgba(0, 0, 0, 0.06); }
-
 .matchesSection-titleWrapper {
   display: flex;
   justify-content: space-between; }
@@ -1969,6 +1762,145 @@ table {
 .matchItem-firstTeamPicture, .matchItem-secondTeamPicture {
   margin-right: 12px; }
 
+@media (min-width: 640px) and (max-width: 991px) {
+  .matchItem {
+    display: block; }
+  .matchItem-date {
+    float: right; }
+  .matchItem-score {
+    right: -24; } }
+
+@media (max-width: 639px) {
+  .matchItem {
+    display: block; }
+  .matchItem-date {
+    float: right; }
+  .matchesSection-matchesGrid {
+    padding-left: 0; } }
+
+.newsSection {
+  width: 832px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-right: 32px; }
+
+.newsSection-tabs {
+  display: inline-block;
+  margin-top: 48px; }
+
+.newsSection-tabLink {
+  opacity: 0.6;
+  text-decoration: none;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 20px; }
+
+.newsSection-grid {
+  display: block;
+  padding-top: 22px;
+  border-top: 2px solid rgba(0, 0, 0, 0.06); }
+
+.newsSection-grid-sorting {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.newsSection-grid-sorting_football, .newsSection-grid-sorting_hockey, .newsSection-grid-sorting_tennis, .newsSection-grid-sorting_basketball {
+  display: none; }
+
+.newsItem {
+  width: 187px;
+  margin-right: 28px;
+  margin-bottom: 44px; }
+
+.newsItem:nth-child(4n) {
+  margin-right: 0; }
+
+.newsItem-link {
+  text-decoration: none; }
+
+.newsItem-titleWrapper {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+  padding-left: 5px;
+  padding-bottom: 5px; }
+
+.newsItem-title {
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  margin: 0;
+  color: #F24242;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase; }
+
+.newsItem-image {
+  width: 100%; }
+
+.newsItem-date {
+  display: block;
+  font-family: HelveticaNeue-Medium;
+  font-size: 10px;
+  margin: 0 0 4px 0;
+  color: black;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase; }
+
+.newsItem-description {
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  padding-left: 5px;
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.newsPage-wrapper {
+  box-sizing: border-box;
+  width: 1360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1359px) {
+  .newsPage-wrapper {
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 992px; } }
+
+@media only screen and (max-width: 991px) and (min-width: 640px) {
+  .newsPage-wrapper {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 640px; } }
+
+@media only screen and (max-width: 639px) {
+  .newsPage-wrapper {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px; } }
+
+.newsPage-header {
+  display: flex; }
+
+.stockSection-title {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+  margin-top: 36px; }
+
+.stockSection-image {
+  margin-top: 24px;
+  display: block;
+  width: 100%;
+  height: 280px;
+  background: rgba(0, 0, 0, 0.06); }
+
 @media (min-width: 992px) and (max-width: 1359px) {
   .newsSection {
     margin-left: 0;
@@ -1977,11 +1909,7 @@ table {
   .newsItem {
     width: 140px;
     margin-right: 18px;
-    margin-bottom: 44px; }
-  .prognosisSection-matchesGrid {
-    padding-top: 0; }
-  .prognosisItem:first-child {
-    border-top: none; } }
+    margin-bottom: 44px; } }
 
 @media (min-width: 640px) and (max-width: 991px) {
   .newsSection {
@@ -1992,20 +1920,6 @@ table {
     width: 140px;
     margin-right: 13px;
     margin-bottom: 44px; }
-  .prognosisSection-matchesGrid {
-    text-align: center; }
-  .prognosisItem {
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px; }
-  .prognosisItem:first-child {
-    border-top: none; }
-  .matchItem {
-    display: block; }
-  .matchItem-date {
-    float: right; }
-  .matchItem-score {
-    right: -24; }
   .newsPage .ajaxLoad {
     margin-bottom: 0; } }
 
@@ -2029,19 +1943,7 @@ table {
     margin-right: 10px;
     margin-bottom: 15px; }
   .newsItem:nth-child(2n) {
-    margin-right: 0; }
-  .prognosisSection-matchesGrid {
-    text-align: center; }
-  .prognosisItem {
-    display: inline-block;
-    margin-left: 0px;
-    margin-right: 0px; }
-  .matchItem {
-    display: block; }
-  .matchItem-date {
-    float: right; }
-  .matchesSection-matchesGrid {
-    padding-left: 0; } }
+    margin-right: 0; } }
 
 .prognosisPage .wrapper {
   box-sizing: border-box;
