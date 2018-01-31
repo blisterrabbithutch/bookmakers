@@ -3695,6 +3695,12 @@ table {
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15); }
 
+.newsPreviewPage .newsPreview-prevPage:hover {
+  opacity: .9; }
+
+.newsPreviewPage .newsPreview-prevPage:active {
+  opacity: .7; }
+
 .newsPreviewPage .newsPreview-prevPage:after {
   content: "";
   position: absolute;
@@ -3970,6 +3976,12 @@ table {
   left: 120px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15); }
+
+.prognosisItemPage .prognosisItemPreview-prevPage:hover {
+  opacity: .9; }
+
+.prognosisItemPage .prognosisItemPreview-prevPage:active {
+  opacity: .7; }
 
 .prognosisItemPage .prognosisItemPreview-prevPage:after {
   content: "";
@@ -4283,6 +4295,12 @@ table {
   left: 120px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15); }
+
+.articlePage .articlePreview-prevPage:hover {
+  opacity: .9; }
+
+.articlePage .articlePreview-prevPage:active {
+  opacity: .7; }
 
 .articlePage .articlePreview-prevPage:after {
   content: "";
@@ -4785,6 +4803,12 @@ table {
   left: 120px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15); }
+
+.promotionsPage .promotionsPreview-prevPage:hover {
+  opacity: .9; }
+
+.promotionsPage .promotionsPreview-prevPage:active {
+  opacity: .7; }
 
 .promotionsPage .promotionsPreview-prevPage:after {
   content: "";
