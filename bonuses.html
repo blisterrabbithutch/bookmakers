@@ -46,195 +46,569 @@
                 <div class="sectionHeader">
                     <h1 class="title title-sectionTitle">Бонусы и акции</h1>
                     <div class="mainSection-tabs">
-                        <a href="#" class="mainSection-tabLink">Все</a>
-                        <a href="#" class="mainSection-tabLink">Актуальные</a>
-                        <a href="#" class="mainSection-tabLink">Прошедшие</a>
+                        <button data-item="bonusesSection-all" class="mainSection-tabLink bonusesSection-tabLink filterBtn filterBtn_opened">Все</button>
+                        <button data-item="bonusesSection-actual" class="mainSection-tabLink bonusesSection-tabLink filterBtn">Актуальные</button>
+                        <button data-item="bonusesSection-finished" class="mainSection-tabLink bonusesSection-tabLink filterBtn">Прошедшие</button>
                     </div>
                 </div>
-                <div class="mainSection-grid">
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-01.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Фрибет до 5000 ₽
-                                за ежедневные экспрессы от Лиги Ставок
-                            </p>
-                        </a>
+                <div class="mainSection-grid bonusesSection-grid">
+                    <div data-item="bonusesSection-all" class="bonusesSection-grid-sorting bonusesSection-grid-sorting_all">
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-01.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет до 5000 ₽
+                                    за ежедневные экспрессы от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-02.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 500 ₽ за первое пари от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-03.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонус до 2000 ₽
+                                    на первый депозит
+                                    от 1xСтавка
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-04.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Компенсация налога бонусами от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-05.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Супербет» – ставка
+                                    на любую сумму от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-06.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 1000 ₽
+                                    за первое пари от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-07.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Льготный экспресс»
+                                    от Фонбет страхует
+                                    от проигрыша одно
+                                    из событий
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-08.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от БалтБет
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-09.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    VIP-пари на сумму выше максимальной
+                                    от BETCITY
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-10.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Акция «Все на стадион», билеты на матчи ЦСКА
+                                    и атрибутика
+                                    с автографами
+                                    от BETCITY
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-11.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от Winline
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-12.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от Leon.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-01.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет до 5000 ₽
+                                    за ежедневные экспрессы от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-02.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 500 ₽ за первое пари от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-03.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонус до 2000 ₽
+                                    на первый депозит
+                                    от 1xСтавка
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-04.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Компенсация налога бонусами от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-05.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Супербет» – ставка
+                                    на любую сумму от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-06.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 1000 ₽
+                                    за первое пари от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-07.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Льготный экспресс»
+                                    от Фонбет страхует
+                                    от проигрыша одно
+                                    из событий
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-08.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от БалтБет
+                                </p>
+                            </a>
+                        </div>
                     </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-02.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Фрибет на 500 ₽ за первое пари от Лиги Ставок
-                            </p>
-                        </a>
+                    <div data-item="bonusesSection-actual" class="bonusesSection-grid-sorting bonusesSection-grid-sorting_actual">
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-01.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет до 5000 ₽
+                                    за ежедневные экспрессы от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-02.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 500 ₽ за первое пари от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-03.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонус до 2000 ₽
+                                    на первый депозит
+                                    от 1xСтавка
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-04.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Компенсация налога бонусами от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-05.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Супербет» – ставка
+                                    на любую сумму от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-06.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 1000 ₽
+                                    за первое пари от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-07.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Льготный экспресс»
+                                    от Фонбет страхует
+                                    от проигрыша одно
+                                    из событий
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-08.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от БалтБет
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-09.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    VIP-пари на сумму выше максимальной
+                                    от BETCITY
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-10.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Акция «Все на стадион», билеты на матчи ЦСКА
+                                    и атрибутика
+                                    с автографами
+                                    от BETCITY
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-11.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от Winline
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-12.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от Leon.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-01.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет до 5000 ₽
+                                    за ежедневные экспрессы от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-02.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 500 ₽ за первое пари от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-03.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонус до 2000 ₽
+                                    на первый депозит
+                                    от 1xСтавка
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-04.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Компенсация налога бонусами от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-05.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Супербет» – ставка
+                                    на любую сумму от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-06.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 1000 ₽
+                                    за первое пари от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-07.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Льготный экспресс»
+                                    от Фонбет страхует
+                                    от проигрыша одно
+                                    из событий
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-08.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от БалтБет
+                                </p>
+                            </a>
+                        </div>
                     </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-03.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Бонус до 2000 ₽
-                                на первый депозит
-                                от 1xСтавка
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-04.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Компенсация налога бонусами от 888.ru
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-05.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                «Супербет» – ставка
-                                на любую сумму от 888.ru
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-06.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Фрибет на 1000 ₽
-                                за первое пари от 888.ru
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-07.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                «Льготный экспресс»
-                                от Фонбет страхует
-                                от проигрыша одно
-                                из событий
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-08.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Бонусная программа
-                                от БалтБет
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-09.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                VIP-пари на сумму выше максимальной
-                                от BETCITY
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-10.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Акция «Все на стадион», билеты на матчи ЦСКА
-                                и атрибутика
-                                с автографами
-                                от BETCITY
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-11.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Бонусная программа
-                                от Winline
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-12.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Бонусная программа
-                                от Leon.ru
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-01.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Фрибет до 5000 ₽
-                                за ежедневные экспрессы от Лиги Ставок
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-02.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Фрибет на 500 ₽ за первое пари от Лиги Ставок
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-03.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Бонус до 2000 ₽
-                                на первый депозит
-                                от 1xСтавка
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-04.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Компенсация налога бонусами от 888.ru
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-05.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                «Супербет» – ставка
-                                на любую сумму от 888.ru
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-06.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Фрибет на 1000 ₽
-                                за первое пари от 888.ru
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-07.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                «Льготный экспресс»
-                                от Фонбет страхует
-                                от проигрыша одно
-                                из событий
-                            </p>
-                        </a>
-                    </div>
-                    <div class="bonusesItem">
-                        <a class="bonusesItem-link" href="#">
-                            <img src="img/bonuses-item-08.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
-                            <p class="bonusesItem-description">
-                                Бонусная программа
-                                от БалтБет
-                            </p>
-                        </a>
+                    <div data-item="bonusesSection-finished" class="bonusesSection-grid-sorting bonusesSection-grid-sorting_finished">
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-01.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет до 5000 ₽
+                                    за ежедневные экспрессы от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-02.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 500 ₽ за первое пари от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-03.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонус до 2000 ₽
+                                    на первый депозит
+                                    от 1xСтавка
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-04.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Компенсация налога бонусами от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-05.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Супербет» – ставка
+                                    на любую сумму от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-06.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 1000 ₽
+                                    за первое пари от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-07.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Льготный экспресс»
+                                    от Фонбет страхует
+                                    от проигрыша одно
+                                    из событий
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-08.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от БалтБет
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-09.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    VIP-пари на сумму выше максимальной
+                                    от BETCITY
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-10.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Акция «Все на стадион», билеты на матчи ЦСКА
+                                    и атрибутика
+                                    с автографами
+                                    от BETCITY
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-11.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от Winline
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-12.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от Leon.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-01.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет до 5000 ₽
+                                    за ежедневные экспрессы от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-02.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 500 ₽ за первое пари от Лиги Ставок
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-03.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонус до 2000 ₽
+                                    на первый депозит
+                                    от 1xСтавка
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-04.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Компенсация налога бонусами от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-05.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Супербет» – ставка
+                                    на любую сумму от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-06.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Фрибет на 1000 ₽
+                                    за первое пари от 888.ru
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-07.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    «Льготный экспресс»
+                                    от Фонбет страхует
+                                    от проигрыша одно
+                                    из событий
+                                </p>
+                            </a>
+                        </div>
+                        <div class="bonusesItem">
+                            <a class="bonusesItem-link" href="#">
+                                <img src="img/bonuses-item-08.jpg" alt="Иллюстрация новости" class="bonusesItem-image">
+                                <p class="bonusesItem-description">
+                                    Бонусная программа
+                                    от БалтБет
+                                </p>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <button type="button" class="ajaxLoad ajaxLoad-newsSection">Загрузить еще</button>

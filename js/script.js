@@ -192,3 +192,12 @@ $('.matchesSection-secondaryTabLink').on('click', function(){
 })
 
 // конец парного фильтра
+
+$('.bonusesSection-tabLink').on('click', function(){
+    const tabData = $(this).attr('data-item');
+    $('.bonusesSection-tabLink').removeClass('filterBtn_opened');
+    $(this).toggleClass('filterBtn_opened');
+    const selectedBlock = $("div [data-item='" + tabData +"']");
+    $( ".bonusesSection-grid-sorting" ).hide();
+    $( ".bonusesSection-grid" ).find(selectedBlock).css( "display", "flex" );
+})

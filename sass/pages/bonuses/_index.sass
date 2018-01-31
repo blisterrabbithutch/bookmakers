@@ -4,15 +4,23 @@
   .mainSection
     &-grid
       padding-top: 24px
-      display: flex
-      justify-content: flex-start
-      flex-wrap: wrap
+      display: block
       border-top: none
   .prognosisSection
     &-title
       margin-top: 28px
     &-sortingFilter
       margin-top: 28px
+    
+  .bonusesSection
+    &-grid
+      &-sorting
+        display: flex
+        justify-content: flex-start
+        flex-wrap: wrap
+        &_actual,
+        &_finished
+          display: none
   
   .stockSection
     &-title

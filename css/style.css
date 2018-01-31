@@ -2209,9 +2209,7 @@ table {
 
 .bonusesPage .mainSection-grid {
   padding-top: 24px;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  display: block;
   border-top: none; }
 
 .bonusesPage .prognosisSection-title {
@@ -2219,6 +2217,14 @@ table {
 
 .bonusesPage .prognosisSection-sortingFilter {
   margin-top: 28px; }
+
+.bonusesPage .bonusesSection-grid-sorting {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.bonusesPage .bonusesSection-grid-sorting_actual, .bonusesPage .bonusesSection-grid-sorting_finished {
+  display: none; }
 
 .bonusesPage .stockSection-title {
   margin-top: 24px; }
