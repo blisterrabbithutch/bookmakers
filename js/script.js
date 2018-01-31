@@ -38,7 +38,8 @@ $('.filterSectionItem_safety').on('click', function(){
 $(document).ready(function(){
     $('.mainSlider-carousel').slick({
         autoplay: true,
-        autoplaySpeed: 5000, 
+        autoplaySpeed: 5000,
+        appendArrows: $('.wrapper_mainSlider'),
         dots: true
     });
 

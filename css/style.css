@@ -873,7 +873,7 @@ body {
   letter-spacing: 0;
   line-height: 16px;
   text-decoration: none;
-  margin-top: 57px;
+  margin-top: 54px;
   margin-left: 25px;
   display: inline-block; }
 
@@ -1772,6 +1772,9 @@ table {
 
 .prognosisPage .mainSection {
   padding-bottom: 64px; }
+
+.prognosisPage .mainSection-tabs-secondary {
+  padding-bottom: 13px; }
 
 .prognosisPage .mainSection-content-sorting_football, .prognosisPage .mainSection-content-sorting_hockey, .prognosisPage .mainSection-content-sorting_tennis, .prognosisPage .mainSection-content-sorting_basketball {
   display: none; }
@@ -4861,7 +4864,7 @@ table {
 
 .mainPage .prognosisSection-tabs {
   display: inline-block;
-  margin-top: 31px; }
+  margin-top: 28px; }
 
 .mainPage .prognosisSection-tabLink {
   opacity: 0.6;
@@ -5086,7 +5089,7 @@ table {
 .mainPage .mainPopularNews-tabs {
   margin-left: 270px;
   display: inline-block;
-  margin-top: 43px; }
+  margin-top: 40px; }
 
 .mainPage .mainPopularNews-tabLink {
   opacity: 0.6;
@@ -5163,7 +5166,7 @@ table {
 
 .mainPage .mainNewsSection-tabs {
   display: inline-block;
-  margin-top: 17px; }
+  margin-top: 14px; }
 
 .mainPage .mainNewsSection-tabLink {
   opacity: 0.6;
@@ -5375,10 +5378,10 @@ table {
 
 .mainPage .mainMatchesSection-tabs {
   display: inline-block;
-  margin-top: 17px; }
+  margin-top: 14px; }
 
 .mainPage .mainMatchesSection-tabs-secondary {
-  margin-top: 9px;
+  margin-top: 6px;
   margin-left: 219px;
   padding: 8px 0 8px 0;
   border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
@@ -5661,6 +5664,9 @@ table {
 
 .mainPage .mainMatchesSection-content-block {
   margin-bottom: 4px; }
+
+.mainPage .wrapper_mainSlider {
+  position: relative; }
 
 @media (min-width: 992px) and (max-width: 1359px) {
   .mainPage .mainSection {
