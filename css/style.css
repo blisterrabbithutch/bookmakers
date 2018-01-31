@@ -4895,7 +4895,8 @@ table {
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 0;
-  line-height: 20px; }
+  line-height: 20px;
+  cursor: pointer; }
 
 .mainPage .mainSlider-matchTitle:hover {
   opacity: 1; }
