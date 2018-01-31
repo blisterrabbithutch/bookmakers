@@ -115,7 +115,15 @@ body {
   font-size: 0;
   width: 40px;
   height: 20px;
-  outline: none; }
+  outline: none;
+  cursor: pointer;
+  opacity: .7; }
+
+.slick-arrow:hover {
+  opacity: 1; }
+
+.slick-arrow:active {
+  opacity: .5; }
 
 .slick-next {
   right: 40px;
@@ -2765,7 +2773,8 @@ table {
   line-height: 16px; }
 
 .ratingPage .filterSectionItem-title {
-  display: block; }
+  display: block;
+  cursor: pointer; }
 
 .ratingPage .filterSectionItem-title input {
   display: none; }
