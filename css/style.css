@@ -2706,12 +2706,26 @@ table {
 
 .ratingPage .mainItem-site {
   border: 1px solid rgba(0, 0, 0, 0.06);
-  padding: 10px 16px 10px 16px; }
+  padding: 10px 16px 10px 16px;
+  cursor: pointer; }
+
+.ratingPage .mainItem-site:hover {
+  background: rgba(0, 0, 0, 0.01); }
+
+.ratingPage .mainItem-site:active {
+  background: rgba(0, 0, 0, 0.1); }
 
 .ratingPage .mainItem-review {
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.06);
-  padding: 10px 40px 10px 16px; }
+  padding: 10px 40px 10px 16px;
+  cursor: pointer; }
+
+.ratingPage .mainItem-review:hover {
+  background: rgba(0, 0, 0, 0.01); }
+
+.ratingPage .mainItem-review:active {
+  background: rgba(0, 0, 0, 0.1); }
 
 .ratingPage .mainItem-review:before {
   content: "";
