@@ -7,12 +7,12 @@
     text-align: center
     padding-top: 53px
     padding-bottom: 49px
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex
+    align-items: center
+    justify-content: space-between
     &-left
       float: left
-      margin-left: 107px;
+      margin-left: 107px
     &-right
       float: right
       margin-right: 107px
@@ -21,24 +21,28 @@
       vertical-align: top
       text-transform: uppercase
       text-decoration: none
-      font-family: HelveticaNeue-Bold;
-      font-size: 11px;
-      color: #FFFFFF;
-      letter-spacing: 0;
-      line-height: 12px;
+      font-family: HelveticaNeue-Bold
+      font-size: 11px
+      color: #FFFFFF
+      letter-spacing: 0
+      line-height: 12px
       cursor: pointer
       padding: 10px 16px 10px 32px
       border: 1px solid rgba(240,240,240, 0.2)
       background: rgba(255,255,255,0.05)
       border-radius: 4px
       position: relative
+      &:hover
+        opacity: .9
+      &:active
+        opacity: .7
       &:before
-        content: "";
-        position: absolute;
-        top: 10px;
-        left: 9px;
-        width: 12px;
-        height: 12px;
+        content: ""
+        position: absolute
+        top: 10px
+        left: 9px
+        width: 12px
+        height: 12px
         background: url(../img/left-arrow.png) no-repeat
     &-logo
       display: inline-block
@@ -47,21 +51,21 @@
     &-safety
       display: inline-block
       vertical-align: top
-      font-family: HelveticaNeue-Medium;
-      font-size: 13px;
-      color: #FFFFFF;
-      letter-spacing: 0;
-      line-height: 16px;
+      font-family: HelveticaNeue-Medium
+      font-size: 13px
+      color: #FFFFFF
+      letter-spacing: 0
+      line-height: 16px
       margin-top: 9px
       margin-left: 58px
       position: relative
       &:before
-        content: "";
-        position: absolute;
-        top: 2px;
-        left: -11px;
-        width: 4px;
-        height: 12px;
+        content: ""
+        position: absolute
+        top: 2px
+        left: -11px
+        width: 4px
+        height: 12px
         background: #43A42F
         border-radius: 3px
     &-siteLink
@@ -72,22 +76,26 @@
       text-transform: uppercase
       text-decoration: none
       margin-right: 14px
-      font-family: HelveticaNeue-Bold;
-      font-size: 11px;
-      color: #FFFFFF;
-      letter-spacing: 0;
-      line-height: 12px;
+      font-family: HelveticaNeue-Bold
+      font-size: 11px
+      color: #FFFFFF
+      letter-spacing: 0
+      line-height: 12px
       border-radius: 3px
       cursor: pointer
+      &:hover
+        opacity: .9
+      &:active
+        opacity: .7
     &-likes
       margin-right: 10px
       display: inline-block
       vertical-align: top
-      font-family: HelveticaNeue-Medium;
-      font-size: 13px;
-      color: #FFFFFF;
-      letter-spacing: 0;
-      line-height: 16px;
+      font-family: HelveticaNeue-Medium
+      font-size: 13px
+      color: #FFFFFF
+      letter-spacing: 0
+      line-height: 16px
       position: relative
       cursor: pointer
       padding: 8px 12px 8px 34px
@@ -97,12 +105,12 @@
       &:active, &:focus
         outline: none
       &:before
-        content: "";
-        position: absolute;
-        top: 10px;
-        left: 11px;
-        width: 15px;
-        height: 15px;
+        content: ""
+        position: absolute
+        top: 10px
+        left: 11px
+        width: 15px
+        height: 15px
         background: url(../img/like-green.png) no-repeat
     &-reviews
       display: inline-block
@@ -110,15 +118,19 @@
       cursor: pointer
       text-transform: uppercase
       text-decoration: none
-      font-family: HelveticaNeue-Bold;
-      font-size: 11px;
-      color: #FFFFFF;
-      letter-spacing: 0;
-      line-height: 12px;
+      font-family: HelveticaNeue-Bold
+      font-size: 11px
+      color: #FFFFFF
+      letter-spacing: 0
+      line-height: 12px
       padding: 10px 16px
       border: 1px solid rgba(240,240,240, 0.2)
       background: rgba(255,255,255,0.05)
       border-radius: 4px
+      &:hover
+        opacity: .9
+      &:active
+        opacity: .7
       &-gray
         color: rgba(255,255,255,0.6)
     &_reviewPage
@@ -128,7 +140,7 @@
         margin-right: 96px
         
   &-navigation
-    margin-left: 80px;
+    margin-left: 80px
     display: inline-block
     vertical-align: top
     ul
@@ -150,7 +162,7 @@
     vertical-align: top
     position: relative
     &:hover
-      opacity: 1;
+      opacity: 1
       color: white
     &:active
       opacity: .9
@@ -171,20 +183,22 @@
     vertical-align: top
     color: white
     text-transform: uppercase
-    font-family: HelveticaNeue-Bold;
+    font-family: HelveticaNeue-Bold
     font-size: 0px
     color: #FFFFFF
-    letter-spacing: 0;
-    line-height: 18px;
-    position: relative;
+    letter-spacing: 0
+    line-height: 18px
+    position: relative
     &:hover
       opacity: .8
+    &:active
+      opacity: .7
     span
       font-size: 15px
       display: inline-block
-      vertical-align: top;
-      padding-top: 5px;
-      padding-left: 10px;
+      vertical-align: top
+      padding-top: 5px
+      padding-left: 10px
 
 
 @media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
@@ -225,7 +239,7 @@
       border-bottom: 1px solid rgba(255,255,255,0.06)
       &_active
         &:before
-          opacity: 0.3;
+          opacity: 0.3
     &-bottom
       &-left
         margin-left: 0
@@ -258,7 +272,7 @@
       border-bottom: 1px solid rgba(255,255,255,0.06)
       &_active
         &:before
-          opacity: 0.3;
+          opacity: 0.3
     &-bottom
       padding-top: 10px
       padding-bottom: 20px
@@ -282,7 +296,7 @@
           display: none
       &-reviews
         font-size: 8px
-        padding: 10px 12px 10px 12px;
+        padding: 10px 12px 10px 12px
         &-desktop
           display: none
           
@@ -294,5 +308,5 @@
         &-left
           order: 2
         &-logo
-          order: 1;
+          order: 1
           margin-left: 0px

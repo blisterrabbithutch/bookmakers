@@ -24,6 +24,9 @@ body {
 .buttonAuth:hover {
   opacity: .7; }
 
+.buttonAuth:active {
+  opacity: .5; }
+
 .buttonAuth:before {
   content: "";
   position: absolute;
@@ -463,6 +466,12 @@ body {
   border-radius: 4px;
   position: relative; }
 
+.header-bottom-link:hover {
+  opacity: .9; }
+
+.header-bottom-link:active {
+  opacity: .7; }
+
 .header-bottom-link:before {
   content: "";
   position: absolute;
@@ -515,6 +524,12 @@ body {
   border-radius: 3px;
   cursor: pointer; }
 
+.header-bottom-siteLink:hover {
+  opacity: .9; }
+
+.header-bottom-siteLink:active {
+  opacity: .7; }
+
 .header-bottom-likes {
   margin-right: 10px;
   display: inline-block;
@@ -558,6 +573,12 @@ body {
   border: 1px solid rgba(240, 240, 240, 0.2);
   background: rgba(255, 255, 255, 0.05);
   border-radius: 4px; }
+
+.header-bottom-reviews:hover {
+  opacity: .9; }
+
+.header-bottom-reviews:active {
+  opacity: .7; }
 
 .header-bottom-reviews-gray {
   color: rgba(255, 255, 255, 0.6); }
@@ -627,6 +648,9 @@ body {
 
 .header-logo:hover {
   opacity: .8; }
+
+.header-logo:active {
+  opacity: .7; }
 
 .header-logo span {
   font-size: 15px;
@@ -3193,6 +3217,12 @@ table {
   letter-spacing: 0;
   line-height: 16px; }
 
+.bookmakerPage .bookmakerSiteSection-footer-link:hover {
+  opacity: .7; }
+
+.bookmakerPage .bookmakerSiteSection-footer-link:active {
+  opacity: .9; }
+
 .bookmakerPage .bookmakerSiteSection-footer-socials {
   position: absolute;
   top: 17px;
@@ -3204,6 +3234,12 @@ table {
   height: 24px;
   background: url("../img/social.png") no-repeat;
   margin-left: 10px; }
+
+.bookmakerPage .bookmakerSiteSection-footer-social:hover {
+  opacity: .7; }
+
+.bookmakerPage .bookmakerSiteSection-footer-social:active {
+  opacity: .9; }
 
 .bookmakerPage .bookmakerSiteSection-footer-social_facebook {
   background-position: 0 0; }
@@ -3587,6 +3623,12 @@ table {
   padding-top: 20px;
   margin-bottom: 60px; }
 
+.newsPreviewPage .mainSection-footer-social:hover {
+  opacity: .7; }
+
+.newsPreviewPage .mainSection-footer-social:active {
+  opacity: .9; }
+
 .newsPreviewPage .mainSection-footer-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -3596,6 +3638,12 @@ table {
   color: #F24242;
   letter-spacing: 0;
   line-height: 16px; }
+
+.newsPreviewPage .mainSection-footer-link:hover {
+  opacity: .7; }
+
+.newsPreviewPage .mainSection-footer-link:active {
+  opacity: .9; }
 
 .newsPreviewPage .mainSection-content-block {
   margin-bottom: 38px; }
@@ -3860,6 +3908,18 @@ table {
   color: #F24242;
   letter-spacing: 0;
   line-height: 16px; }
+
+.prognosisItemPage .mainSection-footer-link:hover {
+  opacity: .7; }
+
+.prognosisItemPage .mainSection-footer-link:active {
+  opacity: .9; }
+
+.prognosisItemPage .mainSection-footer-social:hover {
+  opacity: .7; }
+
+.prognosisItemPage .mainSection-footer-social:active {
+  opacity: .9; }
 
 .prognosisItemPage .mainSection-content-block {
   margin-bottom: 38px; }
@@ -4140,6 +4200,12 @@ table {
 .articlePage .mainSection-footer-socials {
   top: 10px; }
 
+.articlePage .mainSection-footer-social:hover {
+  opacity: .7; }
+
+.articlePage .mainSection-footer-social:active {
+  opacity: .9; }
+
 .articlePage .mainSection-footer-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -4149,6 +4215,12 @@ table {
   color: #F24242;
   letter-spacing: 0;
   line-height: 16px; }
+
+.articlePage .mainSection-footer-link:hover {
+  opacity: .7; }
+
+.articlePage .mainSection-footer-link:active {
+  opacity: .9; }
 
 .articlePage .mainSection-content-block {
   margin-bottom: 40px; }
@@ -4630,6 +4702,12 @@ table {
 .promotionsPage .mainSection-footer-socials {
   top: 14px; }
 
+.promotionsPage .mainSection-footer-social:hover {
+  opacity: .7; }
+
+.promotionsPage .mainSection-footer-social:active {
+  opacity: .9; }
+
 .promotionsPage .mainSection-footer-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -4639,6 +4717,12 @@ table {
   color: #F24242;
   letter-spacing: 0;
   line-height: 16px; }
+
+.promotionsPage .mainSection-footer-link:hover {
+  opacity: .7; }
+
+.promotionsPage .mainSection-footer-link:active {
+  opacity: .9; }
 
 .promotionsPage .mainSection-content-block {
   margin-bottom: 40px; }
