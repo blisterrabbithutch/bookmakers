@@ -1,0 +1,20 @@
+.sidebar
+  display: inline-block
+  vertical-align: top
+  width: 256px
+  margin-bottom: 25px
+
+@media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
+  .sidebar
+    width: 260px
+    margin-right: -90px
+
+@media (min-width: $tablet-widths-only-min) and (max-width: $tablet-widths-only-max)
+  .sidebar
+    width: 600px
+    margin-right: 0
+
+@media (max-width: $mobile-widths-only)
+  .sidebar
+    width: 280px
+    margin-right: 0

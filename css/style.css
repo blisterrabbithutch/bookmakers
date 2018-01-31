@@ -236,13 +236,13 @@ body {
     color: white;
     opacity: 1;
     margin-right: 0;
-    padding: 22px 0px 22px 54px;
+    padding: 22px 0px 22px 34px;
     float: none;
     display: block;
     font-size: 13px;
     position: relative; }
   .buttonAuth-mobile:before {
-    left: 27px;
+    left: 7px;
     top: 25px; }
   .ajaxLoad-newsSection {
     margin-bottom: 0px; }
@@ -727,6 +727,7 @@ body {
   .header-link {
     display: block;
     padding-left: 34px;
+    margin-left: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
   .header-link_active:before {
     opacity: 0.3; }
@@ -1518,6 +1519,135 @@ table {
 .secondarySection-grid {
   margin-top: 25px; }
 
+.prognosisSection-titleWrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.prognosisSection-sortingFilter {
+  align-self: flex-start;
+  margin-top: 50px;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: relative; }
+
+.prognosisSection-sortingFilter:after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 6px;
+  width: 13px;
+  height: 13px;
+  background: url("../img/arrow-down-gray.png") no-repeat; }
+
+.prognosisSection-matchesGrid {
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  padding-top: 23px;
+  padding-bottom: 22px; }
+
+.prognosisSection-title {
+  margin-top: 46px; }
+
+.prognosisItem {
+  display: flex;
+  justify-content: flex-start;
+  min-height: 62px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisItem:first-child {
+  border-top: 2px solid rgba(0, 0, 0, 0.06); }
+
+.prognosisItem-picture {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 16px;
+  width: 26px;
+  height: 26px;
+  margin-right: 18px;
+  margin-left: 2px; }
+
+.prognosisItem-link {
+  display: flex; }
+
+.prognosisItem-title {
+  align-self: center;
+  width: 160px;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.prognosisItem-date {
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 14px;
+  width: 42px;
+  font-size: 10px;
+  opacity: 0.6;
+  font-family: HelveticaNeue-Medium;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16px; }
+
+.prognosisItem-time {
+  font-size: 13px; }
+
+.prognosisItem-link {
+  text-decoration: none; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .prognosisSection-matchesGrid {
+    padding-top: 0; }
+  .prognosisItem:first-child {
+    border-top: none; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .prognosisSection-matchesGrid {
+    text-align: center; }
+  .prognosisItem {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .prognosisItem:first-child {
+    border-top: none; } }
+
+@media (max-width: 639px) {
+  .prognosisSection-matchesGrid {
+    text-align: center; }
+  .prognosisItem {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px; } }
+
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  width: 256px;
+  margin-bottom: 25px; }
+
+@media (min-width: 992px) and (max-width: 1359px) {
+  .sidebar {
+    width: 260px;
+    margin-right: -90px; } }
+
+@media (min-width: 640px) and (max-width: 991px) {
+  .sidebar {
+    width: 600px;
+    margin-right: 0; } }
+
+@media (max-width: 639px) {
+  .sidebar {
+    width: 280px;
+    margin-right: 0; } }
+
 .newsSection {
   width: 832px;
   margin-left: 100px;
@@ -1537,9 +1667,6 @@ table {
   letter-spacing: 0;
   line-height: 16px;
   margin-left: 20px; }
-
-.newsSection-tabLink:hover {
-  color: rgba(0, 0, 0, 0.6); }
 
 .newsSection-grid {
   display: block;
@@ -1631,14 +1758,7 @@ table {
     width: 300px; } }
 
 .newsPage-header {
-  display: flex;
-  justify-content: space-between; }
-
-.sidebar {
-  display: inline-block;
-  vertical-align: top;
-  width: 256px;
-  margin-bottom: 25px; }
+  display: flex; }
 
 .prognosisSection-titleWrapper {
   display: flex;
@@ -1857,9 +1977,6 @@ table {
     width: 140px;
     margin-right: 18px;
     margin-bottom: 44px; }
-  .sidebar {
-    width: 260px;
-    margin-right: -90px; }
   .prognosisSection-matchesGrid {
     padding-top: 0; }
   .prognosisItem:first-child {
@@ -1874,9 +1991,6 @@ table {
     width: 140px;
     margin-right: 13px;
     margin-bottom: 44px; }
-  .sidebar {
-    width: 600px;
-    margin-right: 0; }
   .prognosisSection-matchesGrid {
     text-align: center; }
   .prognosisItem {
@@ -1890,7 +2004,7 @@ table {
   .matchItem-date {
     float: right; }
   .matchItem-score {
-    right: -24px; }
+    right: -24; }
   .newsPage .ajaxLoad {
     margin-bottom: 0; } }
 
@@ -1915,9 +2029,6 @@ table {
     margin-bottom: 15px; }
   .newsItem:nth-child(2n) {
     margin-right: 0; }
-  .sidebar {
-    width: 280px;
-    margin-right: 0; }
   .prognosisSection-matchesGrid {
     text-align: center; }
   .prognosisItem {
@@ -1928,8 +2039,6 @@ table {
     display: block; }
   .matchItem-date {
     float: right; }
-  .matchItem-score {
-    right: -24px; }
   .matchesSection-matchesGrid {
     padding-left: 0; } }
 
