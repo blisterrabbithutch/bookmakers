@@ -1949,6 +1949,12 @@ table {
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 3px; }
 
+.matchesPage .matchesSection-grid-sorting_basketball, .matchesPage .matchesSection-grid-sorting_tennis, .matchesPage .matchesSection-grid-sorting_hockey {
+  display: none; }
+
+.matchesPage .matchesSection-grid-sorting-secondary_future, .matchesPage .matchesSection-grid-sorting-secondary_finished {
+  display: none; }
+
 .matchesPage .mainSection {
   margin-bottom: 64px; }
 

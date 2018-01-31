@@ -149,7 +149,7 @@ $('.newsSection-tabLink').on('click', function(){
     $( ".newsSection-grid" ).find(selectedBlock).css( "display", "flex" );
 })
 
-// скрипт двойного фильтра со страницы прогнозы на спорт через универсальные кнопки.
+// скрипт двойного фильтра со страницы прогнозы на спорт.
 
 $('.prognosisPage-tabLink').on('click', function(){
     const tabData = $(this).attr('data-item');
@@ -167,6 +167,28 @@ $('.prognosisPage-secondaryTabLink').on('click', function(){
     const selectedBlock = $("div [data-item='" + tabData +"']");
     $( ".mainSection-content-sorting-secondary" ).hide();
     $( ".mainSection-content-sorting" ).find(selectedBlock).css( "display", "block" );
+})
+
+// конец парного фильтра
+
+// скрипт двойного фильтра со страницы матчи.
+
+$('.matchesSection-tabLink').on('click', function(){
+    const tabData = $(this).attr('data-item');
+    $('.matchesSection-tabLink').removeClass('filterBtn_opened');
+    $(this).toggleClass('filterBtn_opened');
+    const selectedBlock = $("div [data-item='" + tabData +"']");
+    $( ".matchesSection-grid-sorting" ).hide();
+    $( ".matchesSection-grid" ).find(selectedBlock).css( "display", "block" );
+})
+
+$('.matchesSection-secondaryTabLink').on('click', function(){
+    const tabData = $(this).attr('data-item');
+    $('.matchesSection-secondaryTabLink').removeClass('filterBtn_opened');
+    $(this).toggleClass('filterBtn_opened');
+    const selectedBlock = $("div [data-item='" + tabData +"']");
+    $( ".matchesSection-grid-sorting-secondary" ).hide();
+    $( ".matchesSection-grid-sorting" ).find(selectedBlock).css( "display", "block" );
 })
 
 // конец парного фильтра
