@@ -2827,6 +2827,12 @@ table {
 .ratingPage .filterSectionItem-hiddenContent-row .filterSectionItem-title {
   padding: 8px 79px 8px 32px; }
 
+.ratingPage .filterSectionItem-hiddenContent-row .filterSectionItem-title:hover {
+  opacity: .9; }
+
+.ratingPage .filterSectionItem-hiddenContent-row .filterSectionItem-title:active {
+  opacity: .7; }
+
 @media (min-width: 992px) and (max-width: 1359px) {
   .ratingPage .mainSection {
     margin-left: 0;
