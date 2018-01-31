@@ -3237,6 +3237,9 @@ table {
 .reviewPage .sidebar {
   margin-bottom: 0; }
 
+.reviewPage .reviewSection-grid-sorting_old, .reviewPage .reviewSection-grid-sorting_new {
+  display: none; }
+
 .reviewPage .mainSection {
   width: 1120px;
   margin-left: 103px;

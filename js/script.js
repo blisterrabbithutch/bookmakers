@@ -202,3 +202,13 @@ $('.bonusesSection-tabLink').on('click', function(){
     $( ".bonusesSection-grid-sorting" ).hide();
     $( ".bonusesSection-grid" ).find(selectedBlock).css( "display", "flex" );
 })
+
+
+$('.reviewSection-tabLink').on('click', function(){
+    const tabData = $(this).attr('data-item');
+    $('.reviewSection-tabLink').removeClass('filterBtn_opened');
+    $(this).toggleClass('filterBtn_opened');
+    const selectedBlock = $("div [data-item='" + tabData +"']");
+    $( ".reviewSection-grid-sorting" ).hide();
+    $( ".reviewSection-grid" ).find(selectedBlock).css( "display", "block" );
+})
