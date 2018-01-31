@@ -143,12 +143,17 @@
     letter-spacing: 0
     line-height: 18px
     text-decoration: none
-    padding: 22px 0px 22px 0px;
+    padding: 22px 0px 22px 0px
     margin-left: 22px
     text-transform: uppercase
     display: inline-block
     vertical-align: top
     position: relative
+    &:hover
+      opacity: 1;
+      color: white
+    &:active
+      opacity: .9
     &_active
       opacity: 1
       &:before
@@ -172,6 +177,8 @@
     letter-spacing: 0;
     line-height: 18px;
     position: relative;
+    &:hover
+      opacity: .8
     span
       font-size: 15px
       display: inline-block

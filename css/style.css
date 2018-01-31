@@ -21,6 +21,9 @@ body {
   cursor: pointer;
   position: relative; }
 
+.buttonAuth:hover {
+  opacity: .7; }
+
 .buttonAuth:before {
   content: "";
   position: absolute;
@@ -60,7 +63,18 @@ body {
   margin-bottom: 0;
   padding: 13px;
   border: 1px solid #F0F0F0;
-  background: none; }
+  background: none;
+  cursor: pointer; }
+
+.ajaxLoad:active {
+  opacity: .9; }
+
+.ajaxLoad:active, .ajaxLoad:focus {
+  outline: none; }
+
+.ajaxLoad:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.8); }
 
 .ajaxLoad-newsSection {
   display: block;
@@ -153,7 +167,11 @@ body {
   position: relative;
   padding: 0;
   border: none;
-  background: none; }
+  background: none;
+  cursor: pointer; }
+
+.filterBtn:active {
+  opacity: 1; }
 
 .filterBtn:active, .filterBtn:focus {
   outline: none; }
@@ -273,6 +291,12 @@ body {
   line-height: 16px;
   font-family: HelveticaNeue-Medium; }
 
+.navigationItemLink:hover {
+  color: rgba(255, 255, 255, 0.6); }
+
+.navigationItemLink:active {
+  opacity: .9; }
+
 .navigationItemIcon {
   display: inline-block;
   vertical-align: top;
@@ -280,6 +304,12 @@ body {
   height: 20px;
   width: 20px;
   background: center center; }
+
+.navigationItemIcon:hover {
+  opacity: .5; }
+
+.navigationItemIcon:active {
+  opacity: .9; }
 
 .navigationItemIcon-facebook {
   background: url("../img/facebook.png") 6px 0px no-repeat;
@@ -563,6 +593,13 @@ body {
   vertical-align: top;
   position: relative; }
 
+.header-link:hover {
+  opacity: 1;
+  color: white; }
+
+.header-link:active {
+  opacity: .9; }
+
 .header-link_active {
   opacity: 1; }
 
@@ -587,6 +624,9 @@ body {
   letter-spacing: 0;
   line-height: 18px;
   position: relative; }
+
+.header-logo:hover {
+  opacity: .8; }
 
 .header-logo span {
   font-size: 15px;
@@ -914,6 +954,9 @@ body {
   margin-top: 54px;
   margin-left: 25px;
   display: inline-block; }
+
+.betTv-tabItem:hover {
+  color: rgba(255, 255, 255, 0.6); }
 
 .betTv-grid {
   padding-top: 32px;
@@ -1311,6 +1354,9 @@ body {
   letter-spacing: 0;
   line-height: 24px; }
 
+.mainSection-secondaryTabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
 .mainSection-tabLink {
   opacity: 0.6;
   text-decoration: none;
@@ -1320,6 +1366,9 @@ body {
   letter-spacing: 0;
   line-height: 16px;
   margin-left: 20px; }
+
+.mainSection-tabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
 
 .mainSection-grid {
   border-top: 1px solid rgba(0, 0, 0, 0.06); }
@@ -1456,6 +1505,9 @@ table {
   letter-spacing: 0;
   line-height: 16px;
   margin-left: 20px; }
+
+.newsSection-tabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
 
 .newsSection-grid {
   display: block;
@@ -1880,6 +1932,12 @@ table {
 .prognosisPage .mainSection {
   padding-bottom: 64px; }
 
+.prognosisPage .mainSection-tabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
+.prognosisPage .mainSection-secondaryTabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
 .prognosisPage .mainSection-tabs-secondary {
   padding-bottom: 13px; }
 
@@ -2099,6 +2157,9 @@ table {
   margin-top: 40px;
   margin-left: 182px; }
 
+.matchesPage .mainSection-tabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
 .matchesPage .mainSection-secondaryTabLink {
   opacity: 0.6;
   font-family: HelveticaNeue-Medium;
@@ -2108,6 +2169,9 @@ table {
   letter-spacing: 0;
   line-height: 16px;
   margin-right: 20px; }
+
+.matchesPage .mainSection-secondaryTabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
 
 .matchesPage .mainSection-secondaryTabLink:last-child {
   margin-right: 0; }
@@ -5020,6 +5084,9 @@ table {
   line-height: 16px;
   margin-left: 20px; }
 
+.mainPage .prognosisSection-tabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
 .mainPage .prognosisSection-title {
   margin-top: 28px;
   padding-bottom: 8px; }
@@ -5245,6 +5312,9 @@ table {
   line-height: 16px;
   margin-left: 20px; }
 
+.mainPage .mainPopularNews-tabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
 .mainPage .mainPopularNewsItem {
   width: 256px;
   margin-right: 32px;
@@ -5322,6 +5392,9 @@ table {
   line-height: 16px;
   margin-left: 20px;
   padding: 0; }
+
+.mainPage .mainNewsSection-tabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
 
 .mainPage .mainNewsSection-grid {
   margin-top: 23px; }
@@ -5563,6 +5636,9 @@ table {
   letter-spacing: 0;
   line-height: 24px; }
 
+.mainPage .mainMatchesSection-secondaryTabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
 .mainPage .mainMatchesSection-tabLink {
   opacity: 0.6;
   text-decoration: none;
@@ -5572,6 +5648,9 @@ table {
   letter-spacing: 0;
   line-height: 16px;
   margin-left: 20px; }
+
+.mainPage .mainMatchesSection-tabLink:hover {
+  color: rgba(0, 0, 0, 0.6); }
 
 .mainPage .mainMatchesSection-grid-sorting_basketball, .mainPage .mainMatchesSection-grid-sorting_tennis, .mainPage .mainMatchesSection-grid-sorting_hockey {
   display: none; }
@@ -5727,7 +5806,8 @@ table {
 
 .mainPage .mainMatchesSection-header {
   margin-top: 0px;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
 
 .mainPage .mainMatchesSection-header-title {
   margin-left: auto;
@@ -6092,6 +6172,8 @@ table {
     padding-bottom: 12px; }
   .mainPage .mainMatchesSection-tabLink {
     margin-left: 21px; }
+  .mainPage .mainMatchesSection-tabLink:hover {
+    color: rgba(0, 0, 0, 0.06); }
   .mainPage .mainMatchesSection-tabLink:first-child {
     margin-left: 0; }
   .mainPage .mainMatchesSection-secondaryTabLink {

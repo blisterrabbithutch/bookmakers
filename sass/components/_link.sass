@@ -6,7 +6,11 @@
   font-size: 13px
   line-height: 16px
   font-family: HelveticaNeue-Medium
-  
+  &:hover
+    color: rgba(255,255,255,0.6)
+  &:active
+    opacity: .9
+    
 .navigationItemIcon
   display: inline-block
   vertical-align: top
@@ -14,6 +18,10 @@
   height: 20px
   width: 20px
   background: center center
+  &:hover
+    opacity: .5
+  &:active
+    opacity: .9
   &-facebook
     background: url("../img/facebook.png") 6px 0px no-repeat
     margin-right: 10px
