@@ -1549,13 +1549,13 @@ body {
   height: 30px; }
 
 .mainSection-table-cell .mainItem-teams_england:after {
-  background: url(../img/england.png) no-repeat; }
+  background: url(../img/england.svg) no-repeat; }
 
 .mainSection-table-cell .mainItem-teams_germany:after {
-  background: url(../img/germany.png) no-repeat; }
+  background: url(../img/germany.svg) no-repeat; }
 
 .mainSection-table-cell .mainItem-teams_spain:after {
-  background: url(../img/spain.png) no-repeat; }
+  background: url(../img/spain.svg) no-repeat; }
 
 .mainSection-table-cell_prognosis {
   text-align: right;
@@ -1805,7 +1805,7 @@ table {
 .matchItem-score {
   width: 50px;
   position: absolute;
-  top: 20px;
+  top: 17px;
   right: -15px;
   display: none;
   font-family: HelveticaNeue-Medium;
@@ -1852,10 +1852,11 @@ table {
   display: inline-block;
   vertical-align: middle;
   width: 185px;
-  padding: 16px 0px 7px 16px; }
+  padding: 18px 0px 18px 16px; }
 
 .matchItem-firstTeam, .matchItem-secondTeam {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   width: 150px; }
 
 .matchItem-firstTeam {
@@ -1872,7 +1873,8 @@ table {
   vertical-align: top; }
 
 .matchItem-firstTeamPicture, .matchItem-secondTeamPicture {
-  margin-right: 12px; }
+  margin-right: 12px;
+  width: 17px; }
 
 @media (min-width: 640px) and (max-width: 991px) {
   .matchItem {
