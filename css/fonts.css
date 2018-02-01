@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'HelveticaNeue-Medium';
-  src: url("../fonts/HelveticaNeueCyr-Medium.eot");
-  src: local("HelveticaNeueCyr-Medium"), url("../fonts/HelveticaNeueCyr-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Medium.ttf") format("truetype");
+  src: url("../fonts/helveticaneuecyr-medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal; }
 
