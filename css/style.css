@@ -5,7 +5,7 @@ body {
   line-height: 21px; }
 
 @font-face {
-  font-family: 'HelveticaNeue-Medium';
+  font-family: 'HelveticaNeue-Medium', "Helvetica Neue";
   src: url("../fonts/HelveticaNeueCyr-Medium.eot");
   src: local("HelveticaNeueCyr-Medium"), url("../fonts/HelveticaNeueCyr-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Medium.ttf") format("truetype");
   font-weight: 500;
@@ -13,7 +13,7 @@ body {
 
 @font-face {
   font-family: 'HelveticaNeue-CondensedBold';
-  src: url("../fonts/Helvetica-Condensed-Bold.otf") format("opentype");
+  src: url("../fonts/LT_55417.ttf") format("truetype");
   font-weight: 900;
   font-style: normal; }
 

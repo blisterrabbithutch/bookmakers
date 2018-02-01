@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>deutschland flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="forecasts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-553.000000, -573.000000)">
+        <g id="deutschland-flag" transform="translate(553.000000, 573.000000)">
+            <path d="M1,0 L15,0 C15.5522847,-1.01453063e-16 16,0.44771525 16,1 L16,4 L0,4 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="Rectangle-20" fill="#344853"></path>
+            <path d="M0,8 L16,8 L16,11 C16,11.5522847 15.5522847,12 15,12 L1,12 C0.44771525,12 6.76353751e-17,11.5522847 0,11 L0,8 Z" id="Rectangle-20" fill="#F7BC42"></path>
+            <rect id="Rectangle-20" fill="#F45466" x="0" y="4" width="16" height="4"></rect>
+        </g>
+    </g>
+</svg>

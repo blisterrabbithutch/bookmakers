@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>yandex_dengi_product_icon_cmyk.eps</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.00509433962 0.0757849462 17.9593302 0.0757849462 17.9593302 24 0.00509433962 24"></polygon>
+    </defs>
+    <g id="bookmaker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1017.000000, -790.000000)">
+        <rect id="Rectangle-24" stroke-opacity="0.06" stroke="#000000" x="984.5" y="702.5" width="255" height="201"></rect>
+        <g id="yandex_dengi_product_icon_cmyk.eps" transform="translate(1017.000000, 790.000000)">
+            <g id="Group-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M0.000254716981,11.9432258 C0.000254716981,10.599828 0.111396226,9.74735484 2.85741509,7.67053763 C5.13084906,5.95122581 12.4177925,0.0757849462 12.4177925,0.0757849462 L12.4177925,9.88378495 L17.9593302,9.88378495 L17.9593302,24 L1.73114151,24 C0.779179245,24 0,23.2105806 0,22.2460215 L0.000254716981,11.9432258" id="Fill-1" fill="#FACA22" mask="url(#mask-2)"></path>
+            </g>
+            <polyline id="Fill-4" fill="#C9A521" points="12.4177925 9.88378495 12.4177925 15.5667957 2.23480189 22.5951828 15.1093868 18.3511398 15.1093868 9.88378495 12.4177925 9.88378495"></polyline>
+            <path d="M7.76445283,9.58984946 C8.35989623,8.87096774 9.22958491,8.61711828 9.70709434,9.02313978 C10.1846038,9.42916129 10.0891698,10.3411613 9.49364151,11.060043 C8.89853774,11.7788387 8.02859434,12.0323441 7.55108491,11.6263226 C7.07349057,11.2203871 7.16917925,10.3086452 7.76445283,9.58984946" id="Fill-5" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
