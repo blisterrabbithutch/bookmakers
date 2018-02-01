@@ -73,7 +73,7 @@ $('.js-mobileFilter').on('click', function(){
 
 $(window).resize(function() {
     var width = $( this ).width();
-    if (width >= 992) {
+    if ($(document).width() >= 992) {
         $('.header-navigation').css('display', 'inline-block');
         $('.js-mobileFilter-content').css('display', 'block');
         $('.js-resetFilter').css('display', 'block');

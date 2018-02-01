@@ -5794,7 +5794,7 @@ table {
   content: "";
   position: absolute;
   right: -55px;
-  top: 1px;
+  top: 2px;
   width: 35px;
   height: 14px;
   background: url("../img/arrow-right-long.svg") no-repeat; }
