@@ -5,7 +5,7 @@ body {
   line-height: 21px; }
 
 @font-face {
-  font-family: 'HelveticaNeue-Medium', "Helvetica Neue";
+  font-family: 'HelveticaNeue-Medium';
   src: url("../fonts/HelveticaNeueCyr-Medium.eot");
   src: local("HelveticaNeueCyr-Medium"), url("../fonts/HelveticaNeueCyr-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Medium.ttf") format("truetype");
   font-weight: 500;
