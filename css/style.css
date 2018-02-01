@@ -3777,7 +3777,7 @@ table {
   padding-top: 388px;
   margin-top: 0;
   margin-bottom: 12px;
-  font-family: PTSerif;
+  font-family: PT Serif;
   font-weight: 1000;
   font-size: 40px;
   color: #FFFFFF;
@@ -4060,7 +4060,7 @@ table {
   padding-top: 342px;
   margin-top: 0;
   margin-bottom: 12px;
-  font-family: PTSerif;
+  font-family: PT Serif;
   font-weight: 1000;
   font-size: 40px;
   color: #FFFFFF;
@@ -4380,7 +4380,7 @@ table {
   padding-top: 354px;
   margin-top: 0;
   margin-bottom: 12px;
-  font-family: PTSerif;
+  font-family: PT Serif;
   font-weight: 1000;
   font-size: 40px;
   color: #FFFFFF;
@@ -4889,7 +4889,7 @@ table {
   padding-top: 444px;
   margin-top: 0;
   margin-bottom: 12px;
-  font-family: PTSerif;
+  font-family: PT Serif;
   font-weight: 1000;
   font-size: 40px;
   color: #FFFFFF;
@@ -5077,7 +5077,9 @@ table {
   margin-right: 29px;
   width: 256px;
   opacity: 0.6;
-  font-family: PTSerif;
+  font-weight: 1000;
+  font-family: PT Serif;
+  font-weight: bold;
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -5108,7 +5110,7 @@ table {
 .mainPage .mainSlider-item-title {
   margin: 0;
   padding: 175px 0 14px 104px;
-  font-family: PTSerif;
+  font-family: PT Serif;
   font-weight: 1000;
   font-size: 40px;
   color: #FFFFFF;
@@ -5429,7 +5431,7 @@ table {
   padding-top: 444px;
   margin-top: 0;
   margin-bottom: 12px;
-  font-family: PTSerif;
+  font-family: PT Serif;
   font-weight: 1000;
   font-size: 40px;
   color: #FFFFFF;
@@ -5703,7 +5705,7 @@ table {
     width: 300px; } }
 
 .mainPage .recommendationSection-title {
-  font-family: PTSerif;
+  font-family: PT Serif;
   font-weight: 1000;
   font-size: 40px;
   color: #000000;
