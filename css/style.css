@@ -1,3 +1,9 @@
+body {
+  font-family: PTSerif-Regular;
+  font-size: 15px;
+  color: #000000;
+  line-height: 21px; }
+
 @font-face {
   font-family: 'HelveticaNeue';
   src: url("../fonts/HelveticaNeueCyr-Medium.eot");
@@ -109,12 +115,6 @@
   src: local("HelveticaNeueCyr-Thin"), url("../fonts/HelveticaNeueCyr-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr-Thin.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal; }
-
-body {
-  font-family: PTSerif-Regular;
-  font-size: 15px;
-  color: #000000;
-  line-height: 21px; }
 
 .buttonAuth {
   float: right;
@@ -2652,7 +2652,7 @@ table {
   top: 112px;
   right: 25px;
   border: none;
-  background: url("../img/form-button-right.png") no-repeat center center; }
+  background: url("../img/form-button-right.svg") no-repeat center center; }
 
 @media (min-width: 992px) and (max-width: 1359px) {
   .bonusesPage .mainSection {
