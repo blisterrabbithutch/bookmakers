@@ -1804,8 +1804,11 @@ table {
 
 .matchItem-score {
   width: 50px;
+  height: 54px;
   position: absolute;
-  top: 17px;
+  top: 0px;
+  bottom: 0;
+  margin: auto 0;
   right: -15px;
   display: none;
   font-family: HelveticaNeue-Medium;
