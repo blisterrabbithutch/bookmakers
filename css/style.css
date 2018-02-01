@@ -1439,7 +1439,7 @@ body {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background: url("../img/social.png") no-repeat;
+  background: url("../img/social.svg") no-repeat;
   margin-left: 10px; }
 
 .mainSection-footer-social_facebook {
@@ -3880,7 +3880,7 @@ table {
   top: 10px;
   width: 13px;
   height: 13px;
-  background: url("../img/arrow-left.png") no-repeat; }
+  background: url("../img/arrow-left.svg") no-repeat; }
 
 .newsPreviewPage .newsPreview-content {
   padding-left: 100px; }
@@ -4162,7 +4162,7 @@ table {
   top: 10px;
   width: 13px;
   height: 13px;
-  background: url("../img/arrow-left.png") no-repeat; }
+  background: url("../img/arrow-left.svg") no-repeat; }
 
 .prognosisItemPage .prognosisItemPreview-content {
   padding-left: 100px; }
@@ -4229,7 +4229,7 @@ table {
   top: 6px;
   width: 13px;
   height: 13px;
-  background: url("../img/arrow-down-gray.png") no-repeat; }
+  background: url("../img/arrow-down-gray.svg") no-repeat; }
 
 .prognosisItemPage .sidebar {
   margin-bottom: 68px; }
@@ -4481,7 +4481,7 @@ table {
   top: 10px;
   width: 13px;
   height: 13px;
-  background: url("../img/arrow-left.png") no-repeat; }
+  background: url("../img/arrow-left.svg") no-repeat; }
 
 .articlePage .articlePreview-content {
   padding-left: 100px; }
@@ -4989,7 +4989,7 @@ table {
   top: 10px;
   width: 13px;
   height: 13px;
-  background: url("../img/arrow-left.png") no-repeat; }
+  background: url("../img/arrow-left.svg") no-repeat; }
 
 .promotionsPage .promotionsPreview-content {
   padding-left: 100px; }
@@ -5527,7 +5527,7 @@ table {
   top: 10px;
   width: 13px;
   height: 13px;
-  background: url("../img/arrow-left.png") no-repeat; }
+  background: url("../img/arrow-left.svg") no-repeat; }
 
 .mainPage .mainPreview-content {
   padding-left: 100px; }
