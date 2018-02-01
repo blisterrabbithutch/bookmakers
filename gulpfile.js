@@ -36,15 +36,6 @@ gulp.task("copy", function() {
         .pipe(gulp.dest("build"));
 });
 
-// gulp.task('sass', function () {
-//   return gulp.src('./sass/**/*.sass')
-//     .pipe(sass().on('error', sass.logError))
-//     .pipe(gulp.dest('./css'));
-// });
- 
-// gulp.task('sass:watch', function () {
-//   gulp.watch('./sass/**/*.sass', ['sass']);
-// });
 
 gulp.task('sass', function () {
   return gulp.src('./sass/**/*.sass')
@@ -55,12 +46,6 @@ gulp.task('sass', function () {
                 sort: true
             })
         ))
-        // .pipe(postcss([
-        //     autoprefixer({
-        //         browsers: ["last 2 versions"]
-        //     })
-        // ]))
-        // .pipe(autoprefixer())
         .pipe(gulp.dest("css"))
         .pipe(server.stream())
         .pipe(minify())
