@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>spain flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="bookmaker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1224.000000, -303.000000)">
+        <g id="spain-flag" transform="translate(1224.000000, 303.000000)">
+            <path d="M1,0 L15,0 C15.5522847,-1.01453063e-16 16,0.44771525 16,1 L16,4 L0,4 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="Rectangle-23" fill="#F4F4F4"></path>
+            <rect id="Rectangle-23" fill="#4384DB" x="0" y="4" width="16" height="4"></rect>
+            <path d="M0,8 L16,8 L16,11 C16,11.5522847 15.5522847,12 15,12 L1,12 C0.44771525,12 6.76353751e-17,11.5522847 0,11 L0,8 Z" id="Rectangle-23" fill="#F05463"></path>
+        </g>
+    </g>
+</svg>

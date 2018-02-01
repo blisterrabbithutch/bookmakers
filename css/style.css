@@ -146,7 +146,7 @@ body {
   left: -1px;
   width: 12px;
   height: 12px;
-  background: url(../img/arrow-right.png) no-repeat; }
+  background: url(../img/arrow-right.svg) no-repeat; }
 
 .buttonAuth:active, .buttonAuth:focus {
   outline: none; }
@@ -239,10 +239,10 @@ body {
 
 .slick-next {
   right: 40px;
-  background: url("../img/slick-right.png") no-repeat 4px 3px; }
+  background: url("../img/slick-right.svg") no-repeat 4px 3px; }
 
 .slick-prev {
-  background: url("../img/slick-right.png") no-repeat 5px 3px;
+  background: url("../img/slick-right.svg") no-repeat 5px 3px;
   transform: rotate(180deg);
   left: 38px; }
 
@@ -279,10 +279,10 @@ body {
 .bestCuffSection .slick-next {
   right: -20px;
   top: -32px;
-  background: url("../img/right-arrow-black.png") no-repeat 4px 3px; }
+  background: url("../img/right-arrow-black.svg") no-repeat 4px 3px; }
 
 .bestCuffSection .slick-prev {
-  background: url("../img/right-arrow-black.png") no-repeat 5px 3px;
+  background: url("../img/right-arrow-black.svg") no-repeat 5px 3px;
   left: 178px;
   top: -34px; }
 
@@ -435,24 +435,24 @@ body {
   opacity: .9; }
 
 .navigationItemIcon-facebook {
-  background: url("../img/facebook.png") 6px 0px no-repeat;
+  background: url("../img/facebook.svg") 6px 0px no-repeat;
   margin-right: 10px; }
 
 .navigationItemIcon-vk {
-  background: url("../img/vk.png") no-repeat -1px 4px; }
+  background: url("../img/vk.svg") no-repeat -1px 4px; }
 
 .navigationItemIcon-youtube {
-  background: url("../img/youtube.png") no-repeat 0 3px; }
+  background: url("../img/youtube.svg") no-repeat 0 3px; }
 
 .navigationItemIcon-twitter {
-  background: url("../img/twitter.png") no-repeat 0 3px; }
+  background: url("../img/twitter.svg") no-repeat 0 3px; }
 
 .navigationItemIcon-apple {
   margin-left: 45px;
-  background: url("../img/apple.png") no-repeat; }
+  background: url("../img/apple.svg") no-repeat; }
 
 .navigationItemIcon-google {
-  background: url("../img/google.png") no-repeat 0 2px; }
+  background: url("../img/google.svg") no-repeat 0 2px; }
 
 @media (min-width: 992px) and (max-width: 1359px) {
   .navigationItemLink {
@@ -599,7 +599,7 @@ body {
   left: 9px;
   width: 12px;
   height: 12px;
-  background: url(../img/left-arrow.png) no-repeat; }
+  background: url(../img/left-arrow.svg) no-repeat; }
 
 .header-bottom-logo {
   display: inline-block;
@@ -676,7 +676,7 @@ body {
   left: 11px;
   width: 15px;
   height: 15px;
-  background: url(../img/like-green.png) no-repeat; }
+  background: url(../img/like-green.svg) no-repeat; }
 
 .header-bottom-reviews {
   display: inline-block;
@@ -895,7 +895,7 @@ body {
   right: 0;
   width: 30px;
   height: 30px;
-  background: url(../img/company-logo.png) no-repeat; }
+  background: url(../img/company-logo.svg) no-repeat; }
 
 .footer-wrapper {
   box-sizing: border-box;
@@ -945,7 +945,7 @@ body {
   right: -27px;
   width: 30px;
   height: 30px;
-  background: url(../img/disclaimer.png) no-repeat; }
+  background: url(../img/disclaimer.svg) no-repeat; }
 
 .footer-copyright {
   opacity: 0.2;
@@ -1238,7 +1238,7 @@ body {
   left: 0px;
   width: 30px;
   height: 30px;
-  background: url("../img/icon-bonus.png") no-repeat; }
+  background: url("../img/icon-bonus.svg") no-repeat; }
 
 .bonuses-grid {
   width: 832px;
@@ -1337,7 +1337,7 @@ body {
   left: 3px;
   width: 12px;
   height: 18px;
-  background: url(../img/school-icon.png) no-repeat; }
+  background: url(../img/school-icon.svg) no-repeat; }
 
 .betSchoolItem {
   margin-bottom: 11px;
@@ -1657,7 +1657,7 @@ table {
   top: 6px;
   width: 13px;
   height: 13px;
-  background: url("../img/arrow-down-gray.png") no-repeat; }
+  background: url("../img/arrow-down-gray.svg") no-repeat; }
 
 .prognosisSection-matchesGrid {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
@@ -1786,7 +1786,7 @@ table {
   top: 6px;
   width: 13px;
   height: 13px;
-  background: url("../img/arrow-down-gray.png") no-repeat; }
+  background: url("../img/arrow-down-gray.svg") no-repeat; }
 
 .matchesSection-matchesGrid {
   border-top: 2px solid rgba(0, 0, 0, 0.06);
@@ -2118,7 +2118,7 @@ table {
   right: -3px;
   width: 20px;
   height: 20px;
-  background: url(../img/arrow-down.png) no-repeat; }
+  background: url(../img/arrow-down.svg) no-repeat; }
 
 .prognosisPage .mainSection-header-headline:last-child {
   margin-left: 73%; }
@@ -2780,7 +2780,7 @@ table {
   right: -10px;
   width: 20px;
   height: 20px;
-  background: url(../img/arrow-up-down.png) no-repeat; }
+  background: url(../img/arrow-up-down.svg) no-repeat; }
 
 .ratingPage .mainSection-tabLink_active:before {
   content: "";
@@ -2789,7 +2789,7 @@ table {
   right: -11px;
   width: 20px;
   height: 20px;
-  background: url(../img/arrow-down.png) no-repeat; }
+  background: url(../img/arrow-down.svg) no-repeat; }
 
 .ratingPage .mainSection-table-cell {
   padding: 0;
@@ -2858,7 +2858,7 @@ table {
   right: 5px;
   width: 20px;
   height: 20px;
-  background: url(../img/arrow-right.png) no-repeat; }
+  background: url(../img/arrow-right.svg) no-repeat; }
 
 .ratingPage .mainItem-rating {
   position: relative; }
@@ -2870,7 +2870,7 @@ table {
   left: -22px;
   width: 20px;
   height: 20px;
-  background: url(../img/like.png) no-repeat; }
+  background: url(../img/like.svg) no-repeat; }
 
 .ratingPage .filterSection {
   margin-bottom: 26px; }
@@ -2935,10 +2935,10 @@ table {
   display: block;
   height: 20px;
   width: 20px;
-  background: url("../img/checkbox.png") no-repeat; }
+  background: url("../img/checkbox.svg") no-repeat; }
 
 .ratingPage .filterSectionItem-title input:checked + .filterSectionItem-title-indicator {
-  background: url("../img/checkbox-on.png") no-repeat; }
+  background: url("../img/checkbox-on.svg") no-repeat; }
 
 .ratingPage .filterSectionItem_safety, .ratingPage .filterSectionItem_currency {
   cursor: pointer; }
@@ -3399,7 +3399,7 @@ table {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background: url("../img/social.png") no-repeat;
+  background: url("../img/social.svg") no-repeat;
   margin-left: 10px; }
 
 .bookmakerPage .bookmakerSiteSection-footer-social:hover {
@@ -5266,7 +5266,7 @@ table {
   left: -21px;
   width: 12px;
   height: 12px;
-  background: url(../img/time-live.png) no-repeat; }
+  background: url(../img/time-live.svg) no-repeat; }
 
 .mainPage .mainSlider-postTime span {
   opacity: .6; }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+    </defs>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-32.000000, -20.000000)">
+        <g id="logo" transform="translate(32.000000, 20.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g id="Group-5" mask="url(#mask-2)">
+                <g transform="translate(-1.000000, 0.000000)" id="Rectangle-19">
+                    <rect fill="#FFFFFF" x="0" y="0" width="26" height="8"></rect>
+                    <rect fill="#4A89DC" x="0" y="8" width="26" height="8"></rect>
+                    <rect fill="#ED5565" x="0" y="16" width="26" height="8"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

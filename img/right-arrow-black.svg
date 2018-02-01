@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>right arrow M</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1223.000000, -2510.000000)">
+        <g id="right-arrow-M" transform="translate(1216.000000, 2504.000000)">
+            <circle id="Oval-10" cx="12" cy="12" r="12"></circle>
+            <g id="Group-6" transform="translate(7.000000, 7.000000)">
+                <polyline id="Path-2" stroke="#000000" stroke-width="2" points="5 0 10 5 5 10"></polyline>
+                <rect id="Rectangle-21" fill="#000000" x="0" y="4" width="9" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_favorite_black_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="rating" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-566.000000, -479.000000)" opacity="0.400000006">
+        <g id="ic_favorite_black_24px" transform="translate(565.000000, 477.000000)">
+            <polygon id="Shape" points="0 0 16 0 16 16 0 16"></polygon>
+            <path d="M8.00191696,13.22085 L8.46226937,12.8049474 C11.6986351,9.86393932 12.7115371,8.82058485 13.4071515,7.52607468 C13.7508381,6.88648768 13.9166667,6.28408831 13.9166667,5.66666667 C13.9166667,4.0275469 12.6391198,2.75 11,2.75 C10.0794272,2.75 9.16821875,3.17828273 8.57101398,3.87958742 L8,4.55013594 L7.42898602,3.87958742 C6.83178125,3.17828273 5.92057282,2.75 5,2.75 C3.36088023,2.75 2.08333333,4.0275469 2.08333333,5.66666667 C2.08333333,6.28674583 2.25059658,6.89169989 2.59731972,7.53418842 C3.29499697,8.82700562 4.31489603,9.87582628 7.53821857,12.7987246 L8.00191696,13.22085 Z" id="Shape" stroke="#000000" stroke-width="1.5" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

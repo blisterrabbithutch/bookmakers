@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>favorite icons</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="1038" y="116" width="74" height="32" rx="1"></rect>
+    </defs>
+    <g id="bookmaker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1051.000000, -126.000000)">
+        <g id="566aec1c938c8_1449847836"></g>
+        <rect id="Mask" fill="#000000" x="0" y="0" width="1360" height="200"></rect>
+        <g id="Rectangle-8" opacity="0.200000003">
+            <use fill-opacity="0.4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#F0F0F0" stroke-width="1" x="1038.5" y="116.5" width="73" height="31" rx="1"></rect>
+        </g>
+        <g id="Group-2" transform="translate(1050.000000, 124.000000)">
+            <g id="favorite-icons">
+                <polygon id="Shape" points="0 0 16 0 16 16 0 16"></polygon>
+                <path d="M8,14.2333333 L7.03333333,13.3533333 C3.6,10.24 1.33333333,8.18666667 1.33333333,5.66666667 C1.33333333,3.61333333 2.94666667,2 5,2 C6.16,2 7.27333333,2.54 8,3.39333333 C8.72666667,2.54 9.84,2 11,2 C13.0533333,2 14.6666667,3.61333333 14.6666667,5.66666667 C14.6666667,8.18666667 12.4,10.24 8.96666667,13.36 L8,14.2333333 Z" id="Shape" fill="#6CCC58" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
