@@ -18,6 +18,8 @@
           margin-left: 36px
         &_rating
           margin-left: 55px
+    &-tabs
+      margin-top: 46px
     &-tabLink
       margin-left: 40px
       padding-right: 20px
@@ -47,7 +49,7 @@
           width: 138px
         &_organization
           width: 100px
-          padding-right: 85px
+          padding-right: 65px
         &_safety
           width: 170px
           padding-right: 55px
@@ -56,7 +58,7 @@
           padding-right: 15px
         &_bonuses
           width: 85px
-          padding-right: 60px
+          padding-right: 52px
         &_site
           width: 45px
           padding-right: 10px
@@ -91,7 +93,7 @@
       &:before
         content: ""
         position: absolute
-        top: 12px
+        top: 9px
         right: 5px
         width: 20px
         height: 20px
@@ -101,7 +103,7 @@
       &:before 
         content: ""
         position: absolute
-        top: 1px
+        top: -2px
         left: -22px
         width: 20px
         height: 20px
@@ -156,6 +158,7 @@
         input + .filterSectionItem-title-indicator
           position: absolute
           right: 15px
+          top: 15px
           display: block
           height: 20px
           width: 20px
@@ -181,6 +184,8 @@
           top: 14px
         &-row
           position: relative
+          span.filterSectionItem-title-indicator
+            top: 5px
           .filterSectionItem-title
             padding: 8px 79px 8px 32px
             &:hover
@@ -189,6 +194,7 @@
             &:active
               .filterSectionItem-title-indicator
               opacity: .7
+  
 
 @media (min-width: $small-desktop-widths) and (max-width: $small-desktop-widths-max)
   .ratingPage
@@ -305,7 +311,7 @@
       &-tabs
         margin-top: 15px
         margin-right: 0
-        padding-bottom: 11px
+        padding-bottom: 13px
       &-tabLink
         margin-left: 58px
         &:first-child
