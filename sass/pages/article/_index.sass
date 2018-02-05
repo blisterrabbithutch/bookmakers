@@ -61,6 +61,16 @@
       color: #000000
       letter-spacing: 0
       line-height: 40px
+    h2
+      margin-top: 34px
+      margin-bottom: 29px
+      text-transform: none
+      font-family: HelveticaNeue-Bold
+      font-size: 24px
+      color: #000000
+      letter-spacing: 0
+      line-height: 32px
+      padding-bottom: 10px;
     blockquote
       border: 1px solid rgba(238,228,206,0.8)
       margin-top: 60px
@@ -96,6 +106,85 @@
       margin-bottom: 60px
       li
         margin-bottom: 19px
+    img
+      background: #D8D8D8
+      width: 100%
+      margin-bottom: 60px
+    &-simpleTable
+      &-block
+        h2
+          margin-top: 0
+          margin-bottom: 0
+          padding-top: 4px
+          padding-bottom: 9px
+          text-transform: uppercase
+          font-family: HelveticaNeue-CondensedBold;
+          font-size: 18px;
+          color: #000000;
+          letter-spacing: 0;
+          line-height: 24px;
+          border-bottom: 2px solid rgba(0,0,0,0.06)
+      &-content
+        margin-top: 24px
+        margin-bottom: 45px
+      &-item
+        border: 1px solid rgba(0, 0, 0, 0.06)
+        padding: 11px 0
+        display: flex
+        justify-content: space-between
+        font-family: HelveticaNeue-Medium
+        font-size: 13px
+        color: #000000
+        letter-spacing: 0
+        line-height: 16px
+    &-table
+      margin-bottom: 45px
+      &-block
+        h2
+          margin-top: 0
+          margin-bottom: 0
+          padding-top: 4px
+          padding-bottom: 9px
+          text-transform: uppercase
+          font-family: HelveticaNeue-CondensedBold;
+          font-size: 18px;
+          color: #000000;
+          letter-spacing: 0;
+          line-height: 24px;
+          border-bottom: 2px solid rgba(0,0,0,0.06)
+      margin-top: 25px
+      &-row
+        font-family: HelveticaNeue-Medium
+        font-size: 13px
+        color: #000000
+        letter-spacing: 0
+        line-height: 16px
+      &-header
+        text-transform: uppercase
+        border: 1px solid rgba(0, 0, 0, 0.06)
+        background: rgba(0,0,0,0.03)
+        opacity: 0.2
+        color: #000000
+        letter-spacing: 0
+        line-height: 16px
+        font-size: 13px
+        .mainSection-table-cell
+          padding-top: 24px
+          padding-bottom: 24px
+          font-family: HelveticaNeue-CondensedBold
+      &-cell
+        font-family: HelveticaNeue-Medium
+        padding: 12px 0
+        &_number
+          padding-left: 24px
+        &_score
+          text-align: right
+          padding-right: 24px
+          width: 190px
+        &_organization
+          width: 185px
+          padding-left: 25px
+          text-transform: uppercase
         
   .articlePreview
     background: url("../img/article-image.jpg") center center
@@ -183,6 +272,16 @@
       margin-left: 0
       width: 615px
       padding-bottom: 25px
+      img
+        width: 100%
+        margin-bottom: 30px
+      &-table
+        margin-bottom: 45px
+        &-cell
+          &_safety
+            padding-right: 15px
+          &_rating
+            padding-right: 15px
 
     .articlePreview
       &-content
@@ -199,6 +298,16 @@
       width: 600px
       padding-bottom: 25px
       margin-right: 0
+      img
+        width: 100%
+        margin-bottom: 30px
+      &-table
+        margin-bottom: 45px
+        &-cell
+          &_safety
+            padding-right: 15px
+          &_rating
+            padding-right: 15px
       &-footer
         margin-bottom: 0
         &-link
@@ -226,6 +335,31 @@
       padding-bottom: 25px
       margin-right: 0
       padding-bottom: 0
+      h1
+        font-size: 24px
+      h2
+        font-size: 20px
+      h3
+        font-size: 16px
+      img
+        width: 100%
+        margin-bottom: 30px
+      &-table
+        margin-bottom: 45px
+        &-cell
+          font-size: 10px
+          &_organization
+            padding-left: 5px
+            padding-right: 5px
+          &_safety
+            padding-right: 5px
+          &_rating
+            padding-right: 5px
+          &_number
+            display: none
+          &_score
+            padding-right: 5px
+            padding-left: 5px
       &-footer
         padding-top: 12px
         margin-bottom: 0
