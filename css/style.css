@@ -3262,6 +3262,76 @@ table {
   letter-spacing: 0;
   line-height: 24px; }
 
+.bookmakerPage .mainSection h1 {
+  font-family: HelveticaNeue-Bold;
+  font-size: 32px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 40px; }
+
+.bookmakerPage .mainSection h2 {
+  font-family: HelveticaNeue-Bold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px; }
+
+.bookmakerPage .mainSection h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: HelveticaNeue-Bold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px; }
+
+.bookmakerPage .mainSection blockquote {
+  border: 1px solid rgba(238, 228, 206, 0.8);
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  background: #FCF7ED;
+  padding: 20px 32px 26px 32px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 26px;
+  box-shadow: 0px 0px 32px 12px rgba(238, 228, 206, 0.3); }
+
+.bookmakerPage .mainSection p {
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 10px; }
+
+.bookmakerPage .mainSection ol {
+  margin-top: 48px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 40px; }
+
+.bookmakerPage .mainSection ol li {
+  line-height: 20px;
+  margin-bottom: 20px; }
+
+.bookmakerPage .mainSection ul {
+  margin-top: 43px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-bottom: 60px; }
+
+.bookmakerPage .mainSection ul li {
+  margin-bottom: 19px; }
+
 .bookmakerPage .reviewSection {
   width: 832px;
   display: inline-block;
@@ -3271,35 +3341,13 @@ table {
 .bookmakerPage .reviewSection .reviewItem {
   margin-bottom: 11px; }
 
-.bookmakerPage .reviewSection .reviewItem-content {
-  font-family: HelveticaNeue;
-  font-size: 15px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 21px; }
-
-.bookmakerPage .reviewSection .reviewItem-title {
-  font-family: HelveticaNeue-Bold;
-  font-size: 18px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 24px; }
-
 .bookmakerPage .bookmakerSiteSection-grid {
   margin-bottom: 40px; }
 
 .bookmakerPage .bookmakerSiteSection .reviewItem {
   margin-bottom: 11px; }
 
-.bookmakerPage .bookmakerSiteSection .reviewItem-content {
-  font-family: HelveticaNeue;
-  font-size: 15px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 21px;
-  margin-top: 10px; }
-
-.bookmakerPage .bookmakerSiteSection-image {
+.bookmakerPage .bookmakerSiteSection img {
   margin-top: 15px;
   margin-bottom: 20px; }
 
@@ -3506,7 +3554,7 @@ table {
   .bookmakerPage .reviewSection {
     width: auto;
     margin-right: 0; }
-  .bookmakerPage .bookmakerSiteSection-image {
+  .bookmakerPage .bookmakerSiteSection img {
     width: 100%; } }
 
 @media (min-width: 640px) and (max-width: 991px) {
@@ -3518,7 +3566,7 @@ table {
   .bookmakerPage .reviewSection {
     width: auto;
     margin-right: 0; }
-  .bookmakerPage .bookmakerSiteSection-image {
+  .bookmakerPage .bookmakerSiteSection img {
     width: 100%; }
   .bookmakerPage .bookmakerSiteSection-footer {
     margin-bottom: 0; }
@@ -3535,7 +3583,7 @@ table {
   .bookmakerPage .reviewSection {
     width: auto;
     margin-right: 0; }
-  .bookmakerPage .bookmakerSiteSection-image {
+  .bookmakerPage .bookmakerSiteSection img {
     width: 100%; }
   .bookmakerPage .bookmakerSiteSection-footer {
     margin-bottom: 0;
