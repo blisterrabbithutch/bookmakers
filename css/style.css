@@ -1648,8 +1648,7 @@ table {
     margin-left: 15px;
     margin-right: 15px; }
   .prognosisItem-title {
-    margin-bottom: 0;
-    margin-top: 16px; }
+    margin-bottom: 0; }
   .prognosisItem:first-child {
     border-top: none; } }
 
@@ -4351,7 +4350,7 @@ table {
 .articlePage .mainSection-content-block {
   margin-bottom: 40px; }
 
-.articlePage .mainSection-title {
+.articlePage .mainSection h3 {
   margin-top: 0;
   margin-bottom: 12px;
   font-family: HelveticaNeue-Bold;
@@ -4366,16 +4365,7 @@ table {
   justify-content: flex-start;
   flex-wrap: wrap; }
 
-.articlePage .mainSection-paragraph {
-  margin-top: 10px;
-  margin-bottom: 21px;
-  font-family: HelveticaNeue;
-  font-size: 15px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 21px; }
-
-.articlePage .mainSection-list {
+.articlePage .mainSection ol {
   margin: 0;
   padding-left: 40px;
   font-family: HelveticaNeue-Bold;
@@ -4384,8 +4374,54 @@ table {
   letter-spacing: 0;
   line-height: 19px; }
 
-.articlePage .mainSection-list li {
+.articlePage .mainSection ol li {
   margin-bottom: 21px; }
+
+.articlePage .mainSection h1 {
+  font-family: HelveticaNeue-Bold;
+  font-size: 32px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 40px; }
+
+.articlePage .mainSection blockquote {
+  border: 1px solid rgba(238, 228, 206, 0.8);
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  background: #FCF7ED;
+  padding: 20px 32px 26px 32px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 26px;
+  box-shadow: 0px 0px 32px 12px rgba(238, 228, 206, 0.3); }
+
+.articlePage .mainSection b {
+  font-family: HelveticaNeue-Medium; }
+
+.articlePage .mainSection p {
+  margin-top: 10px;
+  margin-bottom: 21px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.articlePage .mainSection ul {
+  margin-top: 43px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-bottom: 60px; }
+
+.articlePage .mainSection ul li {
+  margin-bottom: 19px; }
 
 .articlePage .articlePreview {
   background: url("../img/article-image.jpg") center center;
@@ -5002,12 +5038,6 @@ table {
 
 .promotionsPage .mainSection ul li {
   margin-bottom: 19px; }
-
-.promotionsPage .mainSection img {
-  background: #D8D8D8;
-  min-height: 624px;
-  min-width: 832px;
-  margin-bottom: 60px; }
 
 .promotionsPage .promotionsPreview {
   background: url("../img/promotions-image.jpg") center center;
