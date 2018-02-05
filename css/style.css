@@ -3759,7 +3759,31 @@ table {
 .newsPreviewPage .mainSection-content-block {
   margin-bottom: 38px; }
 
-.newsPreviewPage .mainSection-title {
+.newsPreviewPage .mainSection-grid {
+  padding-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.newsPreviewPage .mainSection h1 {
+  font-family: HelveticaNeue-Bold;
+  font-size: 32px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 40px; }
+
+.newsPreviewPage .mainSection h2 {
+  margin-top: 34px;
+  margin-bottom: 29px;
+  text-transform: none;
+  font-family: HelveticaNeue-Bold;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 32px;
+  padding-bottom: 10px; }
+
+.newsPreviewPage .mainSection h3 {
   margin-top: 0;
   margin-bottom: 12px;
   font-family: HelveticaNeue-Bold;
@@ -3768,13 +3792,22 @@ table {
   letter-spacing: 0;
   line-height: 24px; }
 
-.newsPreviewPage .mainSection-grid {
-  padding-top: 24px;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap; }
+.newsPreviewPage .mainSection blockquote {
+  border: 1px solid rgba(238, 228, 206, 0.8);
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  background: #FCF7ED;
+  padding: 20px 32px 26px 32px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 26px;
+  box-shadow: 0px 0px 32px 12px rgba(238, 228, 206, 0.3); }
 
-.newsPreviewPage .mainSection-paragraph {
+.newsPreviewPage .mainSection p {
   margin-top: 10px;
   margin-bottom: 21px;
   font-family: HelveticaNeue;
@@ -3782,6 +3815,30 @@ table {
   color: #000000;
   letter-spacing: 0;
   line-height: 21px; }
+
+.newsPreviewPage .mainSection ol {
+  margin-top: 48px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 40px; }
+
+.newsPreviewPage .mainSection ol li {
+  line-height: 20px;
+  margin-bottom: 20px; }
+
+.newsPreviewPage .mainSection ul {
+  margin-top: 43px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-bottom: 60px; }
+
+.newsPreviewPage .mainSection ul li {
+  margin-bottom: 19px; }
 
 .newsPreviewPage .newsPreview {
   background: url("../img/news-preview.jpg") center center;
