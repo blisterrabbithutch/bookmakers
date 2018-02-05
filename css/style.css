@@ -1386,7 +1386,7 @@ body {
 
 .mainSection-tabs {
   display: inline-block;
-  margin-top: 48px; }
+  margin-top: 46px; }
 
 .mainSection-tabs-secondary {
   padding: 8px 0 8px 0;
@@ -1783,7 +1783,7 @@ table {
   display: inline-block;
   vertical-align: middle;
   width: 185px;
-  padding: 18px 0px 18px 16px; }
+  padding: 18px 0px 10px 16px; }
 
 .matchItem-firstTeam, .matchItem-secondTeam {
   display: flex;
@@ -1791,7 +1791,7 @@ table {
   width: 150px; }
 
 .matchItem-firstTeam {
-  margin-bottom: 7px; }
+  margin-bottom: 13px; }
 
 .matchItem-firstTeamTitle, .matchItem-secondTeamTitle {
   margin: 0;
@@ -1804,7 +1804,8 @@ table {
   vertical-align: top; }
 
 .matchItem-firstTeamPicture, .matchItem-secondTeamPicture {
-  margin-right: 12px;
+  margin-right: 20px;
+  height: max-content;
   width: 17px; }
 
 @media (min-width: 640px) and (max-width: 991px) {
@@ -1870,7 +1871,8 @@ table {
 .newsItem-titleWrapper {
   border-bottom: 2px solid rgba(0, 0, 0, 0.06);
   padding-left: 5px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  padding-top: 4px; }
 
 .newsItem-title {
   font-family: HelveticaNeue-Medium;
@@ -2042,7 +2044,8 @@ table {
   display: none; }
 
 .prognosisPage .mainSection-header {
-  padding-left: 15px; }
+  padding-left: 15px;
+  margin-top: 10px; }
 
 .prognosisPage .mainSection-header-headline:first-child {
   padding-left: 5px;
@@ -2244,11 +2247,12 @@ table {
   justify-content: flex-start; }
 
 .matchesPage .mainSection-tabs {
-  margin-left: 45px; }
+  margin-left: 45px;
+  margin-top: 46px; }
 
 .matchesPage .mainSection-tabs-secondary {
   border: none;
-  margin-top: 40px;
+  margin-top: 38px;
   margin-left: 182px; }
 
 .matchesPage .mainSection-tabLink:hover {
@@ -2332,6 +2336,7 @@ table {
 
 .matchesPage .mainSection-table {
   margin-bottom: 34px;
+  box-shadow: inset 0px 3px 10px -4px rgba(0, 0, 0, 0.1);
   display: none; }
 
 .matchesPage .mainSection-table-cell {
@@ -2426,10 +2431,10 @@ table {
   .matchesPage .mainSection-tabs {
     margin-left: 0;
     border-bottom: 2px solid rgba(0, 0, 0, 0.06);
-    padding-bottom: 11px; }
+    padding-bottom: 13px; }
   .matchesPage .mainSection-tabs-secondary {
     margin-left: 0;
-    padding-bottom: 11px;
+    padding-bottom: 13px;
     margin-top: 15px; }
   .matchesPage .mainSection-tabLink {
     margin-left: 21px; }
@@ -2549,6 +2554,7 @@ table {
   margin: 0;
   padding: 12px 16px;
   font-family: PT Serif;
+  font-weight: 500;
   font-size: 15px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -2689,7 +2695,8 @@ table {
   padding-bottom: 64px; }
 
 .ratingPage .mainSection-header {
-  margin-top: 22px; }
+  margin-top: 22px;
+  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.1); }
 
 .ratingPage .mainSection-header-headline:last-child {
   margin-left: 0; }
@@ -3258,7 +3265,8 @@ table {
   flex-wrap: wrap;
   border: none;
   margin-bottom: 28px;
-  padding-right: 2px; }
+  padding-right: 2px;
+  padding-top: 7px; }
 
 .bookmakerPage .mainSection .title {
   margin-top: 25px;
@@ -3438,7 +3446,8 @@ table {
   margin-bottom: 11px; }
 
 .bookmakerPage .bookmakerSiteSection-grid {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  padding-top: 4px; }
 
 .bookmakerPage .bookmakerSiteSection .reviewItem {
   margin-bottom: 11px; }
@@ -3541,7 +3550,7 @@ table {
 .bookmakerPage .thesisSection-grid {
   margin-top: 24px;
   border: 1px solid rgba(0, 0, 0, 0.02);
-  margin-bottom: 15px; }
+  margin-bottom: 22px; }
 
 .bookmakerPage .thesisSection-grid ul {
   margin: 0;
@@ -5359,7 +5368,8 @@ table {
   font-size: 32px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 40px; }
+  line-height: 40px;
+  margin-top: 25px; }
 
 .samplePage .mainSection h2 {
   margin-top: 34px;
@@ -5405,7 +5415,7 @@ table {
   line-height: 21px; }
 
 .samplePage .mainSection ol {
-  margin-top: 48px;
+  margin-top: 45px;
   font-family: HelveticaNeue;
   font-size: 15px;
   color: #000000;
@@ -5463,7 +5473,7 @@ table {
   line-height: 16px; }
 
 .samplePage .mainSection-table {
-  margin-top: 25px; }
+  margin-top: 18px; }
 
 .samplePage .mainSection-table-block h2 {
   margin-top: 0;
@@ -7239,7 +7249,7 @@ table {
     width: 183px;
     margin-right: 25px; }
   .mainPage .mainPopularNews {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), inset 0px 12px 29px -18px black; }
   .mainPage .mainPopularNews-header {
     width: auto; }
   .mainPage .mainPopularNews-grid {
@@ -7352,7 +7362,7 @@ table {
     margin: 10px 0;
     font-size: 13px; }
   .mainPage .mainPopularNews {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), inset 0px 12px 29px -18px black; }
   .mainPage .mainPopularNews-header {
     width: auto; }
   .mainPage .mainPopularNews-grid {
