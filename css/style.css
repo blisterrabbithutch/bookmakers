@@ -1647,6 +1647,9 @@ table {
     display: inline-block;
     margin-left: 15px;
     margin-right: 15px; }
+  .prognosisItem-title {
+    margin-bottom: 0;
+    margin-top: 16px; }
   .prognosisItem:first-child {
     border-top: none; } }
 
@@ -1654,7 +1657,8 @@ table {
   .prognosisSection-matchesGrid {
     text-align: center; }
   .prognosisItem {
-    display: inline-block;
+    display: flex;
+    align-content: center;
     margin-left: 0px;
     margin-right: 0px; } }
 
@@ -4771,7 +4775,7 @@ table {
     margin-left: 0;
     width: 615px;
     padding-bottom: 25px; }
-  .samplePage .mainSection-image {
+  .samplePage .mainSection img {
     min-width: 615px;
     min-height: 460px;
     margin-bottom: 30px; }
@@ -4787,7 +4791,7 @@ table {
     margin-right: 0;
     padding-bottom: 25px;
     margin-bottom: 0; }
-  .samplePage .mainSection-image {
+  .samplePage .mainSection img {
     min-width: 600px;
     min-height: 450px;
     margin-bottom: 30px; }
@@ -4803,13 +4807,13 @@ table {
     margin-right: 0;
     padding-bottom: 25px;
     margin-bottom: 0; }
-  .samplePage .mainSection-title {
+  .samplePage .mainSection h1 {
     font-size: 24px; }
-  .samplePage .mainSection-subtitle {
+  .samplePage .mainSection h2 {
     font-size: 20px; }
-  .samplePage .mainSection-subtitle-small {
+  .samplePage .mainSection h3 {
     font-size: 16px; }
-  .samplePage .mainSection-image {
+  .samplePage .mainSection img {
     min-width: 280px;
     min-height: 210px;
     margin-bottom: 30px; }
