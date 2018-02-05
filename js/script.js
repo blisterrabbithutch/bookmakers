@@ -48,6 +48,11 @@ $(document).ready(function(){
             return '<div class="mainSlider-matchTitle">' + tabBlocks.eq(i).text() + '</div>';
         }
     });
+
+    $('.bestCuffSection-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 5000
+    });
 });
 
 
